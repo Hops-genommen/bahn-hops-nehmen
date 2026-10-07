@@ -1,0 +1,47 @@
+name: Verspätungen NRW
+
+on:
+  schedule:
+    - cron: "5 * * * *"   # jede Stunde um xx:05 (UTC)
+  workflow_dispatch:       # erlaubt manuelles Starten
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verspaetungen
+  cancel-in-progress: false
+
+jobs:
+  sammeln:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bisherige Daten und Seiten holen
+        run: |
+          if git fetch --depth 1 origin seite 2>/dev/null; then
+            git checkout FETCH_HEAD -- data docs || true
+            git reset -q
+          fi
+
+      - name: Verspätungen holen und Seite bauen
+        env:
+          DB_CLIENT_ID: ${{ secrets.DB_CLIENT_ID }}
+          DB_API_KEY: ${{ secrets.DB_API_KEY }}
+        run: python bahn_nrw.py
+
+      - name: Seite veröffentlichen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q --orphan seite-neu
+          git rm -rq --cached .
+          git add data docs
+          git commit -qm "Stand $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -f origin seite-neu:seite
