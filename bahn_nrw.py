@@ -34,6 +34,8 @@ DOCS = ROOT / "docs"
 STATIONS_FILE = ROOT / "stations.txt"
 BAHNHOF_FILE = DATA / "bahnhoefe.json"
 ZUSTAND_FILE = DATA / "zustand.json"
+FEHLER_FILE = DATA / "fehler_400.json"     # Stationen, bei denen die DB mit 400 antwortet
+FEHLER_TXT = DOCS / "fehler-400.txt"       # dieselbe Liste lesbar auf der Webseite
 
 PAUSE = 1.03            # Sekunden zwischen Anfragen (Limit: 60 pro Minute)
 MAX_NACHHOLEN = 3       # so viele verpasste Stunden werden höchstens nachgeholt
@@ -84,6 +86,7 @@ GRUENDE = {
 CLIENT_ID = os.environ.get("DB_CLIENT_ID", "")
 API_KEY = os.environ.get("DB_API_KEY", "")
 _letzte_anfrage = 0.0
+FEHLER_400 = {}   # EVA-Nummer -> Anzahl 400-Antworten in diesem Lauf
 
 
 # ---------------------------------------------------------------- API
@@ -108,6 +111,11 @@ def hole(url, accept="application/xml"):
             if e.code in (401, 403):
                 print(f"Zugriff abgelehnt ({e.code}) bei {url.split('/apis/')[1][:40]}", file=sys.stderr)
                 return None
+            if e.code == 400 and "/timetables/v1/" in url:
+                teile = url.split("/timetables/v1/")[1].split("/")
+                if len(teile) > 1 and teile[0] in ("plan", "fchg"):
+                    FEHLER_400[teile[1]] = FEHLER_400.get(teile[1], 0) + 1
+                    return None
             if e.code != 404:
                 print(f"HTTP {e.code} bei {url}", file=sys.stderr)
             return None
@@ -354,6 +362,28 @@ def seite_bauen(tag, rohdaten, namen, alle_tage, stand, anzahl_bf):
         (DOCS / "index.html").write_text(html, "utf-8")
 
 
+def fehlerliste_speichern(namen):
+    """Sammelt alle Stationen mit 400-Antwort dauerhaft in einer Liste.
+    Die Stationen werden weiterhin abgefragt; die Liste dient nur zur Übersicht."""
+    liste = lade(FEHLER_FILE, {})
+    jetzt = datetime.now(TZ).strftime("%d.%m.%Y %H:%M")
+    for eva, anzahl in FEHLER_400.items():
+        e = liste.setdefault(eva, {"name": namen.get(eva, eva), "erstmals": jetzt, "anzahl": 0})
+        e["zuletzt"] = jetzt
+        e["anzahl"] += anzahl
+        e["name"] = namen.get(eva, e["name"])
+    speichere(FEHLER_FILE, liste)
+    zeilen = [f"Stationen, bei denen die DB mit HTTP 400 antwortet ({len(liste)} Stück)",
+              f"Stand: {jetzt}", "",
+              "Name | EVA-Nummer | zuerst gesehen | zuletzt gesehen | Anzahl Fehler", ""]
+    for eva, e in sorted(liste.items(), key=lambda x: x[1]["name"]):
+        zeilen.append(f"{e['name']} | {eva} | {e['erstmals']} | {e['zuletzt']} | {e['anzahl']}")
+    FEHLER_TXT.write_text("\n".join(zeilen) + "\n", "utf-8")
+    if FEHLER_400:
+        print(f"{len(FEHLER_400)} Stationen mit HTTP 400 in diesem Lauf, "
+              f"{len(liste)} insgesamt in der Fehlerliste.")
+
+
 def aufraeumen():
     grenze_roh = (datetime.now(TZ) - timedelta(days=ROHDATEN_TAGE)).strftime("%Y-%m-%d")
     grenze_seite = (datetime.now(TZ) - timedelta(days=SEITEN_TAGE)).strftime("%Y-%m-%d")
@@ -367,6 +397,7 @@ def aufraeumen():
 
 # ------------------------------------------------------------- Ablauf
 def main():
+    sys.stdout.reconfigure(line_buffering=True)   # Ausgaben sofort im Log zeigen
     if not CLIENT_ID or not API_KEY:
         sys.exit("DB_CLIENT_ID und DB_API_KEY fehlen (als GitHub-Secrets anlegen).")
     DATA.mkdir(exist_ok=True)
@@ -433,6 +464,7 @@ def main():
         zustand = {"letzte": stunden[-1].strftime("%Y-%m-%dT%H"), "halte": neue_halte}
         speichere(ZUSTAND_FILE, zustand)
 
+    fehlerliste_speichern(namen)
     aufraeumen()
     roh_tage = sorted(p.stem for p in DATA.glob("????-??-??.json"))
     seiten_tage = sorted(set(roh_tage) | {p.stem for p in DOCS.glob("????-??-??.html")})
