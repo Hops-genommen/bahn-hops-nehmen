@@ -1,0 +1,4 @@
+# Zusätzliche Halte (optional), ein Name pro Zeile.
+# Alle DB-Bahnhöfe in NRW, auch S-Bahn-Halte, werden bereits automatisch erfasst.
+# Trage hier nur Halte ein, die trotzdem fehlen, z. B. Stationen anderer Betreiber.
+# Zeilen mit # werden ignoriert.

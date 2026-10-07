@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Verspätungen NRW</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚆</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #EDF1F5; --ink: #15212F; --muted: #586679; --line: #C9D2DC; --panel: #FFFFFF;
+  --board: #12305A; --board-ink: #FFFFFF; --signal: #FFD200;
+  --late: #C0262D; --late-bg: #FBE7E8; --warn: #9A5B00; --warn-bg: #FFF1D6; --ok: #23784A;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0D1520; --ink: #E5EBF1; --muted: #93A1B2; --line: #263345; --panel: #142030;
+    --board: #0A2244; --late: #FF7A7F; --late-bg: #3A1519; --warn: #FFC266; --warn-bg: #33270F; --ok: #6FD39A;
+  }
+}
+*, *::before, *::after { box-sizing: inherit; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 400 17px/1.5 "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 16px; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--signal); outline-offset: 2px; }
+
+nav.tage { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 12px; }
+nav.tage a, nav.tage span.leer { min-width: 44px; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--muted); }
+nav.tage a:hover { background: var(--panel); color: var(--ink); }
+nav.tage h1 { font-size: 1.05rem; margin: 0; font-weight: 700; text-align: center; }
+
+.tafel {
+  background: var(--board); color: var(--board-ink); border-radius: 14px;
+  padding: 22px 20px 18px; margin-bottom: 20px;
+}
+.tafel p.satz { margin: 0; font-size: clamp(1.35rem, 4.6vw, 1.85rem); line-height: 1.3; font-weight: 700; }
+.tafel b { color: var(--signal); font-variant-numeric: tabular-nums; }
+.tafel .spitze { margin: 14px 0 0; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.18); color: #C9D6E8; font-size: .95rem; }
+.tafel .stand { margin: 6px 0 0; color: #8FA3BE; font-size: .82rem; }
+
+h2 { font-size: 1.05rem; margin: 26px 0 10px; }
+.linien { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.linien li { display: grid; grid-template-columns: 6.5em 1fr 2.5em; align-items: center; gap: 10px; font-size: .95rem; }
+.linien .balken { height: 10px; border-radius: 5px; background: var(--late); opacity: .8; }
+.linien .zahl { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+
+.gruende-hinweis { color: var(--muted); font-size: .85rem; margin: 8px 0 0; }
+.linien.gr li { grid-template-columns: 1fr 5em 2.5em; }
+.linien.gr .balken { background: var(--muted); opacity: .6; }
+.grund { color: var(--muted); font-size: .85rem; font-style: italic; }
+.filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px; }
+.filter input, .filter select {
+  font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line);
+  border-radius: 8px; padding: 9px 12px; min-height: 44px;
+}
+.filter input { flex: 1 1 220px; }
+.treffer { color: var(--muted); font-size: .9rem; margin: 0 0 8px; }
+
+.liste { list-style: none; margin: 0; padding: 0; background: var(--panel); border-radius: 12px; border: 1px solid var(--line); }
+.liste li { display: grid; grid-template-columns: 3.4em 1fr auto; gap: 4px 12px; padding: 11px 14px; border-top: 1px solid var(--line); align-items: start; }
+.liste li:first-child { border-top: 0; }
+.zeit { font-variant-numeric: tabular-nums; color: var(--muted); padding-top: 1px; }
+.zug { font-weight: 700; }
+.zug .nr { font-weight: 400; color: var(--muted); font-size: .85rem; margin-left: 4px; }
+.route { color: var(--muted); font-size: .9rem; overflow-wrap: anywhere; }
+.wert { font-weight: 700; font-variant-numeric: tabular-nums; padding: 2px 9px; border-radius: 6px; white-space: nowrap; align-self: center; }
+.wert.ok { color: var(--ok); font-weight: 400; }
+.wert.mittel { color: var(--warn); background: var(--warn-bg); }
+.wert.hoch { color: var(--late); background: var(--late-bg); }
+.wert.aus { color: var(--late); background: var(--late-bg); }
+.wert.unbekannt { color: var(--muted); font-weight: 400; }
+li.ausfall .zug { text-decoration: line-through; text-decoration-thickness: 2px; }
+.leer-hinweis { padding: 24px 16px; color: var(--muted); }
+button.mehr { font: inherit; margin: 12px 0 0; width: 100%; min-height: 44px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="tage" aria-label="Tage">
+    <a id="davor" href="#" aria-label="Vorheriger Tag">‹ Vortag</a>
+    <h1 id="titel">Verspätungen NRW</h1>
+    <a id="danach" href="#" aria-label="Nächster Tag">Folgetag ›</a>
+  </nav>
+
+  <section class="tafel" aria-live="polite">
+    <p class="satz" id="satz"></p>
+    <p class="spitze" id="spitze"></p>
+    <p class="stand" id="stand"></p>
+  </section>
+
+  <section id="linien-bereich">
+    <h2>Linien mit den meisten verspäteten Zügen</h2>
+    <ul class="linien" id="linien"></ul>
+  </section>
+
+  <section id="gruende-bereich">
+    <h2>Häufigste Begründungen der DB</h2>
+    <ul class="linien gr" id="gruende"></ul>
+    <p class="gruende-hinweis" id="ohne-grund"></p>
+  </section>
+
+  <section>
+    <h2>Alle Züge</h2>
+    <div class="filter">
+      <input id="suche" type="search" placeholder="Linie, Bahnhof oder Grund, z. B. Neuss oder Weiche" aria-label="Suchen">
+      <select id="art" aria-label="Filter">
+        <option value="spaet">Ab 6 Min. zu spät</option>
+        <option value="15">Ab 15 Min. zu spät</option>
+        <option value="30">Ab 30 Min. zu spät</option>
+        <option value="aus">Nur Ausfälle</option>
+        <option value="alle">Alle Züge</option>
+      </select>
+      <select id="sort" aria-label="Sortierung">
+        <option value="min">Größte Verspätung zuerst</option>
+        <option value="zeit">Nach Uhrzeit</option>
+      </select>
+    </div>
+    <p class="treffer" id="treffer"></p>
+    <ul class="liste" id="liste"></ul>
+    <button class="mehr" id="mehr" hidden>Weitere anzeigen</button>
+  </section>
+
+  <footer>
+    Erfasst werden alle Züge an <span id="anzahl-bf"></span> Bahnhöfen und Haltepunkten in NRW, S-Bahn-Halte eingeschlossen.
+    Als Verspätung eines Zuges zählt die höchste an einem NRW-Halt gemessene Abweichung, die Uhrzeit ist sein erster Halt in NRW.
+    Unter 6 Minuten gilt nach DB-Definition als pünktlich.<br>
+    Begründungen sind die Angaben der DB in ihren Echtzeitdaten.<br>
+    Daten: Deutsche Bahn AG, Timetables API, Lizenz CC BY 4.0.
+  </footer>
+</div>
+
+<script id="daten" type="application/json">__DATEN__</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById("daten").textContent);
+  var fmt = new Intl.NumberFormat("de-DE");
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]; }); };
+
+  var d = new Date(D.tag + "T12:00:00");
+  var datum = d.toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long" });
+  $("titel").textContent = D.tag === D.heute ? "Heute, " + datum : datum;
+  document.title = "Verspätungen NRW – " + datum;
+  [["davor", D.davor], ["danach", D.danach]].forEach(function (p) {
+    var a = $(p[0]);
+    if (p[1]) a.href = p[1] + ".html";
+    else { var s = document.createElement("span"); s.className = "leer"; a.replaceWith(s); }
+  });
+
+  var S = D.stat;
+  if (!S.gesamt) {
+    $("satz").textContent = "Für diesen Tag liegen noch keine Daten vor.";
+  } else {
+    var quote = Math.round(100 * S.spaet / S.gesamt);
+    $("satz").innerHTML = (D.tag === D.heute ? "Bisher " : "") + "<b>" + fmt.format(S.gesamt) + "</b> Züge erfasst. " +
+      "<b>" + fmt.format(S.spaet) + "</b> davon (" + quote + " %) waren 6 Minuten oder mehr zu spät, " +
+      "<b>" + fmt.format(S.ausfall) + "</b> " + (S.ausfall === 1 ? "fiel" : "fielen") + " ganz oder teilweise aus.";
+  }
+  if (S.schlimmster) {
+    var z = S.schlimmster;
+    $("spitze").textContent = "Größte Verspätung: " + z.name + " nach " + z.nach + ", +" + z.max + " Min. in " + z.wo + "." + (z.gr && z.gr.length ? " Begründung: " + D.gruende[z.gr[0]] + "." : "");
+  } else { $("spitze").remove(); }
+  $("stand").textContent = "Aktualisiert: " + D.stand;
+  $("anzahl-bf").textContent = fmt.format(D.anzahlBf);
+
+  if (S.linien.length) {
+    var maxL = S.linien[0][1];
+    $("linien").innerHTML = S.linien.map(function (l) {
+      return "<li><span>" + esc(l[0]) + "</span><span class='balken' style='width:" + Math.max(4, 100 * l[1] / maxL) + "%'></span><span class='zahl'>" + l[1] + "</span></li>";
+    }).join("");
+  } else { $("linien-bereich").hidden = true; }
+
+  if (S.gruende && S.gruende.length) {
+    var maxG = S.gruende[0][1];
+    $("gruende").innerHTML = S.gruende.map(function (g) {
+      return "<li><span>" + esc(D.gruende[g[0]]) + "</span><span class='balken' style='width:" + Math.max(4, 100 * g[1] / maxG) + "%'></span><span class='zahl'>" + g[1] + "</span></li>";
+    }).join("");
+    $("ohne-grund").textContent = S.ohneGrund ? fmt.format(S.ohneGrund) + " verspätete Züge hatten keine Begründung." : "";
+  } else { $("gruende-bereich").hidden = true; }
+  function grundText(z) { return (z.gr || []).map(function (c) { return D.gruende[c]; }).join(", "); }
+
+  var SEITE = 150, gezeigt = SEITE;
+  function wert(z) {
+    if (z.ausfall) return "<span class='wert aus'>Ausfall</span>";
+    if (z.max == null) return "<span class='wert unbekannt'>keine Daten</span>";
+    if (z.max <= D.grenze) return "<span class='wert ok'>pünktlich</span>";
+    return "<span class='wert " + (z.max >= 20 ? "hoch" : "mittel") + "'>+" + z.max + "</span>";
+  }
+  function zeichnen() {
+    var q = $("suche").value.trim().toLowerCase(), art = $("art").value;
+    var liste = D.zuege.filter(function (z) {
+      var m = z.max || 0;
+      if (art === "aus" && !z.ausfall) return false;
+      if (art === "spaet" && !(z.ausfall || m > D.grenze)) return false;
+      if ((art === "15" || art === "30") && !(m >= +art)) return false;
+      if (!q) return true;
+      if ([z.name, z.nr, z.von, z.nach, grundText(z)].join(" ").toLowerCase().indexOf(q) !== -1) return true;
+      return z.h.some(function (h) { return D.bf[h[0]].toLowerCase().indexOf(q) !== -1; });
+    });
+    if ($("sort").value === "min") liste.sort(function (a, b) { return (b.ausfall - a.ausfall) || ((b.max || 0) - (a.max || 0)); });
+    $("treffer").textContent = fmt.format(liste.length) + (liste.length === 1 ? " Zug" : " Züge");
+    if (!liste.length) {
+      $("liste").innerHTML = "<li class='leer-hinweis'>Keine Züge für diesen Filter. Wähle oben „Alle Züge“ oder ändere die Suche.</li>";
+      $("mehr").hidden = true; return;
+    }
+    $("liste").innerHTML = liste.slice(0, gezeigt).map(function (z) {
+      var halt = q ? z.h.filter(function (h) { return D.bf[h[0]].toLowerCase().indexOf(q) !== -1; })[0] : null;
+      var wo;
+      if (halt) {
+        wo = "<br>in " + esc(D.bf[halt[0]]) + ": " + (halt[2] ? "fällt aus" : halt[1] == null ? "keine Daten" : halt[1] <= D.grenze ? "pünktlich" : "+" + halt[1] + " Min.");
+      } else {
+        wo = z.wo && z.max > D.grenze ? "<br>gemessen in " + esc(z.wo) : "";
+      }
+      return "<li class='" + (z.ausfall ? "ausfall" : "") + "'><span class='zeit'>" + esc(z.ab) + "</span>" +
+        "<div><div class='zug'>" + esc(z.name) + "<span class='nr'>" + esc(z.nr) + "</span></div>" +
+        "<div class='route'>" + esc(z.von) + " – " + esc(z.nach) + wo + "</div>" +
+        (z.gr && z.gr.length ? "<div class='grund'>" + esc(grundText(z)) + "</div>" : "") + "</div>" + wert(z) + "</li>";
+    }).join("");
+    $("mehr").hidden = liste.length <= gezeigt;
+  }
+  ["suche", "art", "sort"].forEach(function (id) { $(id).addEventListener("input", function () { gezeigt = SEITE; zeichnen(); }); });
+  $("mehr").addEventListener("click", function () { gezeigt += SEITE; zeichnen(); });
+  zeichnen();
+})();
+</script>
+</body>
+</html>
