@@ -44,6 +44,7 @@ nav.tage h1 { font-size: 1.05rem; margin: 0; font-weight: 700; text-align: cente
 }
 .tafel p.satz { margin: 0; font-size: clamp(1.35rem, 4.6vw, 1.85rem); line-height: 1.3; font-weight: 700; }
 .tafel b { color: var(--signal); font-variant-numeric: tabular-nums; }
+.tafel .kennzahlen { margin: 14px 0 0; font-size: 1.05rem; line-height: 1.45; }
 .tafel .spitze { margin: 14px 0 0; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.18); color: #C9D6E8; font-size: .95rem; }
 .tafel .stand { margin: 6px 0 0; color: #8FA3BE; font-size: .82rem; }
 
@@ -73,7 +74,8 @@ h2 { font-size: 1.05rem; margin: 26px 0 10px; }
 .zug .nr { font-weight: 400; color: var(--muted); font-size: .85rem; margin-left: 4px; }
 .route { color: var(--muted); font-size: .9rem; overflow-wrap: anywhere; }
 .wert { font-weight: 700; font-variant-numeric: tabular-nums; padding: 2px 9px; border-radius: 6px; white-space: nowrap; align-self: center; }
-.wert.ok { color: var(--ok); font-weight: 400; }
+.wert.ok { color: var(--ok); }
+.wert.null { color: var(--muted); font-weight: 400; }
 .wert.mittel { color: var(--warn); background: var(--warn-bg); }
 .wert.hoch { color: var(--late); background: var(--late-bg); }
 .wert.aus { color: var(--late); background: var(--late-bg); }
@@ -94,6 +96,7 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
 
   <section class="tafel" aria-live="polite">
     <p class="satz" id="satz"></p>
+    <p class="kennzahlen" id="kennzahlen"></p>
     <p class="spitze" id="spitze"></p>
     <p class="stand" id="stand"></p>
   </section>
@@ -133,7 +136,9 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
   <footer>
     Erfasst werden alle Züge an <span id="anzahl-bf"></span> Bahnhöfen und Haltepunkten in NRW, S-Bahn-Halte eingeschlossen.
     Als Verspätung eines Zuges zählt die höchste an einem NRW-Halt gemessene Abweichung, die Uhrzeit ist sein erster Halt in NRW.
-    Unter 6 Minuten gilt nach DB-Definition als pünktlich.<br>
+    Unter 6 Minuten gilt nach DB-Definition als pünktlich. Die Pünktlichkeit zählt alle Züge des Tages:
+    Ausfälle gelten als unpünktlich, Züge ohne gemeldete Abweichung als pünktlich.
+    Weil hier die höchste Verspätung an irgendeinem NRW-Halt zählt, ist der Wert strenger als die offizielle DB-Statistik.<br>
     Begründungen sind die Angaben der DB in ihren Echtzeitdaten.<br>
     Daten: Deutsche Bahn AG, Timetables API, Lizenz CC BY 4.0.
   </footer>
@@ -161,11 +166,17 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
   if (!S.gesamt) {
     $("satz").textContent = "Für diesen Tag liegen noch keine Daten vor.";
   } else {
-    var quote = Math.round(100 * S.spaet / S.gesamt);
     $("satz").innerHTML = (D.tag === D.heute ? "Bisher " : "") + "<b>" + fmt.format(S.gesamt) + "</b> Züge erfasst. " +
-      "<b>" + fmt.format(S.spaet) + "</b> davon (" + quote + " %) waren 6 Minuten oder mehr zu spät, " +
+      "<b>" + fmt.format(S.spaet) + "</b> davon waren 6 Minuten oder mehr zu spät, " +
       "<b>" + fmt.format(S.ausfall) + "</b> " + (S.ausfall === 1 ? "fiel" : "fielen") + " ganz oder teilweise aus.";
   }
+  if (S.quote != null) {
+    var std = S.summe / 60;
+    $("kennzahlen").innerHTML = "Pünktlichkeit: <b>" + S.quote.toLocaleString("de-DE") + " %</b>. " +
+      "Zusammen <b>" + fmt.format(S.summe) + "</b> Minuten Verspätung, das sind " +
+      std.toLocaleString("de-DE", { maximumFractionDigits: 1 }) + " Stunden." +
+      (S.ohneDaten ? " Bei " + fmt.format(S.ohneDaten) + (S.ohneDaten === 1 ? " Zug" : " Zügen") + " meldete die DB keine Abweichung." : "");
+  } else { $("kennzahlen").remove(); }
   if (S.schlimmster) {
     var z = S.schlimmster;
     $("spitze").textContent = "Größte Verspätung: " + z.name + " nach " + z.nach + ", +" + z.max + " Min. in " + z.wo + "." + (z.gr && z.gr.length ? " Begründung: " + D.gruende[z.gr[0]] + "." : "");
@@ -193,7 +204,8 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
   function wert(z) {
     if (z.ausfall) return "<span class='wert aus'>Ausfall</span>";
     if (z.max == null) return "<span class='wert unbekannt'>keine Daten</span>";
-    if (z.max <= D.grenze) return "<span class='wert ok'>pünktlich</span>";
+    if (z.max <= 0) return "<span class='wert null'>+0</span>";
+    if (z.max <= D.grenze) return "<span class='wert ok'>+" + z.max + "</span>";
     return "<span class='wert " + (z.max >= 20 ? "hoch" : "mittel") + "'>+" + z.max + "</span>";
   }
   function zeichnen() {
@@ -217,7 +229,7 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
       var halt = q ? z.h.filter(function (h) { return D.bf[h[0]].toLowerCase().indexOf(q) !== -1; })[0] : null;
       var wo;
       if (halt) {
-        wo = "<br>in " + esc(D.bf[halt[0]]) + ": " + (halt[2] ? "fällt aus" : halt[1] == null ? "keine Daten" : halt[1] <= D.grenze ? "pünktlich" : "+" + halt[1] + " Min.");
+        wo = "<br>in " + esc(D.bf[halt[0]]) + ": " + (halt[2] ? "fällt aus" : halt[1] == null ? "keine Daten" : halt[1] <= 0 ? "+0 Min." : "+" + halt[1] + " Min.");
       } else {
         wo = z.wo && z.max > D.grenze ? "<br>gemessen in " + esc(z.wo) : "";
       }

@@ -335,7 +335,16 @@ def statistik(zuege):
     schlimmster = max(zu_spaet, key=lambda z: z["max"], default=None)
     if schlimmster:
         schlimmster = {k: schlimmster[k] for k in ("name", "nach", "max", "wo", "gr")}
+    # Pünktlichkeit über ALLE Züge des Tages:
+    # pünktlich = unter 6 Minuten zu spät; Ausfälle zählen als unpünktlich;
+    # Züge ohne Echtzeitdaten (keine Abweichung gemeldet) zählen als pünktlich.
+    puenktlich = sum(1 for z in zuege
+                     if not z["ausfall"] and (z["max"] is None or z["max"] <= PUENKTLICH_BIS))
+    summe = sum(max(0, z["max"]) for z in zuege if z["max"] is not None and not z["ausfall"])
     return {"gesamt": len(zuege), "spaet": len(zu_spaet),
+            "quote": round(100 * puenktlich / len(zuege), 1) if zuege else None,
+            "ohneDaten": sum(1 for z in zuege if z["max"] is None and not z["ausfall"]),
+            "summe": summe,
             "ausfall": sum(1 for z in zuege if z["ausfall"]),
             "linien": sorted(linien.items(), key=lambda x: -x[1])[:8],
             "gruende": sorted(gruende.items(), key=lambda x: -x[1])[:10],
