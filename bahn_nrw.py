@@ -36,6 +36,9 @@ BAHNHOF_FILE = DATA / "bahnhoefe.json"
 ZUSTAND_FILE = DATA / "zustand.json"
 FEHLER_FILE = DATA / "fehler_400.json"     # Stationen, bei denen die DB mit 400 antwortet
 FEHLER_TXT = DOCS / "fehler-400.txt"       # dieselbe Liste lesbar auf der Webseite
+VERLAUF_FILE = DATA / "verlauf.json"       # eine Zeile pro Tag, wird NIE gelöscht
+VERLAUF_CSV = DOCS / "verlauf.csv"         # dieselbe Tabelle zum Herunterladen (Excel/Numbers)
+VOLLER_TAG_AB = 20                         # Tage mit weniger erfassten Stunden zählen nicht in Durchschnitte
 
 PAUSE = 1.03            # Sekunden zwischen Anfragen (Limit: 60 pro Minute)
 MAX_NACHHOLEN = 3       # so viele verpasste Stunden werden höchstens nachgeholt
@@ -341,7 +344,7 @@ def statistik(zuege):
     puenktlich = sum(1 for z in zuege
                      if not z["ausfall"] and (z["max"] is None or z["max"] <= PUENKTLICH_BIS))
     summe = sum(max(0, z["max"]) for z in zuege if z["max"] is not None and not z["ausfall"])
-    return {"gesamt": len(zuege), "spaet": len(zu_spaet),
+    return {"gesamt": len(zuege), "spaet": len(zu_spaet), "puenktlich": puenktlich,
             "quote": round(100 * puenktlich / len(zuege), 1) if zuege else None,
             "ohneDaten": sum(1 for z in zuege if z["max"] is None and not z["ausfall"]),
             "summe": summe,
@@ -353,7 +356,7 @@ def statistik(zuege):
 
 
 # ------------------------------------------------------------ Webseite
-def seite_bauen(tag, rohdaten, namen, alle_tage, stand, anzahl_bf):
+def seite_bauen(tag, rohdaten, namen, alle_tage, stand, anzahl_bf, langzeit=None, fehler=0):
     zuege, bf_liste = zuege_des_tages(rohdaten, namen)
     i = alle_tage.index(tag)
     daten = {
@@ -363,12 +366,59 @@ def seite_bauen(tag, rohdaten, namen, alle_tage, stand, anzahl_bf):
         "grenze": PUENKTLICH_BIS, "anzahlBf": anzahl_bf,
         "stat": statistik(zuege), "bf": bf_liste, "zuege": zuege,
         "gruende": {c: GRUENDE[c] for c in {c for z in zuege for c in z["gr"]}},
+        "langzeit": langzeit, "fehler": fehler,
     }
     json_text = json.dumps(daten, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     html = (ROOT / "vorlage.html").read_text("utf-8").replace("__DATEN__", json_text)
     (DOCS / f"{tag}.html").write_text(html, "utf-8")
     if tag == alle_tage[-1]:
         (DOCS / "index.html").write_text(html, "utf-8")
+
+
+def verlauf_aktualisieren(roh_tage, namen):
+    """Schreibt pro Tag eine Zusammenfassung in den dauerhaften Verlauf.
+    Rohdaten werden nach wenigen Tagen gelöscht, der Verlauf bleibt für immer."""
+    verlauf = lade(VERLAUF_FILE, {})
+    for tag in roh_tage:
+        roh = lade(DATA / f"{tag}.json", {})
+        if not roh:
+            continue
+        st = statistik(zuege_des_tages(roh, namen)[0])
+        stunden = {h[0][:2] for z in roh.values() for h in z["h"].values()}
+        verlauf[tag] = {k: st[k] for k in ("gesamt", "puenktlich", "spaet", "ausfall",
+                                            "ohneDaten", "summe", "quote")}
+        verlauf[tag]["stunden"] = len(stunden)
+    speichere(VERLAUF_FILE, verlauf)
+
+    def zahl(x):
+        return "" if x is None else str(x).replace(".", ",")
+    zeilen = ["Datum;Züge;pünktlich;verspätet (ab 6 Min.);Ausfälle;ohne gemeldete Abweichung;"
+              "Pünktlichkeit %;Verspätungsminuten;erfasste Stunden"]
+    for tag in sorted(verlauf):
+        v = verlauf[tag]
+        d = datetime.strptime(tag, "%Y-%m-%d").strftime("%d.%m.%Y")
+        zeilen.append(";".join([d] + [zahl(v[k]) for k in ("gesamt", "puenktlich", "spaet", "ausfall",
+                                                           "ohneDaten", "quote", "summe", "stunden")]))
+    VERLAUF_CSV.write_text("\ufeff" + "\n".join(zeilen) + "\n", "utf-8")   # BOM: Excel erkennt Umlaute
+    return verlauf
+
+
+def verlauf_zusammenfassen(verlauf):
+    """Durchschnitte über volle, abgeschlossene Tage (gewichtet nach Zahl der Züge)."""
+    heute = datetime.now(TZ).strftime("%Y-%m-%d")
+    volle = sorted(t for t, v in verlauf.items() if t < heute and v["stunden"] >= VOLLER_TAG_AB)
+
+    def mittel(tage):
+        if not tage:
+            return None
+        g = sum(verlauf[t]["gesamt"] for t in tage)
+        p = sum(verlauf[t]["puenktlich"] for t in tage)
+        return {"tage": len(tage), "quote": round(100 * p / g, 1) if g else None,
+                "zuege": g, "ausfall": sum(verlauf[t]["ausfall"] for t in tage),
+                "minuten": sum(verlauf[t]["summe"] for t in tage), "seit": tage[0]}
+    letzte = [[t, verlauf[t]["quote"], verlauf[t]["summe"], verlauf[t]["stunden"] >= VOLLER_TAG_AB]
+              for t in sorted(verlauf)[-14:]]
+    return {"gesamt": mittel(volle), "d30": mittel(volle[-30:]), "letzte": letzte[::-1]}
 
 
 def fehlerliste_speichern(namen):
@@ -476,11 +526,14 @@ def main():
     fehlerliste_speichern(namen)
     aufraeumen()
     roh_tage = sorted(p.stem for p in DATA.glob("????-??-??.json"))
+    langzeit = verlauf_zusammenfassen(verlauf_aktualisieren(roh_tage, namen))
+    fehler = len(lade(FEHLER_FILE, {}))
     seiten_tage = sorted(set(roh_tage) | {p.stem for p in DOCS.glob("????-??-??.html")})
     stand = datetime.now(TZ).strftime("%d.%m.%Y, %H:%M Uhr")
     for tag in roh_tage:
         if tag in tage or tag in seiten_tage[-2:] or not (DOCS / f"{tag}.html").exists():
-            seite_bauen(tag, lade(DATA / f"{tag}.json", {}), namen, seiten_tage, stand, len(namen))
+            seite_bauen(tag, lade(DATA / f"{tag}.json", {}), namen, seiten_tage, stand, len(namen),
+                        langzeit, fehler)
     print(f"Fertig. Aktualisierte Tage: {sorted(tage) or 'keine'}")
 
 

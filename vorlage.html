@@ -58,6 +58,14 @@ h2 { font-size: 1.05rem; margin: 26px 0 10px; }
 .linien.gr li { grid-template-columns: 1fr 5em 2.5em; }
 .linien.gr .balken { background: var(--muted); opacity: .6; }
 .grund { color: var(--muted); font-size: .85rem; font-style: italic; }
+.langzeit { margin: 0 0 10px; }
+.langzeit b { font-variant-numeric: tabular-nums; }
+.verlauf { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: .92rem; }
+.verlauf li { display: grid; grid-template-columns: 6.2em 1fr 3.6em; align-items: center; gap: 10px; }
+.verlauf .balken { height: 10px; border-radius: 5px; background: var(--ok); opacity: .75; }
+.verlauf .teil { color: var(--muted); }
+.verlauf .zahl { text-align: right; font-variant-numeric: tabular-nums; }
+.links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 0 0 10px; }
 .filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px; }
 .filter input, .filter select {
   font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line);
@@ -112,6 +120,12 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
     <p class="gruende-hinweis" id="ohne-grund"></p>
   </section>
 
+  <section id="langzeit-bereich">
+    <h2>Langzeit-Pünktlichkeit</h2>
+    <p class="langzeit" id="langzeit"></p>
+    <ul class="verlauf" id="verlauf"></ul>
+  </section>
+
   <section>
     <h2>Alle Züge</h2>
     <div class="filter">
@@ -134,12 +148,17 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
   </section>
 
   <footer>
+    <p class="links">
+      <a href="verlauf.csv" download>Alle Tage als Tabelle (CSV)</a>
+      <a href="fehler-400.txt" id="fehler-link">Stationen ohne Echtzeitdaten</a>
+    </p>
     Erfasst werden alle Züge an <span id="anzahl-bf"></span> Bahnhöfen und Haltepunkten in NRW, S-Bahn-Halte eingeschlossen.
     Als Verspätung eines Zuges zählt die höchste an einem NRW-Halt gemessene Abweichung, die Uhrzeit ist sein erster Halt in NRW.
     Unter 6 Minuten gilt nach DB-Definition als pünktlich. Die Pünktlichkeit zählt alle Züge des Tages:
     Ausfälle gelten als unpünktlich, Züge ohne gemeldete Abweichung als pünktlich.
     Weil hier die höchste Verspätung an irgendeinem NRW-Halt zählt, ist der Wert strenger als die offizielle DB-Statistik.<br>
     Begründungen sind die Angaben der DB in ihren Echtzeitdaten.<br>
+    Die Langzeit-Werte zählen nur volle Tage (mindestens 20 erfasste Stunden) und sind nach Zahl der Züge gewichtet; grau = unvollständiger Tag.<br>
     Daten: Deutsche Bahn AG, Timetables API, Lizenz CC BY 4.0.
   </footer>
 </div>
@@ -199,6 +218,25 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
     $("ohne-grund").textContent = S.ohneGrund ? fmt.format(S.ohneGrund) + " verspätete Züge hatten keine Begründung." : "";
   } else { $("gruende-bereich").hidden = true; }
   function grundText(z) { return (z.gr || []).map(function (c) { return D.gruende[c]; }).join(", "); }
+
+  var L = D.langzeit, pz = function (x) { return x == null ? "–" : x.toLocaleString("de-DE") + " %"; };
+  if (L && (L.gesamt || L.letzte.length)) {
+    var datumKurz = function (t) { var d = new Date(t + "T12:00:00"); return d.toLocaleDateString("de-DE", { weekday: "short", day: "numeric", month: "numeric" }); };
+    if (L.gesamt) {
+      var seit = new Date(L.gesamt.seit + "T12:00:00").toLocaleDateString("de-DE", { day: "numeric", month: "long", year: "numeric" });
+      $("langzeit").innerHTML = "Seit " + seit + " (" + L.gesamt.tage + (L.gesamt.tage === 1 ? " voller Tag" : " volle Tage") + "): " +
+        "<b>" + pz(L.gesamt.quote) + "</b> pünktlich, " + fmt.format(L.gesamt.zuege) + " Züge, " +
+        fmt.format(L.gesamt.ausfall) + " Ausfälle, " + fmt.format(Math.round(L.gesamt.minuten / 60)) + " Stunden Verspätung." +
+        (L.d30 && L.d30.tage < L.gesamt.tage ? " Letzte 30 Tage: <b>" + pz(L.d30.quote) + "</b>." : "");
+    } else {
+      $("langzeit").textContent = "Der Durchschnitt erscheint, sobald der erste volle Tag abgeschlossen ist.";
+    }
+    $("verlauf").innerHTML = L.letzte.map(function (r) {
+      return "<li class='" + (r[3] ? "" : "teil") + "'><span>" + datumKurz(r[0]) + "</span><span class='balken' style='width:" +
+        Math.max(2, r[1] || 0) + "%'></span><span class='zahl'>" + pz(r[1]) + "</span></li>";
+    }).join("");
+  } else { $("langzeit-bereich").hidden = true; }
+  if (D.fehler) $("fehler-link").textContent = "Stationen ohne Echtzeitdaten (" + D.fehler + ")";
 
   var SEITE = 150, gezeigt = SEITE;
   function wert(z) {
