@@ -38,6 +38,7 @@ FEHLER_FILE = DATA / "fehler_400.json"     # Stationen, bei denen die DB mit 400
 FEHLER_TXT = DOCS / "fehler-400.txt"       # dieselbe Liste lesbar auf der Webseite
 VERLAUF_FILE = DATA / "verlauf.json"       # eine Zeile pro Tag, wird NIE gelöscht
 VERLAUF_CSV = DOCS / "verlauf.csv"         # dieselbe Tabelle zum Herunterladen (Excel/Numbers)
+TAGESLISTEN = DOCS / "tageslisten"         # pro Tag eine Liste aller verspäteten/ausgefallenen Züge, bleibt für immer
 VOLLER_TAG_AB = 20                         # Tage mit weniger erfassten Stunden zählen nicht in Durchschnitte
 
 PAUSE = 1.03            # Sekunden zwischen Anfragen (Limit: 60 pro Minute)
@@ -375,6 +376,39 @@ def seite_bauen(tag, rohdaten, namen, alle_tage, stand, anzahl_bf, langzeit=None
         (DOCS / "index.html").write_text(html, "utf-8")
 
 
+def tagesliste_schreiben(tag, roh, namen):
+    """Liste ALLER Züge des Tages, ohne Filter: Verspätung in Minuten (auch 0),
+    Ausfälle und Züge ohne Echtzeitdaten. Uhrzeit und Bahnhof gehören zu dem Halt
+    mit der größten Verspätung bzw. dem (ersten) Ausfall."""
+    zeilen = []
+    for z in roh.values():
+        halte = sorted(((eva, (h + [[]])[:4]) for eva, h in z["h"].items()), key=lambda x: x[1][0])
+        if not halte:
+            continue
+        ausfall = [(eva, h) for eva, h in halte if h[2]]
+        mit_wert = [(eva, h) for eva, h in halte if h[1] is not None]
+        if mit_wert:
+            eva, (plan, v, _, _) = max(mit_wert, key=lambda x: x[1][1])
+            minuten = str(v)
+        else:
+            eva, (plan, _, _, _) = (ausfall or halte)[0]
+            minuten = ""
+        if ausfall:
+            eva, (plan, _, _, _) = ausfall[0]
+            ausfall_text = "ja" if len(ausfall) == len(halte) else "teilweise"
+        else:
+            ausfall_text = "nein"
+        gruende = sorted({c for _, h in halte for c in h[3]})
+        zeilen.append((plan, z["name"], z["nr"], z["von"], z["nach"], minuten, ausfall_text,
+                       namen.get(eva, eva), ", ".join(GRUENDE.get(c, str(c)) for c in gruende)))
+    zeilen.sort()
+    datum = datetime.strptime(tag, "%Y-%m-%d").strftime("%d.%m.%Y")
+    kopf = "Datum;Uhrzeit (Plan);Zug;Zugnummer;von;nach;Verspätung (Min.);Ausfall;Bahnhof;Begründung der DB"
+    text = "\n".join([kopf] + [";".join([datum] + [str(x).replace(";", ",") for x in r]) for r in zeilen])
+    TAGESLISTEN.mkdir(exist_ok=True)
+    (TAGESLISTEN / f"{tag}.csv").write_text("\ufeff" + text + "\n", "utf-8")
+
+
 def verlauf_aktualisieren(roh_tage, namen):
     """Schreibt pro Tag eine Zusammenfassung in den dauerhaften Verlauf.
     Rohdaten werden nach wenigen Tagen gelöscht, der Verlauf bleibt für immer."""
@@ -383,6 +417,7 @@ def verlauf_aktualisieren(roh_tage, namen):
         roh = lade(DATA / f"{tag}.json", {})
         if not roh:
             continue
+        tagesliste_schreiben(tag, roh, namen)
         st = statistik(zuege_des_tages(roh, namen)[0])
         stunden = {h[0][:2] for z in roh.values() for h in z["h"].values()}
         verlauf[tag] = {k: st[k] for k in ("gesamt", "puenktlich", "spaet", "ausfall",

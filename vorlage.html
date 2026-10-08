@@ -149,6 +149,7 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
 
   <footer>
     <p class="links">
+      <a id="tagesliste-link" href="#" download>Tagesliste: alle Züge mit Minuten und Ausfällen (CSV)</a>
       <a href="verlauf.csv" download>Alle Tage als Tabelle (CSV)</a>
       <a href="fehler-400.txt" id="fehler-link">Stationen ohne Echtzeitdaten</a>
     </p>
@@ -236,6 +237,7 @@ footer { color: var(--muted); font-size: .8rem; margin: 28px 0 12px; }
         Math.max(2, r[1] || 0) + "%'></span><span class='zahl'>" + pz(r[1]) + "</span></li>";
     }).join("");
   } else { $("langzeit-bereich").hidden = true; }
+  $("tagesliste-link").href = "tageslisten/" + D.tag + ".csv";
   if (D.fehler) $("fehler-link").textContent = "Stationen ohne Echtzeitdaten (" + D.fehler + ")";
 
   var SEITE = 150, gezeigt = SEITE;
