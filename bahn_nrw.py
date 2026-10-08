@@ -13,6 +13,7 @@ In stations.txt kannst du zusätzliche Halte eintragen.
 Braucht nur Python 3.10+ ohne Zusatzpakete.
 Zugangsdaten: Umgebungsvariablen DB_CLIENT_ID und DB_API_KEY.
 """
+import http.client
 import json
 import os
 import sys
@@ -123,8 +124,10 @@ def hole(url, accept="application/xml"):
             if e.code != 404:
                 print(f"HTTP {e.code} bei {url}", file=sys.stderr)
             return None
-        except (urllib.error.URLError, TimeoutError) as e:
-            print(f"Netzwerkfehler: {e}", file=sys.stderr)
+        except (urllib.error.URLError, TimeoutError, http.client.HTTPException, OSError) as e:
+            # z. B. "Remote end closed connection": kurz warten und nochmal versuchen,
+            # nach 3 Versuchen wird die Station für diesen Lauf übersprungen
+            print(f"Netzwerkfehler ({type(e).__name__}), neuer Versuch …", file=sys.stderr)
             time.sleep(5)
     return None
 
