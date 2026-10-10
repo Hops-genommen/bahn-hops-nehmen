@@ -1,0 +1,10 @@
+Stationen, bei denen die DB mit HTTP 400 antwortet (5 Stück)
+Stand: 10.10.2026 22:23
+
+Name | EVA-Nummer | zuerst gesehen | zuletzt gesehen | Anzahl Fehler
+
+Bonn-Oberkassel | 8001086 | 07.10.2026 21:37 | 08.10.2026 23:37 | 27
+Duisburg-Bissingheim | 8001599 | 07.10.2026 21:37 | 08.10.2026 23:37 | 27
+Duisburg-Entenfang | 8005272 | 07.10.2026 21:37 | 08.10.2026 23:37 | 27
+Duisburg-Wedau | 8001612 | 07.10.2026 21:37 | 08.10.2026 23:37 | 27
+Friedrich-Wilhelms-Hütte | 8002104 | 07.10.2026 21:37 | 08.10.2026 23:37 | 27
