@@ -1,0 +1,1693 @@
+﻿Datum;Uhrzeit (Plan);Zug;Zugnummer;von;nach;Verspätung (Min.);Ausfall;Bahnhof;Begründung der DB
+07.10.2026;19:00;Bus EV;92924;Finnentrop;Olpe;0;nein;Finnentrop;
+07.10.2026;19:00;Bus EV;92937;Olpe;Finnentrop;0;nein;Finnentrop;
+07.10.2026;19:00;Bus RE1;7997;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:00;ERB RB50;89945;Münster(Westf)Hbf;Dortmund Hbf;10;nein;Capelle (Westf);Verspätung aus vorheriger Fahrt
+07.10.2026;19:00;ERB RB65;52346;Münster(Westf)Hbf;Rheine;;ja;Rheine-Mesum;Kurzfristiger Personalausfall
+07.10.2026;19:00;ERB RE82;79365;Altenbeken;Bielefeld Hbf;4;nein;Oerlinghausen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:00;ICE 643;643;Düsseldorf Hbf;Berlin Hbf;19;nein;Minden (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:00;NWB RB74;75073;Bielefeld Hbf;Paderborn Hbf;12;nein;Hövelriege;Vorfahrt eines anderen Zuges
+07.10.2026;19:00;NX RB48;17360;Köln Hbf;Wuppertal-Oberbarmen;5;nein;Köln-Mülheim;
+07.10.2026;19:00;RB24;10443;Köln Messe/Deutz;Kall;4;nein;Hürth-Kalscheuren;
+07.10.2026;19:00;RB25;10566;Köln Hansaring;Lüdenscheid;17;nein;Kierspe;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:00;RB25;10568;Rösrath;Gummersbach;17;nein;Dieringhausen;
+07.10.2026;19:00;RB51;20275;Enschede;Dortmund Hbf;0;nein;Dortmund-Kirchderne;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:00;RB53;14953;Dortmund Hbf;Iserlohn;1;nein;Kalthof (Kr Iserlohn);
+07.10.2026;19:00;RB63;14898;Münster(Westf)Hbf;Coesfeld(Westf);8;nein;Havixbeck;Verspätung aus vorheriger Fahrt
+07.10.2026;19:00;RB63;14899;Coesfeld(Westf);Münster(Westf)Hbf;7;nein;Havixbeck;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:00;RE17;10717;Dortmund Hbf;Warburg(Westf);3;nein;Scherfede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:00;RE18;18959;Eygelshoven Markt;Aachen Hbf;1;nein;Herzogenrath;
+07.10.2026;19:00;RE18;18960;Aachen Hbf;Eygelshoven Markt;9;nein;Herzogenrath;
+07.10.2026;19:00;RE42;10157;Essen Hbf;Münster(Westf)Hbf;;ja;Herne-Wanne-Eickel Hbf;Defekt an einem Signal
+07.10.2026;19:00;RE57;10784;Warburg(Westf);Messinghausen;3;nein;Scherfede;
+07.10.2026;19:00;RE57;10985;Dortmund Hbf;Warburg(Westf);4;nein;Olsberg;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:00;RRB S7;90133;Wuppertal Hbf;Solingen Hbf;4;nein;Solingen Grünewald;Verspätung aus vorheriger Fahrt
+07.10.2026;19:00;S1;31162;Duisburg Hbf;Solingen Hbf;15;nein;Hilden Süd;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:00;S1;31170;Duisburg Hbf;Solingen Hbf;3;nein;Duisburg-Buchholz;
+07.10.2026;19:00;S1;56369;Essen West;Dortmund Hbf;2;nein;Essen-Steele;
+07.10.2026;19:00;S11;33127;Bergisch Gladbach;Dormagen;;ja;Köln-Geldernstr./Parkgürtel;Defekt an der Strecke
+07.10.2026;19:00;S11;33136;Düsseldorf Flughafen Terminal;Bergisch Gladbach;;ja;Düsseldorf-Friedrichstadt;Defekt an der Strecke
+07.10.2026;19:00;S19;32021;Troisdorf;Düren;12;nein;Köln Hansaring;Verspätung aus vorheriger Fahrt
+07.10.2026;19:00;S19;52805;Troisdorf;Sindorf;3;nein;Horrem;
+07.10.2026;19:00;S2;30261;Dortmund Hbf;Essen Hbf;0;nein;Essen-Kray Nord;
+07.10.2026;19:00;S4;30487;Unna;Dortmund-Lütgendortmund;1;nein;Dortmund-Germania;
+07.10.2026;19:00;S5;31565;Hagen Hbf;Dortmund Hbf;5;nein;Wetter (Ruhr);
+07.10.2026;19:00;S6;31615;Düsseldorf Hbf;Essen Hbf;2;nein;Essen-Werden;
+07.10.2026;19:00;S6;56120;Köln-Dellbrück;Köln-Worringen;0;nein;Köln-Chorweiler Nord;
+07.10.2026;19:00;S8;31819;Mönchengladbach Hbf;Hagen Hbf;1;nein;Wuppertal-Steinbeck;
+07.10.2026;19:00;VIA RB34;90524;Dalheim;Mönchengladbach Hbf;6;nein;Dalheim;Verspätung aus vorheriger Fahrt
+07.10.2026;19:00;VIA RB39;56626;Bedburg(Erft);Düsseldorf Hbf;1;nein;Düsseldorf-Bilk;
+07.10.2026;19:00;VIA RB91;31360;Hagen Hbf;Lennestadt-Altenhundem;2;ja;Iserlohn-Letmathe;
+07.10.2026;19:01;Bus EV;92939;Olpe;Finnentrop;0;nein;Olpe;
+07.10.2026;19:01;Bus RE1;7986;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:01;ERB RB67;79313;Bielefeld Hbf;Münster(Westf)Hbf;16;nein;Beelen;Verspätete Bereitstellung, Verspätung aus vorheriger Fahrt
+07.10.2026;19:01;ERB RB71;89659;Rahden;Bielefeld Hbf;10;nein;Herford;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:01;NX RE6;89728;Minden(Westf);Köln/Bonn Flughafen;3;nein;Köln Messe/Deutz;Behördliche Maßnahme
+07.10.2026;19:01;RB20;30031;Stolberg(Rheinl)Hbf Gl.44;Eschweiler-Weisweiler;1;nein;Aachen Hbf;
+07.10.2026;19:01;RB25;10569;Lüdenscheid;Köln Hansaring;15;nein;Overath;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:01;RB27;10626;Köln Messe/Deutz;Mönchengladbach Hbf;2;nein;Jüchen;
+07.10.2026;19:01;RB33;10386;Aachen Hbf;Heinsberg(Rheinl);0;nein;Geilenkirchen;
+07.10.2026;19:01;RB51;20280;Dortmund Hbf;Enschede;4;nein;Dortmund-Derne;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:01;RB53;14954;Schwerte(Ruhr);Dortmund Hbf;1;nein;Dortmund Signal Iduna Park;
+07.10.2026;19:01;RB63;14734;Münster(W)Zentrum Nord;Coesfeld(Westf);8;teilweise;Münster Zentrum Nord;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:01;RB64;14994;Münster(Westf)Hbf;Gronau (Westf);4;nein;Nordwalde;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:01;RRB RE10;82290;Düsseldorf Hbf;Kleve;16;nein;Bedburg-Hau;Defekt an einem Signal
+07.10.2026;19:01;RRB RE14;89575;Bottrop Hbf;Essen Hbf;7;nein;Essen Hbf;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:01;RRB S7;90126;Solingen Hbf;Wuppertal Hbf;3;nein;Wuppertal-Barmen;
+07.10.2026;19:01;S1;31177;Solingen Hbf;Duisburg Hbf;1;nein;Düsseldorf Zoo;
+07.10.2026;19:01;S1;56367;Essen West;Dortmund Hbf;6;nein;Dortmund-Dorstfeld Süd;Defekt an der Strecke
+07.10.2026;19:01;S11;33128;Düsseldorf Flughafen Terminal;Bergisch Gladbach;;ja;Köln-Nippes;Defekt an der Strecke
+07.10.2026;19:01;S12;33245;Hennef(Sieg);Horrem;5;nein;Lövenich;
+07.10.2026;19:01;S2;30260;Recklinghausen Hbf;Dortmund Hbf;6;nein;Dortmund-Westerfilde;
+07.10.2026;19:01;S23;32391;Rheinbach;Bonn Hbf;;ja;Bonn-Endenich Nord;Defekt an der Strecke
+07.10.2026;19:01;S23;32392;Bonn Hbf;Euskirchen;12;nein;Bonn Helmholtzstraße;Defekt an der Strecke
+07.10.2026;19:01;S4;30494;Dortmund-Lütgendortmund;Unna;2;nein;Dortmund-Germania;
+07.10.2026;19:01;S9;30956;Haltern am See;Wuppertal Hbf;8;nein;Wuppertal-Sonnborn;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:01;S9;30962;Recklinghausen Hbf;Hagen Hbf;23;teilweise;Recklinghausen Hbf;Defekt an einem Signal
+07.10.2026;19:01;VIA RE16;31331;Iserlohn;Essen Hbf;5;nein;Witten Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:02;ERB RB65;52351;Rheine;Münster(Westf)Hbf;0;nein;Emsdetten;
+07.10.2026;19:02;ERB RB67;79310;Münster(Westf)Hbf;Bielefeld Hbf;15;nein;Beelen;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;19:02;ERB RB72;90671;Herford;Paderborn Hbf;2;nein;Detmold;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:02;ERB RE3;89891;Essen Hbf;Hamm(Westf)Hbf;7;nein;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:02;HLB RB90;61723;Siegen Hbf;Betzdorf(Sieg);1;nein;Eiserfeld (Sieg);
+07.10.2026;19:02;HLB RB90;61728;Betzdorf(Sieg);Siegen Hbf;0;nein;Siegen Hbf;
+07.10.2026;19:02;HLB RB93;61889;Aue-Wingeshausen;Siegen Hbf;18;nein;Siegen Hbf;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:02;ICE 205;205;Hamburg-Altona;Karlsruhe Hbf;2;nein;Münster (Westf) Hbf;Behördliche Maßnahme
+07.10.2026;19:02;NX RE1;26828;Hamm(Westf)Hbf;Aachen Hbf;18;nein;Köln-Mülheim;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:02;RB33;10334;Aachen Hbf;Duisburg Hbf;1;nein;Krefeld-Oppum;
+07.10.2026;19:02;RB38;10278;Köln Messe/Deutz;Bedburg (Erft);1;nein;Paffendorf;
+07.10.2026;19:02;RB53;14955;Dortmund Hbf;Schwerte(Ruhr);0;nein;Dortmund-Hörde;
+07.10.2026;19:02;RE2;10230;Osnabrück Hbf;Essen Hbf;2;ja;Lengerich (Westf);Technische Störung am Zug
+07.10.2026;19:02;RE42;10155;Mönchengladbach Hbf;Münster(Westf)Hbf;6;nein;Buldern;Bauarbeiten
+07.10.2026;19:02;RRB RB31;26074;Duisburg Hbf;Moers;1;nein;Moers;
+07.10.2026;19:02;RRB RE14;89576;Essen Hbf;Bottrop Hbf;2;nein;Essen West;
+07.10.2026;19:02;S1;31176;Dortmund Hbf;Essen Hbf;;ja;Bochum Hbf;Defekt an der Strecke
+07.10.2026;19:02;S4;30491;Unna;Dortmund-Lütgendortmund;1;nein;Dortmund-Brackel;
+07.10.2026;19:02;S8;31814;Hagen Hbf;Mönchengladbach Hbf;19;nein;Mönchengladbach-Lürrip;Längere Haltezeit am Bahnhof
+07.10.2026;19:03;Bus RE1;7978;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Duisburg Hbf;
+07.10.2026;19:03;Bus RE14;67581;Coesfeld(Westf);Dorsten;0;nein;Wulfen (Westf);
+07.10.2026;19:03;HLB RB93;61890;Siegen Hbf;Aue-Wingeshausen;11;nein;Birkelbach;
+07.10.2026;19:03;NX RE5;28527;Wesel;Koblenz Hbf;27;nein;Bonn-Bad Godesberg;Defekt an einem Signal, Vorfahrt eines anderen Zuges
+07.10.2026;19:03;R S28;77276;Wuppertal Hbf;Kaarster See;6;nein;Neuss Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:03;RB20;30531;Alsdorf-Annapark;Langerwehe;6;nein;Langerwehe;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:03;RB27;10635;Mönchengladbach Hbf;Köln Messe/Deutz;1;nein;Grevenbroich;
+07.10.2026;19:03;RB38;10277;Bedburg(Erft);Köln Messe/Deutz;0;nein;Quadrath-Ichendorf;
+07.10.2026;19:03;RB51;20277;Enschede;Dortmund Hbf;4;nein;Coesfeld (Westf);Warten auf einen entgegenkommenden Zug
+07.10.2026;19:03;RB54;14862;Menden(Sauerland);Fröndenberg;1;nein;Bösperde;
+07.10.2026;19:03;RE17;10735;Hagen Hbf;Bigge;5;nein;Arnsberg Oeventrop;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:03;RE2;10229;Essen Hbf;Osnabrück Hbf;3;nein;Recklinghausen Hbf;
+07.10.2026;19:03;RE22;10036;Kall;Köln Messe/Deutz;8;nein;Euskirchen;Bauarbeiten, Defekt an der Strecke
+07.10.2026;19:03;RE34;26089;Lennestadt-Altenhundem;Hagen Hbf;;ja;Iserlohn-Letmathe;Bauarbeiten
+07.10.2026;19:03;RE8;10831;Mönchengladbach Hbf;Köln Messe/Deutz;9;nein;Köln Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;19:03;S1;31167;Essen Hbf;Dortmund Hbf;;ja;Bochum-Langendreer West;Defekt an der Strecke
+07.10.2026;19:03;S19;32025;Blankenberg(Sieg);Sindorf;4;nein;Köln/Bonn Flughafen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:03;S3;30360;Essen West;Hattingen(Ruhr) Mitte;4;teilweise;Essen West;Defekt an der Strecke
+07.10.2026;19:03;S6;31624;Essen Hbf;Düsseldorf Hbf;0;nein;Kettwig;
+07.10.2026;19:03;VIA RB39;56670;Grevenbroich;Neuss Hbf;5;nein;Grevenbroich;Vorfahrt eines anderen Zuges
+07.10.2026;19:03;VIA RB46;31475;Gelsenkirchen Hbf;Bochum Hbf;0;nein;Bochum-Hamme;
+07.10.2026;19:03;VIA RB91;21439;Siegen Hbf;Kirchhundem-Welschen Ennest;0;nein;Kirchhundem-Welschen Ennest;
+07.10.2026;19:04;Bus RE1;7991;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:04;HLB RB96;61830;Dillenburg;Betzdorf(Sieg);1;nein;Altenseelbach;
+07.10.2026;19:04;NWB RB75;75177;Bielefeld Hbf;Osnabrück Hbf;17;nein;Bielefeld-Brackwede;Vorfahrt eines anderen Zuges
+07.10.2026;19:04;NX RB48;17358;Bonn-Mehlem;Wuppertal-Oberbarmen;31;ja;Wuppertal-Vohwinkel;Defekt an der Strecke
+07.10.2026;19:04;NX RE1;26826;Hamm(Westf)Hbf;Aachen Hbf;5;nein;Aachen-Rothe Erde;Vorfahrt eines anderen Zuges
+07.10.2026;19:04;NX RE4;26452;Düsseldorf Hbf;Aachen Hbf;1;nein;Aachen Schanz;
+07.10.2026;19:04;NX RE5;28530;Koblenz Hbf;Wesel;10;nein;Bonn Hbf;Polizeieinsatz
+07.10.2026;19:04;RB24;10440;Kall;Köln Messe/Deutz;2;nein;Köln Süd;
+07.10.2026;19:04;RE42;10156;Münster(Westf)Hbf;Essen Hbf;7;nein;Gelsenkirchen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:04;RRB RB36;82356;Oberhausen Hbf;Duisburg-Ruhrort;3;nein;Duisburg-Obermeiderich;
+07.10.2026;19:04;RTB RB21;90754;Linnich Bhf;Düren;0;nein;Düren;
+07.10.2026;19:04;S11;33126;Düsseldorf Flughafen Terminal;Bergisch Gladbach;6;nein;Duckterath;Defekt an der Strecke
+07.10.2026;19:04;S23;32388;Bonn Hbf;Euskirchen;16;nein;Euskirchen-Kuchenheim;Defekt an der Strecke
+07.10.2026;19:04;S5;31564;Dortmund Hbf;Hagen Hbf;2;nein;Hagen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:05;Bus RE1;7999;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:05;Bus RE14;67566;Bottrop Hbf;Borken (Westf);0;nein;Rhade;
+07.10.2026;19:05;ERB RB50;89944;Dortmund Hbf;Münster(Westf)Hbf;47;nein;Ascheberg (Westf);Ärztliche Versorgung eines Fahrgastes, Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;19:05;ERB RB69;89990;Bielefeld Hbf;Hamm (Westf) Hbf;12;nein;Hamm-Heessen;Warten auf Anschlussreisende, Defekt an der Strecke
+07.10.2026;19:05;ERB RE3;89894;Hamm(Westf)Hbf;Essen Hbf;15;nein;Dortmund Hbf;Verspätete Bereitstellung
+07.10.2026;19:05;ICE 1015;1015;Dortmund Hbf;München Hbf;1;nein;Düsseldorf Hbf;
+07.10.2026;19:05;NWB RB84;74985;Holzminden;Paderborn Hbf;3;nein;Paderborn Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:05;NWB RB85;74938;Göttingen;Paderborn Hbf;3;nein;Paderborn Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:05;NX RB48;17361;Wuppertal-Oberbarmen;Köln Hbf;7;nein;Köln Hbf;
+07.10.2026;19:05;RB77;14576;Hildesheim Hbf;Herford;1;nein;Bad Oeynhausen Süd;
+07.10.2026;19:05;RE2;10228;Osnabrück Hbf;Essen Hbf;5;nein;Herne-Wanne-Eickel Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:05;RTB RB21;90823;Heimbach (Eifel);Düren;0;nein;Düren;
+07.10.2026;19:05;S23;32397;Bad Münstereifel;Bonn Hbf;7;teilweise;Bad Münstereifel;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:05;S5;31566;Dortmund Hbf;Witten Hbf;1;nein;Dortmund-Barop;
+07.10.2026;19:05;TR RB26;25434;Mainz Hbf;Köln Messe/Deutz;46;nein;Köln Hbf;
+07.10.2026;19:05;VIA RE19;20032;Düsseldorf Hbf;Arnhem Centraal;9;nein;Dinslaken;Vorfahrt eines anderen Zuges
+07.10.2026;19:05;VIA RE19;77032;Düsseldorf Hbf;Bocholt;9;nein;Dinslaken;Vorfahrt eines anderen Zuges
+07.10.2026;19:06;Bus RB31;62030;Moers;Xanten;0;nein;Millingen;
+07.10.2026;19:06;Bus RE1;7988;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:06;ERB RB59;90344;Soest;Dortmund Hbf;4;nein;Soest;Verspätung aus vorheriger Fahrt
+07.10.2026;19:06;NWB RB74;75074;Paderborn Hbf;Bielefeld Hbf;11;nein;Hövelhof;Vorfahrt eines anderen Zuges
+07.10.2026;19:06;RB51;20278;Dortmund Hbf;Enschede;3;nein;Rosendahl-Holtwick;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:06;S1;31175;Solingen Hbf;Duisburg Hbf;4;nein;Duisburg Hbf;
+07.10.2026;19:06;S1;56368;Dortmund Hbf;Essen West;2;teilweise;Essen Hbf;
+07.10.2026;19:06;S23;32395;Euskirchen;Bonn Hbf;14;ja;Euskirchen;Defekt an der Strecke
+07.10.2026;19:07;Bus RE14;67568;Dorsten;Coesfeld (Westf);0;nein;Lembeck;
+07.10.2026;19:07;NWB RB74;75070;Paderborn Hbf;Bielefeld Hbf;11;nein;Bielefeld Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:07;NX RE7;17427;Rheine;Krefeld Hbf;37;ja;Neuss Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;19:07;R S28;77249;Kaarster See;Wuppertal Hbf;9;nein;Wuppertal-Vohwinkel;
+07.10.2026;19:07;RB40;30785;Essen Hbf;Hagen Hbf;0;nein;Essen Hbf;
+07.10.2026;19:07;RE47;89341;Remscheid-Lennep;Düsseldorf Hbf;2;nein;Hilden;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:07;VIA RE16;29986;Iserlohn-Letmathe;Iserlohn;1;nein;Letmathe-Dechenhöhle;
+07.10.2026;19:08;Bus RB54;54031;Ardey Bahnhof, Fröndenberg;Bahnhof, Unna;;nein;Fröndenberg-Frömern;
+07.10.2026;19:08;Bus RE1;7980;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Duisburg Hbf;
+07.10.2026;19:08;Bus RE14;67570;Bottrop Hbf;Dorsten;0;nein;Dorsten;
+07.10.2026;19:08;ERB RB59;90345;Dortmund Hbf;Soest;2;nein;Dortmund Signal Iduna Park;
+07.10.2026;19:08;ERB RB69;89991;Hamm(Westf)Hbf;Bielefeld Hbf;9;nein;Oelde;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:08;IC 2043;2043;Köln Hbf;Magdeburg Hbf;13;nein;Gütersloh Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;19:08;NX RE7;17433;Rheine;Köln Hbf;44;teilweise;Rheine;Defekt an einem Signal
+07.10.2026;19:08;R S28;77255;Kaarster See;Mettmann Stadtwald;9;nein;Düsseldorf Völklinger Straße;Verspätung aus vorheriger Fahrt
+07.10.2026;19:08;R S28;77286;Wuppertal Hbf;Kaarster See;4;nein;Wuppertal Zoologischer Garten;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:08;RB20;30030;Eschweiler-Weisweiler;Stolberg(Rheinl)Hbf Gl.44;6;nein;Aachen West;
+07.10.2026;19:08;RB20;30080;Stolberg-Altstadt;Stolberg(Rheinl)Hbf Gl.44;6;nein;Aachen West;
+07.10.2026;19:08;RB25;10572;Rösrath;Gummersbach;10;teilweise;Rösrath;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:08;RB32;31270;Oberhausen Hbf;Dortmund Hbf;9;nein;Herne;
+07.10.2026;19:08;RB52;14679;Dortmund Hbf;Hagen Hbf;10;nein;Hagen Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;19:08;RB64;20228;Münster(Westf)Hbf;Enschede;2;nein;Münster (Westf) Hbf;
+07.10.2026;19:08;RRB RE10;82292;Düsseldorf Hbf;Kleve;8;nein;Kevelaer;Defekt an einem Signal
+07.10.2026;19:08;RRB RE44;26666;Bottrop Hbf;Moers;22;nein;Moers;Bauarbeiten
+07.10.2026;19:08;RRB S7;90130;Solingen Hbf;Wuppertal Hbf;17;nein;Wuppertal-Ronsdorf;
+07.10.2026;19:08;S1;31181;Solingen Hbf;Duisburg Hbf;2;nein;Düsseldorf-Eller Mitte;
+07.10.2026;19:08;S4;30493;Unna;Dortmund-Lütgendortmund;1;nein;Unna;
+07.10.2026;19:08;S6;31622;Essen Hbf;Düsseldorf Hbf;1;nein;Düsseldorf Wehrhahn;
+07.10.2026;19:08;S6;31626;Essen Hbf;Düsseldorf Hbf;0;nein;Essen Hbf;
+07.10.2026;19:08;S6;56124;Köln-Dellbrück;Köln-Worringen;2;nein;Köln-Nippes;
+07.10.2026;19:08;TR RB26;25437;Köln Messe/Deutz;Mainz Hbf;16;nein;Hürth-Kalscheuren;
+07.10.2026;19:08;VIA RE19;20035;Arnhem Centraal;Düsseldorf Hbf;14;nein;Emmerich;Außerplanmäßige Geschwindigkeitsbeschränkung
+07.10.2026;19:08;WFB RE70;95835;Bielefeld Hbf;Braunschweig Hbf;8;nein;Minden (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:09;Bus RE1;7993;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:09;Bus RE14;67579;Borken(Westf);Bottrop Hbf;1;nein;Bottrop Hbf;
+07.10.2026;19:09;RE22;10039;Köln Messe/Deutz;Kall;3;nein;Mechernich;
+07.10.2026;19:09;RE49;30999;Wuppertal Hbf;Essen Hbf;;ja;Wuppertal Hbf;Defektes Stellwerk
+07.10.2026;19:09;RRB S7;90135;Wuppertal Hbf;Solingen Hbf;1;nein;Remscheid-Güldenwerth;
+07.10.2026;19:09;S23;32390;Bonn Hbf;Bad Münstereifel;18;nein;Rheinbach;
+07.10.2026;19:09;WFB RE60;95782;Braunschweig Hbf;Rheine;1;nein;Ibbenbüren-Esch;
+07.10.2026;19:10;Bus RE1;8001;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:10;ERB RB89;90081;Münster(Westf)Hbf;Paderborn Hbf;3;nein;Paderborn Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:10;ERB RE13;20093;Venlo;Hagen Hbf;7;teilweise;Kaldenkirchen;Verspätung eines vorausfahrenden Zuges, Defekt an einer Weiche
+07.10.2026;19:10;RTB RB28;90872;Euskirchen;Düren;6;nein;Düren;
+07.10.2026;19:10;S12;33240;Horrem;Au (Sieg);4;nein;Blankenberg (Sieg);
+07.10.2026;19:10;S19;32020;Düren;Troisdorf;4;nein;Köln Frankfurter Straße;
+07.10.2026;19:10;S6;56127;Köln-Worringen;Köln-Dellbrück;2;nein;Köln-Holweide;
+07.10.2026;19:11;Bus RE1;7990;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:11;ERB RB71;89661;Rahden;Bielefeld Hbf;9;nein;Espelkamp;Bauarbeiten, Defekt an der Strecke
+07.10.2026;19:11;NX RE11;26727;Essen Hbf;Kassel-Wilhelmshöhe;6;nein;Willebadessen;Defekt an der Strecke
+07.10.2026;19:11;RB24;10442;Kall;Köln Messe/Deutz;2;nein;Scheven;
+07.10.2026;19:11;S4;30489;Unna-Königsborn;Dortmund-Lütgendortmund;2;nein;Dortmund-Marten Süd;
+07.10.2026;19:11;VIA RB35;32927;Duisburg-Hochfeld Süd;Mönchengladbach Hbf;5;nein;Rheinhausen Ost;
+07.10.2026;19:11;VIA RB39;56629;Düsseldorf Hbf;Bedburg (Erft);3;nein;Holzheim (b Neuss);
+07.10.2026;19:11;VIA RB46;31474;Bochum Hbf;Gelsenkirchen Hbf;2;nein;Gelsenkirchen Hbf;
+07.10.2026;19:12;ERB RB59;90389;Dortmund Hbf;Soest;8;nein;Werl;Defekt an einem Bahnübergang, Verspätung aus vorheriger Fahrt
+07.10.2026;19:12;ERB RB61;20379;Hengelo;Bielefeld Hbf;16;nein;Bünde (Westf);Defekt an einem Signal
+07.10.2026;19:12;HLB RE34;28581;Siegen Hbf;Kirchhundem-Welschen Ennest;1;nein;Siegen-Weidenau;
+07.10.2026;19:12;NWB RB75;75174;Halle(Westf);Bielefeld Hbf;16;nein;Quelle;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;19:12;RE49;56797;Oberhausen Hbf;Wesel;2;nein;Oberhausen-Sterkrade;
+07.10.2026;19:13;Bus RE1;7982;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Duisburg Hbf;
+07.10.2026;19:13;ERB RB65;52348;Münster(Westf)Hbf;Rheine;1;nein;Münster (Westf) Hbf;
+07.10.2026;19:13;ERB RB72;90676;Paderborn Hbf;Herford;5;nein;Bad Salzuflen-Sylbach;Verspätung eines vorausfahrenden Zuges, Verspätete Bereitstellung
+07.10.2026;19:13;HLB RE99;15148;Gießen;Siegen Hbf;5;nein;Siegen Hbf;Außerplanmäßige Geschwindigkeitsbeschränkung
+07.10.2026;19:13;ICE 546;546;Berlin Hbf;Köln Hbf;17;nein;Düsseldorf Hbf;
+07.10.2026;19:13;NX RB48;17359;Wuppertal-Oberbarmen;Bonn-Mehlem;20;nein;Bonn-Bad Godesberg;Defekt an einem Signal
+07.10.2026;19:13;S23;32393;Bad Münstereifel;Bonn Hbf;2;nein;Bonn Helmholtzstraße;
+07.10.2026;19:13;S23;32394;Bonn Hbf;Euskirchen;9;nein;Bonn-Endenich Nord;
+07.10.2026;19:13;S8;31816;Wuppertal-Oberbarmen;Mönchengladbach Hbf;7;nein;Büttgen;
+07.10.2026;19:14;Bus RE1;7995;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:14;ERB RB61;20381;Hengelo;Bielefeld Hbf;4;nein;Rheine;Defekt an der Oberleitung, Defekt an einem Signal, Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:14;ERB RE13;20089;Venlo;Hamm(Westf)Hbf;16;nein;Holzwickede;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;19:14;HLB RB96;61833;Betzdorf(Sieg);Dillenburg;1;nein;Würgendorf Ort;
+07.10.2026;19:14;IC 2440;2440;Dresden Hbf;Stuttgart Hbf;19;nein;Bonn Hbf;
+07.10.2026;19:14;ICE 615;615;Hamburg-Altona;München Hbf;29;nein;Wuppertal Hbf;Bauarbeiten
+07.10.2026;19:14;NX RE6;89729;Köln/Bonn Flughafen;Minden(Westf);39;nein;Löhne (Westf);Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:14;S2;30262;Essen Hbf;Dortmund Hbf;12;nein;Herne;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:14;VIA RB91;31373;Lennestadt-Altenhundem;Hagen Hbf;5;teilweise;Lennestadt-Altenhundem;
+07.10.2026;19:15;Bus RE1;8003;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:15;ICE 556;556;Berlin Hbf;Köln Hbf;22;nein;Köln Hbf;Verspätete Bereitstellung
+07.10.2026;19:15;NWB RB85;74949;Paderborn Hbf;Göttingen;19;nein;Bad Driburg (Westf);Vorfahrt eines anderen Zuges
+07.10.2026;19:15;NX RB48;17362;Bonn-Mehlem;Wuppertal-Oberbarmen;31;nein;Köln Süd;Defekt an einem Signal
+07.10.2026;19:15;NX RE6;89731;Köln/Bonn Flughafen;Minden(Westf);25;nein;Hamm (Westf) Hbf;Defekt an der Strecke
+07.10.2026;19:15;RB25;10571;Gummersbach;Rösrath;13;nein;Engelskirchen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:15;RB43;14778;Dorsten;Dortmund Hbf;13;nein;Dortmund-Huckarde Nord;
+07.10.2026;19:15;RE8;10833;Mönchengladbach Hbf;Köln Messe/Deutz;2;nein;Rheydt-Odenkirchen;
+07.10.2026;19:15;RRB RE10;82303;Kleve;Düsseldorf Hbf;6;nein;Weeze;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:15;S11;33119;Bergisch Gladbach;Düsseldorf Flughafen Terminal;1;nein;Düsseldorf Flughafen Terminal;Defekt an der Strecke
+07.10.2026;19:15;S9;30954;Recklinghausen Hbf;Hagen Hbf;38;nein;Hagen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:15;TRI RB37;89427;Krefeld Hbf;Neuss Hbf;1;nein;Meerbusch-Osterath;
+07.10.2026;19:15;VIA RB35;52264;Oberhausen Hbf;Gelsenkirchen Hbf;58;nein;Essen-Zollverein Nord;Defekt an der Strecke, Verspätung aus vorheriger Fahrt
+07.10.2026;19:16;Bus RE1;7992;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:16;ICE 1037;1037;Rostock Hbf;Köln Hbf;74;nein;Köln Hbf;Defekt an der Strecke
+07.10.2026;19:16;RB20;30081;Stolberg(Rheinl)Hbf Gl.44;Stolberg-Altstadt;3;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;19:16;RB38;10097;Bedburg (Erft);Horrem;1;nein;Glesch;
+07.10.2026;19:16;RB64;20226;Münster(Westf)Hbf;Enschede;1;nein;Gronau (Westf);
+07.10.2026;19:16;RRB RB36;82357;Duisburg-Ruhrort;Oberhausen Hbf;3;nein;Duisburg-Ruhrort;
+07.10.2026;19:16;VIA RB46;31477;Gelsenkirchen Hbf;Bochum Hbf;0;nein;Gelsenkirchen Hbf;
+07.10.2026;19:17;ERB RB89;90080;Paderborn Hbf;Münster(Westf)Hbf;12;nein;Münster (Westf) Hbf;Defekt an der Strecke
+07.10.2026;19:17;HLB RB93;61891;Aue-Wingeshausen;Siegen Hbf;16;nein;Vormwald;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:17;R S28;77257;Kaarster See;Wuppertal Hbf;4;nein;Neuss Hbf;
+07.10.2026;19:17;RB20;32828;Düren;Eschweiler-Weisweiler;4;nein;Düren;
+07.10.2026;19:17;RE57;10770;Bestwig;Dortmund Hbf;20;nein;Dortmund Hbf;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:17;S9;30961;Hagen Hbf;Recklinghausen Hbf;7;nein;Essen-Borbeck Süd;
+07.10.2026;19:17;WFB RE70;95834;Braunschweig Hbf;Bielefeld Hbf;1;nein;Herford;
+07.10.2026;19:18;Bus RE1;7984;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Duisburg Hbf;
+07.10.2026;19:18;ERB RB66;90608;Münster(Westf)Hbf;Osnabrück Hbf;9;nein;Kattenvenne;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;19:18;ICE 821;821;Düsseldorf Hbf;München Hbf;1;nein;Düsseldorf Hbf;
+07.10.2026;19:18;R S28;77282;Wuppertal Hbf;Kaarster See;2;nein;Düsseldorf-Gerresheim;
+07.10.2026;19:18;RB52;14678;Hagen Hbf;Dortmund Hbf;10;nein;Dortmund Signal Iduna Park;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:18;S2;30265;Dortmund Hbf;Essen Hbf;1;nein;Dortmund Hbf;
+07.10.2026;19:19;Bus EV;93890;Aue-Wingeshausen;Bad Berleburg;0;nein;Aue-Wingeshausen;
+07.10.2026;19:19;Bus RB31;62033;Xanten;Moers;0;nein;Moers;
+07.10.2026;19:19;RB64;20225;Enschede;Münster(Westf)Hbf;2;nein;Nordwalde;
+07.10.2026;19:19;RRB RE44;26669;Moers;Bottrop Hbf;15;nein;Oberhausen-Osterfeld Süd;
+07.10.2026;19:19;S11;33121;Bergisch Gladbach;Düsseldorf Flughafen Terminal;7;nein;Düsseldorf-Friedrichstadt;Defekt an der Strecke
+07.10.2026;19:19;S19;32018;Düren;Blankenberg (Sieg);8;nein;Hennef Im Siegbogen;
+07.10.2026;19:20;Bus RE1;8005;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:20;NWB RB74;75076;Paderborn Hbf;Bielefeld Hbf;11;nein;Paderborn Nord;Vorfahrt eines anderen Zuges
+07.10.2026;19:20;NWB RB75;75176;Osnabrück Hbf;Bielefeld Hbf;18;nein;Halle (Westf.) OWL-Arena;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:20;RB32;31271;Dortmund Hbf;Oberhausen Hbf;10;nein;Oberhausen Hbf;
+07.10.2026;19:20;RRB RE10;82299;Kleve;Düsseldorf Hbf;22;nein;Düsseldorf-Bilk;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:20;RTB RB21;90824;Düren;Heimbach (Eifel);2;nein;Düren;
+07.10.2026;19:20;RTB RB28;90875;Düren;Euskirchen;0;nein;Düren;
+07.10.2026;19:20;S2;30263;Dortmund Hbf;Recklinghausen Hbf;2;nein;Recklinghausen Süd;
+07.10.2026;19:20;S4;30492;Dortmund-Lütgendortmund;Unna;2;nein;Unna West;
+07.10.2026;19:20;S6;31617;Düsseldorf Hbf;Essen Hbf;3;nein;Essen-Werden;
+07.10.2026;19:21;Bus RE1;7994;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:21;Bus RE14;67576;Bottrop Hbf;Dorsten;0;nein;Bottrop Hbf;
+07.10.2026;19:21;Bus RE14;67601;Dorsten;Bottrop Hbf;5;nein;Gladbeck West;
+07.10.2026;19:21;NX RE6;89735;Köln/Bonn Flughafen;Minden(Westf);9;nein;Dormagen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:21;RTB RB21;90757;Düren;Linnich Bhf;0;nein;Düren;
+07.10.2026;19:21;S12;33249;Hennef(Sieg);Horrem;5;nein;Lövenich;
+07.10.2026;19:21;VIA RB46;31476;Bochum Hbf;Gelsenkirchen Hbf;1;nein;Bochum West;
+07.10.2026;19:22;Bus RB31;62028;Moers;Xanten;0;nein;Xanten;
+07.10.2026;19:22;ERB RB73;90252;Lemgo-Lüttfeld;Bielefeld Hbf;7;nein;Ehlenbruch;Verspätung aus vorheriger Fahrt
+07.10.2026;19:22;ICE 1021;1021;Hamburg-Altona;Nürnberg Hbf;129;nein;Düsseldorf Hbf;Verspätung eines vorausfahrenden Zuges, Behördliche Maßnahme
+07.10.2026;19:22;NWB RB58;75266;Bremen Hbf;Osnabrück Hbf;6;nein;Halen;
+07.10.2026;19:22;RE41;16240;Haltern am See;Bochum Hbf;1;nein;Marl-Sinsen;
+07.10.2026;19:22;RRB RB31;26073;Moers;Duisburg Hbf;4;nein;Rheinhausen;Defekt an der Strecke
+07.10.2026;19:22;RRB S7;90141;Wuppertal Hbf;Solingen Hbf;22;nein;Wuppertal-Oberbarmen;Defekt an der Strecke
+07.10.2026;19:22;S1;56371;Essen West;Dortmund Hbf;4;teilweise;Essen West;
+07.10.2026;19:22;S41;5018;Hergenrath;Aachen Hbf;9;nein;Aachen Hbf;
+07.10.2026;19:23;Bus EV;93893;Bad Berleburg;Aue-Wingeshausen;0;nein;Bad Berleburg;
+07.10.2026;19:23;EUR 9486;9486;Köln Hbf;Paris Nord;2;nein;Aachen Hbf;
+07.10.2026;19:23;HLB RB90;61625;Siegen Hbf;Limburg(Lahn);3;nein;Geilhausen;
+07.10.2026;19:23;R S28;77280;Mettmann Stadtwald;Kaarster See;6;nein;Neuss Hbf;
+07.10.2026;19:23;RB33;10337;Duisburg Hbf;Aachen Hbf;2;nein;Aachen Schanz;
+07.10.2026;19:23;RB33;10387;Heinsberg(Rheinl);Aachen Hbf;2;nein;Aachen Schanz;
+07.10.2026;19:23;RB38;10280;Köln Messe/Deutz;Bedburg(Erft);1;nein;Köln Messe/Deutz;
+07.10.2026;19:23;SBH S1;34134;Hannover Hbf;Minden (Westf);3;nein;Minden (Westf);Vorfahrt eines anderen Zuges
+07.10.2026;19:24;HLB RB90;61622;Limburg(Lahn);Siegen Hbf;0;nein;Niederschelden Nord Hp;
+07.10.2026;19:24;NX RB48;17363;Wuppertal-Oberbarmen;Bonn-Mehlem;3;nein;Köln-Mülheim;
+07.10.2026;19:24;RE41;16241;Bochum Hbf;Haltern am See;1;nein;Recklinghausen Süd;
+07.10.2026;19:24;VIA RB91;21440;Kirchhundem-Welschen Ennest;Siegen Hbf;1;nein;Siegen-Geisweid;
+07.10.2026;19:25;Bus RE1;8007;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:25;ERB RE13;20088;Hamm(Westf)Hbf;Venlo;15;nein;Mönchengladbach Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:25;ICE 516;516;München Hbf;Hamburg-Altona;4;nein;Dortmund Hbf;
+07.10.2026;19:25;NWB RB74;75077;Bielefeld Hbf;Paderborn Hbf;10;nein;Schloß Holte;Vorfahrt eines anderen Zuges
+07.10.2026;19:25;NX RE5;28528;Koblenz Hbf;Wesel;10;nein;Oberhausen Hbf;Defekt an einem Signal
+07.10.2026;19:25;RRB S7;90139;Wuppertal Hbf;Solingen Hbf;2;nein;Remscheid Hbf;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:25;S12;33242;Horrem;Hennef (Sieg);9;nein;Hennef (Sieg);
+07.10.2026;19:25;VIA RE19;20033;Arnhem Centraal;Düsseldorf Hbf;9;nein;Düsseldorf Flughafen;Außerplanmäßige Geschwindigkeitsbeschränkung, Vorfahrt eines anderen Zuges
+07.10.2026;19:25;VIA RE19;77033;Bocholt;Düsseldorf Hbf;9;nein;Düsseldorf Flughafen;Vorfahrt eines anderen Zuges
+07.10.2026;19:26;Bus RE1;7996;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:26;ERB RB59;90390;Soest;Dortmund Hbf;4;nein;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:26;ERB RB61;20380;Bielefeld Hbf;Hengelo;13;nein;Ibbenbüren-Laggenbeck;Defekt am Bahnhof, Vorfahrt eines anderen Zuges
+07.10.2026;19:26;NX RE5;28529;Wesel;Koblenz Hbf;21;nein;Köln Messe/Deutz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:26;RE22;10041;Köln Messe/Deutz;Kall;2;nein;Köln West;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:26;S1;31166;Duisburg Hbf;Solingen Hbf;4;nein;Solingen Hbf;
+07.10.2026;19:26;S3;30363;Hattingen(Ruhr) Mitte;Essen West;1;teilweise;Essen Hbf;Defekt an der Strecke
+07.10.2026;19:27;RB52;33828;Lüdenscheid;Rummenohl;2;nein;Rummenohl;
+07.10.2026;19:27;RE47;89332;Düsseldorf Hbf;Remscheid-Lennep;2;nein;Remscheid-Lennep;
+07.10.2026;19:27;RE62;11514;Löhne(Westf);Rheine;2;nein;Bünde (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:27;RRB RB31;26032;Duisburg Hbf;Moers;7;nein;Moers;Defekt an der Strecke
+07.10.2026;19:27;S12;33248;Horrem;Hennef (Sieg);8;nein;Porz-Wahn;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:27;S9;30959;Wuppertal Hbf;Haltern am See;10;nein;Haltern am See;
+07.10.2026;19:27;SBH S5;34584;Paderborn Hbf;Hannover Hbf;4;nein;Altenbeken;Vorfahrt eines anderen Zuges
+07.10.2026;19:28;RB53;14957;Dortmund Hbf;Iserlohn;1;nein;Dortmund Signal Iduna Park;
+07.10.2026;19:28;S2;31234;Dortmund-Mengede;Dortmund Hbf;5;nein;Dortmund Hbf;
+07.10.2026;19:28;S6;56126;Köln-Dellbrück;Köln-Worringen;2;nein;Köln-Nippes;
+07.10.2026;19:28;S8;31821;Mönchengladbach Hbf;Wuppertal-Oberbarmen;8;nein;Wuppertal-Barmen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:28;S9;30960;Haltern am See;Wuppertal Hbf;25;nein;Essen-Überruhr;Defekt an der Strecke
+07.10.2026;19:30;Bus RE1;8009;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:30;HLB RB93;61892;Siegen Hbf;Aue-Wingeshausen;13;nein;Hilchenbach;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:30;IC 2006;2006;Köln Hbf;Emden Hbf;1;nein;Münster (Westf) Hbf;
+07.10.2026;19:30;RE18;18961;Eygelshoven Markt;Aachen Hbf;3;nein;Herzogenrath;
+07.10.2026;19:30;RE18;18962;Aachen Hbf;Eygelshoven Markt;2;nein;Herzogenrath;
+07.10.2026;19:30;RE42;10159;Mönchengladbach Hbf;Münster(Westf)Hbf;10;nein;Herne-Wanne-Eickel Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:30;RRB RE14;89579;Bottrop Hbf;Essen Hbf;10;nein;Essen Hbf;
+07.10.2026;19:30;S19;32024;Düren;Troisdorf;33;nein;Köln Frankfurter Straße;Verspätung aus vorheriger Fahrt
+07.10.2026;19:30;S6;31623;Düsseldorf Hbf;Essen Hbf;3;nein;Düsseldorf Hbf;
+07.10.2026;19:31;Bus RE1;7998;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:31;RB54;14861;Fröndenberg;Neuenrade;5;nein;Balve Sanssouci;
+07.10.2026;19:31;RRB RE10;82294;Düsseldorf Hbf;Kleve;7;nein;Geldern;Defekt an einem Signal
+07.10.2026;19:31;VIA RE16;31326;Essen Hbf;Iserlohn;10;nein;Iserlohn-Letmathe;Bauarbeiten, Vorfahrt eines anderen Zuges
+07.10.2026;19:32;ERB RB61;20382;Bielefeld Hbf;Hengelo;9;nein;Herford;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:32;HLB RB90;61627;Siegen Hbf;Limburg(Lahn);6;nein;Eiserfeld (Sieg);
+07.10.2026;19:32;HLB RE34;28580;Kirchhundem-Welschen Ennest;Siegen Hbf;0;nein;Kirchhundem-Welschen Ennest;
+07.10.2026;19:32;IC 2207;2207;Emden Außenhafen;Köln Hbf;13;nein;Duisburg Hbf;
+07.10.2026;19:32;ICE 129;129;Amsterdam Centraal;Frankfurt(Main)Hbf;2;nein;Siegburg/Bonn;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:32;ICE 655;655;Köln Hbf;Berlin Gesundbrunnen;14;nein;Hagen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:32;RTB RB28;90874;Euskirchen;Düren;0;nein;Euskirchen;
+07.10.2026;19:32;S6;56131;Köln-Worringen;Köln-Dellbrück;11;nein;Köln-Dellbrück;Defekt an einem Signal, Vorfahrt eines anderen Zuges
+07.10.2026;19:33;ICE 1512;1512;Frankfurt(Main)Hbf;Köln Hbf;13;nein;Köln Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:33;ICE 224;224;München Hbf;Amsterdam Centraal;8;nein;Oberhausen Hbf;Defekt an der Strecke
+07.10.2026;19:33;RE42;10154;Münster(Westf)Hbf;Mönchengladbach Hbf;22;nein;Viersen;Verspätung aus vorheriger Fahrt
+07.10.2026;19:33;S11;33135;Bergisch Gladbach;Dormagen;;ja;Bergisch Gladbach;Defekt an der Strecke
+07.10.2026;19:33;S12;33252;Horrem;Au(Sieg);5;nein;Köln Messe/Deutz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:33;S12;33259;Hennef (Sieg);Horrem;4;nein;Hennef (Sieg);
+07.10.2026;19:33;S3;30362;Essen West;Hattingen(Ruhr) Mitte;4;teilweise;Essen West;Defekt an der Strecke
+07.10.2026;19:33;S8;31820;Wuppertal-Oberbarmen;Mönchengladbach Hbf;4;nein;Büttgen;
+07.10.2026;19:33;WFB RE15;90294;Münster(Westf)Hbf;Emden Hbf;3;nein;Rheine;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:34;ERB RB71;89660;Bielefeld Hbf;Rahden;20;nein;Lübbecke (Westf);Defekt an einem Signal, Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:34;ERB RB89;90033;Münster(Westf)Hbf;Paderborn Hbf;4;nein;Scharmede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:34;ICE 216;216;Friedrichshafen Stadt;Dortmund Hbf;17;nein;Dortmund Hbf;
+07.10.2026;19:34;NWB RB58;75273;Osnabrück Hbf;Bremen Hbf;20;nein;Halen;Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;19:34;NX RE7;17426;Krefeld Hbf;Rheine;34;teilweise;Greven;Defekt an der Strecke, Verspätung aus vorheriger Fahrt
+07.10.2026;19:34;RB20;32829;Eschweiler-Weisweiler;Düren;3;nein;Langerwehe;
+07.10.2026;19:34;RB52;33829;Rummenohl;Lüdenscheid;2;nein;Dahlerbrück;
+07.10.2026;19:34;RE8;10832;Köln Messe/Deutz;Mönchengladbach Hbf;3;nein;Jüchen;
+07.10.2026;19:34;RRB RB36;82358;Oberhausen Hbf;Duisburg-Ruhrort;3;nein;Duisburg-Obermeiderich;
+07.10.2026;19:35;Bus RE1;8011;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:35;ERB RB65;52350;Münster(Westf)Hbf;Rheine;1;nein;Münster (Westf) Hbf;
+07.10.2026;19:35;NX RE7;17432;Krefeld Hbf;Münster(Westf)Hbf;52;teilweise;Krefeld Hbf;Defekt an einem Signal, Verspätung aus vorheriger Fahrt
+07.10.2026;19:35;RB20;30528;Langerwehe;Alsdorf-Annapark;7;nein;Aachen Schanz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:35;RB20;30578;Stolberg-Altstadt;Alsdorf-Annapark;7;nein;Aachen Schanz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:35;RB38;10096;Horrem;Bedburg (Erft);2;nein;Glesch;
+07.10.2026;19:35;RTB RB21;90795;Untermaubach-Schlagstein;Düren;3;nein;Düren;
+07.10.2026;19:35;SBH S1;34139;Minden (Westf);Hannover Hbf;1;nein;Minden (Westf);
+07.10.2026;19:36;Bus RE1;8000;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:36;ICE 140;140;Berlin Südkreuz;Amsterdam Centraal;3;ja;Rheine;Technische Störung am Zug
+07.10.2026;19:36;RB53;14956;Iserlohn;Dortmund Hbf;6;nein;Dortmund Hbf;
+07.10.2026;19:36;RB54;14864;Neuenrade;Fröndenberg;4;nein;Menden (Sauerland) Süd;
+07.10.2026;19:36;RE10;28197;Kleve;Düsseldorf Hbf;3;nein;Meerbusch-Osterath;
+07.10.2026;19:36;S1;56370;Dortmund Hbf;Essen West;3;teilweise;Essen Hbf;Defekt an der Strecke
+07.10.2026;19:36;S19;32028;Düren;Troisdorf;7;nein;Sindorf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:37;ERB RB66;90609;Osnabrück Hbf;Münster(Westf)Hbf;1;nein;Kattenvenne;
+07.10.2026;19:37;NX RE4;26428;Dortmund Hbf;Aachen Hbf;15;nein;Aachen Hbf;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;19:37;RB RE22;10039;Kall;Trier Hbf;5;nein;Schmidtheim;
+07.10.2026;19:37;RB32;31272;Oberhausen Hbf;Dortmund Hbf;12;nein;Essen-Dellwig;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:37;S41;5040;Aachen Hbf;Hergenrath;6;nein;Aachen Hbf;
+07.10.2026;19:37;S8;31824;Wuppertal-Oberbarmen;Mönchengladbach Hbf;2;nein;Wuppertal-Sonnborn;
+07.10.2026;19:38;ERB RB89;90032;Paderborn Hbf;Münster(Westf)Hbf;16;nein;Rinkerode;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:38;ICE 28;28;Nürnberg Hbf;Dortmund Hbf;27;nein;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges, Defekt an einer Weiche
+07.10.2026;19:38;ICE 945;945;Düsseldorf Hbf;Berlin Südkreuz;26;nein;Bielefeld Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:38;ICE 955;955;Köln Hbf;Berlin Südkreuz;26;nein;Bielefeld Hbf;
+07.10.2026;19:38;RB33;10336;Aachen Hbf;Duisburg Hbf;4;nein;Mönchengladbach Hbf;
+07.10.2026;19:38;RB43;14781;Dortmund Hbf;Dorsten;7;nein;Dortmund-Huckarde Nord;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;19:39;NX RE1;26829;Aachen Hbf;Hamm(Westf)Hbf;28;nein;Hamm (Westf) Hbf;Defekt an einem Signal
+07.10.2026;19:39;RE9;10926;Siegen Hbf;Aachen Hbf;7;nein;Aachen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:39;RRB RB31;26033;Moers;Duisburg Hbf;5;nein;Rheinhausen;
+07.10.2026;19:39;VIA RB35;52271;Gelsenkirchen Hbf;Oberhausen Hbf;;ja;Gelsenkirchen Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:40;Bus RE1;8013;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:40;ERB RB50;89946;Dortmund Hbf;Münster(Westf)Hbf;6;nein;Dortmund-Kirchderne;Verspätung aus vorheriger Fahrt
+07.10.2026;19:40;ERB RB50;89947;Münster(Westf)Hbf;Dortmund Hbf;40;nein;Münster-Amelsbüren;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;19:40;NX RB48;17367;Wuppertal-Oberbarmen;Bonn-Mehlem;10;teilweise;Wuppertal-Oberbarmen;Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;19:40;NX RE1;26830;Hamm(Westf)Hbf;Aachen Hbf;6;nein;Düsseldorf Hbf;
+07.10.2026;19:40;RB24;10445;Köln Messe/Deutz;Kall;1;nein;Köln Messe/Deutz;
+07.10.2026;19:40;RE47;89334;Düsseldorf Hbf;Remscheid-Lennep;5;nein;Düsseldorf Hbf;
+07.10.2026;19:40;S5;31567;Witten Hbf;Dortmund Hbf;1;nein;Witten-Annen Nord;
+07.10.2026;19:40;S6;31621;Düsseldorf Hbf;Essen Hbf;2;nein;Essen-Werden;
+07.10.2026;19:41;Bus RE1;8002;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:41;RB33;10341;Duisburg Hbf;Aachen Hbf;4;nein;Rheinhausen Ost;
+07.10.2026;19:41;RE12;4185;Köln Messe/Deutz;Gerolstein;1;nein;Euskirchen;
+07.10.2026;19:41;VIA RB39;56673;Neuss Hbf;Grevenbroich;2;nein;Holzheim (b Neuss);
+07.10.2026;19:42;ICE 856;856;Berlin Hbf;Köln Hbf;7;nein;Wuppertal Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:42;RE17;10734;Brilon Stadt;Hagen Hbf;12;nein;Hagen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:42;RE34;26090;Hagen Hbf;Lennestadt-Altenhundem;;ja;Hagen Hbf;Bauarbeiten
+07.10.2026;19:42;S8;31822;Hagen Hbf;Mönchengladbach Hbf;1;nein;Neuss Rheinparkcenter;
+07.10.2026;19:43;R S28;91626;Wuppertal Hbf;Mettmann Stadtwald;1;nein;Wuppertal Hbf;
+07.10.2026;19:43;RRB RE14;89578;Essen Hbf;Bottrop Hbf;3;nein;Bottrop Hbf;
+07.10.2026;19:43;S11;33140;Düsseldorf Flughafen Terminal;Bergisch Gladbach;6;nein;Norf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:43;S12;33251;Au(Sieg);Horrem;5;nein;Köln-Weiden West;
+07.10.2026;19:43;S23;32396;Bonn Hbf;Bad Münstereifel;3;nein;Bonn-Endenich Nord;
+07.10.2026;19:43;S6;31630;Essen Hbf;Düsseldorf Hbf;3;nein;Kettwig;
+07.10.2026;19:43;S6;56133;Köln-Worringen;Köln-Dellbrück;6;nein;Köln-Buchforst;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:44;ERB RB89;90082;Paderborn Hbf;Hamm(Westf)Hbf;2;nein;Hamm (Westf) Hbf;
+07.10.2026;19:44;RB20;30533;Alsdorf-Annapark;Langerwehe;15;nein;Stolberg (Rheinl) Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:44;S1;31174;Duisburg Hbf;Solingen Hbf;1;nein;Düsseldorf-Unterrath;
+07.10.2026;19:44;S11;33132;Düsseldorf Flughafen Terminal;Bergisch Gladbach;15;nein;Duckterath;Defekt an der Strecke
+07.10.2026;19:44;VIA RB35;32926;Mönchengladbach Hbf;Duisburg-Hochfeld Süd;3;nein;Rheinhausen;
+07.10.2026;19:45;Bus RB31;62035;Xanten;Moers;2;nein;Millingen;
+07.10.2026;19:45;Bus RE1;8015;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:45;ERB RB72;90678;Paderborn Hbf;Herford;8;nein;Steinheim-Sandebeck;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;19:45;ERB RE78;52287;Bielefeld Hbf;Nienburg(Weser);6;nein;Bad Oeynhausen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:45;ERB RE78;52288;Nienburg(Weser);Bielefeld Hbf;2;nein;Petershagen-Lahde;Verspätung aus vorheriger Fahrt
+07.10.2026;19:45;NWB RB84;74988;Paderborn Hbf;Kreiensen;20;nein;Höxter Rathaus;Vorfahrt eines anderen Zuges
+07.10.2026;19:45;NX RE11;26728;Kassel-Wilhelmshöhe;Essen Hbf;17;nein;Essen Hbf;Defekt an einem Signal
+07.10.2026;19:45;R S28;77251;Kaarster See;Wuppertal Hbf;7;nein;Wuppertal-Steinbeck;
+07.10.2026;19:45;RB25;10573;Lüdenscheid;Köln Hansaring;7;nein;Engelskirchen;
+07.10.2026;19:45;RB43;14779;Dortmund Hbf;Dorsten;5;nein;Feldhausen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:45;RE12;4184;Gerolstein;Köln Messe/Deutz;6;nein;Köln Süd;
+07.10.2026;19:46;Bus RE1;8004;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:46;Bus S28;2197;Düsseldorf Hbf;Mettmann Stadtwald;5;nein;Düsseldorf Hbf;
+07.10.2026;19:46;RB33;10339;Duisburg Hbf;Aachen Hbf;6;nein;Brachelen;
+07.10.2026;19:46;RB38;10279;Bedburg (Erft);Köln Messe/Deutz;2;nein;Glesch;
+07.10.2026;19:46;RB77;14581;Herford;Hildesheim Hbf;1;nein;Löhne (Westf);
+07.10.2026;19:46;RRB RB36;82359;Duisburg-Ruhrort;Oberhausen Hbf;1;nein;Duisburg-Ruhrort;
+07.10.2026;19:46;SBH S5;34571;Hannover Flughafen;Paderborn Hbf;4;nein;Paderborn Hbf;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;19:46;VIA RB46;31479;Gelsenkirchen Hbf;Bochum Hbf;0;nein;Gelsenkirchen Hbf;
+07.10.2026;19:47;HLB RB95;28695;Siegen Hbf;Dillenburg;6;nein;Wilnsdorf-Rudersdorf;
+07.10.2026;19:47;R S28;77259;Kaarster See;Düsseldorf-Gerresheim;2;nein;Neuss Hbf;
+07.10.2026;19:47;RB20;30583;Alsdorf-Annapark;Stolberg-Altstadt;12;nein;Stolberg (Rheinl) Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:47;RB40;30786;Hagen Hbf;Essen Hbf;1;nein;Wattenscheid;
+07.10.2026;19:47;RB43;14780;Dorsten;Dortmund Hbf;4;nein;Herne;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:47;RRB S7;90132;Solingen Hbf;Wuppertal Hbf;19;nein;Wuppertal Hbf;Technische Störung am Zug, Defekt an der Strecke, Warten auf einen entgegenkommenden Zug
+07.10.2026;19:47;VIA RB91;21441;Siegen Hbf;Welschen Ennest;2;nein;Siegen-Geisweid;
+07.10.2026;19:48;ERB RE82;79364;Bielefeld Hbf;Altenbeken;14;nein;Altenbeken;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;19:48;S6;56128;Köln-Dellbrück;Köln-Worringen;4;nein;Köln-Nippes;
+07.10.2026;19:48;S8;31826;Hagen Hbf;Mönchengladbach Hbf;4;nein;Wuppertal-Oberbarmen;
+07.10.2026;19:49;Bus RB54;54030;Bahnhof, Unna;Ardey Bahnhof, Fröndenberg;;nein;Fröndenberg-Frömern;
+07.10.2026;19:49;RB54;14863;Fröndenberg;Menden(Sauerland);2;nein;Fröndenberg;
+07.10.2026;19:49;RE47;89343;Remscheid-Lennep;Düsseldorf Hbf;2;nein;Solingen Mitte;
+07.10.2026;19:49;RRB RB31;26076;Duisburg Hbf;Moers;4;nein;Rheinhausen;Defekt an der Strecke
+07.10.2026;19:49;S1;31185;Solingen Hbf;Duisburg Hbf;2;nein;Hilden Süd;
+07.10.2026;19:50;Bus RE1;8017;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:50;ERB RB73;90251;Bielefeld Hbf;Lemgo-Lüttfeld;6;nein;Hörstmar (Lippe);Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;19:50;ICE 846;846;Berlin Hbf;Mönchengladbach Hbf;14;nein;Duisburg Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:50;NX RE4;26429;Aachen Hbf;Dortmund Hbf;16;nein;Dortmund Hbf;Polizeieinsatz, Ärztliche Versorgung eines Fahrgastes
+07.10.2026;19:50;S19;32026;Sindorf;Blankenberg(Sieg);5;nein;Köln Frankfurter Straße;
+07.10.2026;19:50;TRI RB37;89426;Neuss Hbf;Krefeld Hbf;6;nein;Krefeld-Oppum;
+07.10.2026;19:50;VIA RE19;77034;Düsseldorf Hbf;Bocholt;7;nein;Oberhausen Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;19:51;Bus RE1;8006;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:51;RB94;23176;Marburg(Lahn);Erndtebrück;0;nein;Erndtebrück;
+07.10.2026;19:51;RE9;10927;Aachen Hbf;Siegen Hbf;4;nein;Siegen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:51;S11;33129;Bergisch Gladbach;Düsseldorf Flughafen Terminal;7;nein;Neuss Allerheiligen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:52;ERB RB69;89993;Hamm(Westf)Hbf;Bielefeld Hbf;5;nein;Beckum-Neubeckum;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:52;HLB RB96;61835;Betzdorf(Sieg);Neunkirchen(Kr Siegen);0;nein;Struthütten;
+07.10.2026;19:52;RB63;14733;Coesfeld(Westf);Münster(W)Zentrum Nord;8;teilweise;Münster (Westf) Hbf;Warten auf einen entgegenkommenden Zug, Verspätung aus vorheriger Fahrt
+07.10.2026;19:52;RE49;30996;Essen Hbf;Wuppertal Hbf;13;nein;Wuppertal Hbf;Defekt an der Strecke
+07.10.2026;19:52;S1;56373;Essen West;Dortmund Hbf;10;teilweise;Essen West;Defekt an der Strecke
+07.10.2026;19:52;S2;30264;Recklinghausen Hbf;Dortmund Hbf;2;nein;Castrop-Rauxel Hbf;
+07.10.2026;19:52;S4;30495;Unna;Dortmund-Lütgendortmund;3;nein;Massen;
+07.10.2026;19:52;S8;31817;Mönchengladbach Hbf;Wuppertal-Oberbarmen;18;nein;Wuppertal-Barmen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:52;VIA RE16;29993;Iserlohn;Iserlohn-Letmathe;4;nein;Letmathe-Dechenhöhle;
+07.10.2026;19:52;WFB RE60;95784;Braunschweig Hbf;Rheine;68;nein;Minden (Westf);
+07.10.2026;19:53;RB53;14958;Schwerte(Ruhr);Dortmund Hbf;1;nein;Dortmund-Aplerbeck Süd;
+07.10.2026;19:53;S19;32029;Troisdorf;Düren;6;nein;Köln Trimbornstr;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:54;ERB RB59;90391;Dortmund Hbf;Soest;3;nein;Holzwickede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:54;HLB RB90;61730;Betzdorf(Sieg);Siegen Hbf;4;nein;Niederschelden Nord Hp;
+07.10.2026;19:54;HLB RE99;15117;Siegen Hbf;Frankfurt(Main)Hbf;1;nein;Siegen Hbf;
+07.10.2026;19:54;NWB RB74;75079;Bielefeld Hbf;Paderborn Hbf;4;nein;Bielefeld-Windelsbleiche;Vorfahrt eines anderen Zuges
+07.10.2026;19:54;S1;31183;Solingen Hbf;Duisburg Hbf;16;nein;Duisburg-Rahm;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:54;S4;30496;Dortmund-Lütgendortmund;Unna;2;nein;Dortmund-Körne;
+07.10.2026;19:55;Bus RE1;8019;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;19:55;ERB RB89;90035;Münster(Westf)Hbf;Paderborn Hbf;5;nein;Welver;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:55;NX RB48;17364;Köln Hbf;Wuppertal-Oberbarmen;5;nein;Köln Messe/Deutz;
+07.10.2026;19:55;RE2;10231;Essen Hbf;Osnabrück Hbf;3;nein;Herne-Wanne-Eickel Hbf;
+07.10.2026;19:55;VIA RB34;90525;Mönchengladbach Hbf;Dalheim;8;nein;Dalheim;Verspätung aus vorheriger Fahrt
+07.10.2026;19:55;VIA RE16;31333;Iserlohn;Essen Hbf;3;nein;Wetter (Ruhr);
+07.10.2026;19:56;Bus RE1;8008;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;19:56;Bus RE14;67572;Bottrop Hbf;Borken(Westf);6;teilweise;Deuten;
+07.10.2026;19:56;EUR 9459;9459;Paris Nord;Dortmund Hbf;34;nein;Duisburg Hbf;Verspätung im Ausland
+07.10.2026;19:56;RB33;10389;Heinsberg(Rheinl);Aachen Hbf;5;nein;Lindern;
+07.10.2026;19:56;S3;30365;Hattingen(Ruhr) Mitte;Essen West;9;teilweise;Essen Hbf;Defekt an der Strecke
+07.10.2026;19:56;TR RB26;25439;Köln Messe/Deutz;Mainz Hbf;14;nein;Köln Hbf;
+07.10.2026;19:56;WFB RE15;90293;Emden Hbf;Münster(Westf)Hbf;3;nein;Münster (Westf) Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:57;NX RE11;26730;Kassel-Wilhelmshöhe;Essen Hbf;5;nein;Hamm (Westf) Hbf;
+07.10.2026;19:57;NX RE6;89732;Minden(Westf);Köln/Bonn Flughafen;47;nein;Düsseldorf Flughafen;Verspätung eines vorausfahrenden Zuges, Verspätete Bereitstellung
+07.10.2026;19:57;R S28;77263;Kaarster See;Düsseldorf-Gerresheim;9;nein;Neuss Hbf;
+07.10.2026;19:57;RB33;10388;Aachen Hbf;Heinsberg(Rheinl);7;nein;Übach-Palenberg;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:57;S12;33260;Horrem;Blankenberg(Sieg);4;nein;Lövenich;
+07.10.2026;19:58;RB25;10577;Gummersbach;Rösrath;13;nein;Dieringhausen;
+07.10.2026;19:58;RB53;14959;Dortmund Hbf;Schwerte(Ruhr);1;nein;Dortmund Signal Iduna Park;
+07.10.2026;19:58;RE57;10773;Dortmund Hbf;Winterberg(Westf);12;nein;Bigge;Verspätung eines vorausfahrenden Zuges
+07.10.2026;19:58;RRB RE14;89601;Bottrop Hbf;Essen Hbf;6;nein;Essen West;Warten auf einen entgegenkommenden Zug
+07.10.2026;19:59;NX RE4;26433;Aachen Hbf;Dortmund Hbf;5;nein;Erkelenz;
+07.10.2026;19:59;S11;33123;Bergisch Gladbach;Düsseldorf Flughafen Terminal;3;nein;Düsseldorf-Derendorf;Defekt an der Strecke
+07.10.2026;20:00;Bus EV;92926;Finnentrop;Olpe;0;nein;Finnentrop;
+07.10.2026;20:00;Bus RE1;8021;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:00;ERB RE82;79367;Altenbeken;Bielefeld Hbf;7;nein;Oerlinghausen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:00;ICE 118;118;Graz Hbf;Münster(Westf)Hbf;9;nein;Gelsenkirchen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:00;RB54;14866;Menden(Sauerland);Fröndenberg;1;nein;Menden (Sauerland);
+07.10.2026;20:00;RB77;14578;Hildesheim Hbf;Herford;1;nein;Vlotho;
+07.10.2026;20:00;RE57;10786;Warburg(Westf);Messinghausen;2;nein;Scherfede;
+07.10.2026;20:00;S11;33137;Bergisch Gladbach;Neuss Hbf;15;nein;Köln-Holweide;Defekt an einem Signal
+07.10.2026;20:00;S5;31570;Dortmund Hbf;Witten Hbf;0;nein;Dortmund Hbf;
+07.10.2026;20:00;VIA RB39;56628;Bedburg (Erft);Düsseldorf Hbf;10;nein;Düsseldorf-Bilk;
+07.10.2026;20:01;Bus EV;92941;Olpe;Finnentrop;0;nein;Olpe;
+07.10.2026;20:01;Bus RE1;8010;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:01;ERB RB67;79315;Bielefeld Hbf;Münster(Westf)Hbf;10;nein;Beelen;Polizeieinsatz, Unbefugte Personen auf der Strecke, Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:01;ERB RE13;20090;Hamm(Westf)Hbf;Venlo;7;nein;Neuss Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:01;ICE 620;620;München Hbf;Dortmund Hbf;8;nein;Siegburg/Bonn;
+07.10.2026;20:01;RB63;14736;Münster(W)Zentrum Nord;Coesfeld(Westf);3;teilweise;Münster Zentrum Nord;Verspätung aus vorheriger Fahrt
+07.10.2026;20:01;RRB RE10;82296;Düsseldorf Hbf;Kleve;3;nein;Geldern;
+07.10.2026;20:02;ERB RE3;89893;Essen Hbf;Hamm(Westf)Hbf;4;nein;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:02;NX RB48;17365;Wuppertal-Oberbarmen;Köln Hbf;4;nein;Köln Messe/Deutz;
+07.10.2026;20:02;RB94;23181;Erndtebrück;Marburg(Lahn);0;nein;Erndtebrück;
+07.10.2026;20:02;RE9;10928;Siegen Hbf;Aachen Hbf;3;nein;Horrem;Verspätung aus vorheriger Fahrt
+07.10.2026;20:02;RRB RE14;89600;Essen Hbf;Bottrop Hbf;1;nein;Essen West;
+07.10.2026;20:02;VIA RB35;52266;Oberhausen Hbf;Gelsenkirchen Hbf;;ja;Oberhausen Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;20:03;HLB RB96;61832;Neunkirchen(Kr Siegen);Betzdorf(Sieg);0;nein;Neunkirchen (Kr Siegen);
+07.10.2026;20:03;NX RE4;26454;Düsseldorf Hbf;Aachen Hbf;14;nein;Aachen Schanz;Vorfahrt eines anderen Zuges
+07.10.2026;20:03;RB53;14960;Iserlohn;Dortmund Hbf;2;nein;Hennen;
+07.10.2026;20:03;RE22;10038;Euskirchen;Köln Messe/Deutz;;nein;Euskirchen;
+07.10.2026;20:03;S11;33142;Düsseldorf Flughafen Terminal;Bergisch Gladbach;9;nein;Norf;Defekt an einem Signal, Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:03;S3;30364;Essen West;Hattingen(Ruhr) Mitte;6;teilweise;Essen West;Defekt an der Strecke
+07.10.2026;20:03;S6;31632;Essen Hbf;Düsseldorf Hbf;2;nein;Kettwig;
+07.10.2026;20:03;S6;56135;Köln-Worringen;Köln-Dellbrück;3;nein;Köln-Buchforst;
+07.10.2026;20:04;RB27;10628;Köln Messe/Deutz;Mönchengladbach Hbf;5;nein;Hochneukirch;
+07.10.2026;20:04;RB51;20282;Dortmund Hbf;Enschede;3;nein;Lünen Preußen;
+07.10.2026;20:04;RRB RB36;82360;Oberhausen Hbf;Duisburg-Ruhrort;1;nein;Duisburg-Obermeiderich;
+07.10.2026;20:04;RTB RB21;90756;Linnich Bhf;Düren;2;nein;Düren;
+07.10.2026;20:04;S11;33134;Düsseldorf Flughafen Terminal;Bergisch Gladbach;12;nein;Duckterath;Defekt an der Strecke, Warten auf einen entgegenkommenden Zug
+07.10.2026;20:04;S5;31568;Dortmund Hbf;Hagen Hbf;4;nein;Hagen Hbf;
+07.10.2026;20:05;Bus RE1;8023;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:05;HLB RE99;15118;Frankfurt(Main)Hbf;Siegen Hbf;10;nein;Siegen Hbf;
+07.10.2026;20:05;NWB RB84;74989;Kreiensen;Paderborn Hbf;6;nein;Paderborn Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:05;NWB RB85;74942;Göttingen;Paderborn Hbf;6;nein;Paderborn Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:05;RB20;30032;Eschweiler-Weisweiler;Stolberg(Rheinl)Hbf Gl.44;2;nein;Aachen Schanz;
+07.10.2026;20:05;RB20;30082;Stolberg-Altstadt;Stolberg(Rheinl)Hbf Gl.44;2;nein;Aachen Schanz;
+07.10.2026;20:05;RTB RB21;90825;Heimbach (Eifel);Düren;0;nein;Düren;
+07.10.2026;20:05;TRI RB37;89429;Krefeld Hbf;Neuss Hbf;1;nein;Krefeld Hbf;
+07.10.2026;20:05;WFB RE15;90296;Münster(Westf)Hbf;Emden Hbf;2;nein;Münster (Westf) Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:06;Bus RE1;8012;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:06;ERB RB59;90346;Soest;Dortmund Hbf;0;nein;Soest;
+07.10.2026;20:06;ICE 645;645;Düsseldorf Hbf;Berlin Gesundbrunnen;19;nein;Hamm (Westf) Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:06;S1;56372;Dortmund Hbf;Essen West;3;teilweise;Essen Hbf;Defekt an der Strecke
+07.10.2026;20:06;VIA RB39;56631;Düsseldorf Hbf;Bedburg(Erft);8;nein;Neuss Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;20:07;Bus RE14;67574;Dorsten;Coesfeld(Westf);2;nein;Lembeck;
+07.10.2026;20:07;Bus RE14;67587;Borken (Westf);Essen Hbf;24;teilweise;Deuten;
+07.10.2026;20:07;NX RE11;26731;Essen Hbf;Kassel-Wilhelmshöhe;3;nein;Hamm (Westf) Hbf;
+07.10.2026;20:07;RB40;30787;Essen Hbf;Hagen Hbf;1;nein;Essen Hbf;
+07.10.2026;20:07;RE42;10158;Münster(Westf)Hbf;Mönchengladbach Hbf;2;nein;Rheinhausen;
+07.10.2026;20:07;VIA RE16;29988;Iserlohn-Letmathe;Iserlohn;1;nein;Letmathe-Dechenhöhle;
+07.10.2026;20:08;Bus RB54;54033;Ardey Bahnhof, Fröndenberg;Bahnhof, Unna;;nein;Fröndenberg-Frömern;
+07.10.2026;20:08;ERB RB59;90347;Dortmund Hbf;Soest;2;nein;Dortmund Signal Iduna Park;Verspätung aus vorheriger Fahrt
+07.10.2026;20:08;HLB RE34;28583;Siegen Hbf;Kirchhundem-Welschen Ennest;0;nein;Siegen Hbf;
+07.10.2026;20:08;ICE 104;104;Zürich HB;Hamburg-Altona;27;nein;Gelsenkirchen Hbf;Technische Störung am Zug
+07.10.2026;20:08;NX RE7;17428;Krefeld Hbf;Rheine;10;nein;Drensteinfurt;Vorfahrt eines anderen Zuges
+07.10.2026;20:08;NX RE7;17435;Rheine;Köln Hbf;18;teilweise;Rheine;
+07.10.2026;20:08;RB52;14681;Dortmund Hbf;Hagen Hbf;6;nein;Hagen Hbf;Warten auf einen entgegenkommenden Zug
+07.10.2026;20:08;RRB RE44;26668;Bottrop Hbf;Moers;15;nein;Moers;Bauarbeiten
+07.10.2026;20:08;RRB S7;90134;Solingen Hbf;Wuppertal Hbf;7;nein;Wuppertal Hbf;Warten auf einen entgegenkommenden Zug
+07.10.2026;20:08;TR RB26;25436;Mainz Hbf;Köln Messe/Deutz;22;nein;Köln Messe/Deutz;
+07.10.2026;20:08;WFB RE60;95787;Rheine;Braunschweig Hbf;8;nein;Minden (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:09;Bus RB31;62037;Xanten;Moers;0;nein;Xanten;
+07.10.2026;20:09;ERB RB69;89992;Bielefeld Hbf;Hamm(Westf)Hbf;22;nein;Ahlen (Westf);Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:09;ERB RB72;90673;Herford;Paderborn Hbf;5;nein;Horn-Bad Meinberg;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;20:09;NX RE4;26434;Dortmund Hbf;Rheydt Hbf;4;nein;Dortmund Hbf;
+07.10.2026;20:09;RB20;30083;Stolberg(Rheinl)Hbf Gl.44;Stolberg-Altstadt;6;nein;Eilendorf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:09;S12;33255;Hennef (Sieg);Horrem;5;nein;Horrem;
+07.10.2026;20:10;Bus RE1;8025;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:10;ERB RB66;90610;Münster(Westf)Hbf;Osnabrück Hbf;1;nein;Westbevern;
+07.10.2026;20:10;ERB RB89;90083;Münster(Westf)Hbf;Paderborn Hbf;15;nein;Paderborn Hbf;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:10;ICE 622;622;München Hbf;Dortmund Hbf;12;nein;Gelsenkirchen Hbf;
+07.10.2026;20:10;RB54;14865;Fröndenberg;Neuenrade;2;nein;Bösperde;
+07.10.2026;20:10;S12;33254;Horrem;Hennef(Sieg);9;nein;Spich;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:10;S23;32398;Bonn Hbf;Euskirchen;;ja;Bonn Hbf;Defekt an der Strecke
+07.10.2026;20:10;S5;31569;Hagen Hbf;Dortmund Hbf;7;nein;Witten-Annen Nord;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:10;S6;56134;Köln-Dellbrück;Köln-Nippes;1;nein;Köln-Holweide;
+07.10.2026;20:10;S9;30958;Recklinghausen Hbf;Hagen Hbf;11;nein;Hagen-Heubing;Defekt an einem Signal
+07.10.2026;20:11;Bus RE1;8014;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:11;ERB RB71;89663;Rahden;Bielefeld Hbf;10;nein;Espelkamp;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:11;NX RE6;89730;Minden(Westf);Köln/Bonn Flughafen;51;nein;Köln/Bonn Flughafen;Defekt an der Strecke, Vorfahrt eines anderen Zuges
+07.10.2026;20:11;S6;31625;Düsseldorf Hbf;Essen Hbf;2;nein;Düsseldorf-Rath;
+07.10.2026;20:11;S9;30963;Wuppertal Hbf;Haltern am See;23;nein;Gelsenkirchen-Buer Nord;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:11;VIA RB46;31478;Bochum Hbf;Gelsenkirchen Hbf;2;nein;Gelsenkirchen Hbf;
+07.10.2026;20:12;S8;31825;Mönchengladbach Hbf;Hagen Hbf;11;nein;Wuppertal-Oberbarmen;
+07.10.2026;20:12;VIA RE19;20037;Arnhem Centraal;Düsseldorf Hbf;28;nein;Praest;Außerplanmäßige Geschwindigkeitsbeschränkung, Vorfahrt eines anderen Zuges
+07.10.2026;20:13;NX RE11;26733;Essen Hbf;Kassel-Wilhelmshöhe;40;teilweise;Essen Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;20:13;S11;33139;Bergisch Gladbach;Neuss Hbf;11;nein;Bergisch Gladbach;Verspätung aus vorheriger Fahrt
+07.10.2026;20:14;Bus S28;2188;Mettmann Stadtwald;Düsseldorf Hbf;3;nein;Düsseldorf Hbf;
+07.10.2026;20:14;ERB RB67;79317;Bielefeld Hbf;Münster(Westf)Hbf;8;nein;Bielefeld-Brackwede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:14;ERB RE13;20091;Venlo;Hamm(Westf)Hbf;6;nein;Holzwickede;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges, Defekt an einer Weiche
+07.10.2026;20:14;NWB RB84;74991;Kreiensen;Paderborn Hbf;25;nein;Höxter-Godelheim;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:14;RB20;30033;Stolberg(Rheinl)Hbf Gl.44;Eschweiler-Weisweiler;7;nein;Stolberg (Rheinl) Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:14;RB64;20230;Münster(Westf)Hbf;Enschede;4;nein;Münster Zentrum Nord;
+07.10.2026;20:14;RE42;10160;Münster(Westf)Hbf;Essen Hbf;7;nein;Essen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:14;S1;31178;Duisburg Hbf;Solingen Hbf;3;nein;Düsseldorf-Unterrath;
+07.10.2026;20:14;S2;30266;Essen Hbf;Dortmund Hbf;11;nein;Herne;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:14;VIA RB91;31375;Lennestadt-Altenhundem;Hagen Hbf;7;teilweise;Lennestadt-Altenhundem;Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;20:15;Bus RE1;8027;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:15;ERB RB73;90253;Bielefeld Hbf;Lemgo-Lüttfeld;7;nein;Bielefeld Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:15;NX RE6;89733;Köln/Bonn Flughafen;Minden(Westf);23;nein;Hamm (Westf) Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:15;RE22;10043;Köln Messe/Deutz;Kall;2;nein;Köln Messe/Deutz;
+07.10.2026;20:15;S23;32401;Bad Münstereifel;Bonn Hbf;6;nein;Euskirchen-Kreuzweingarten;
+07.10.2026;20:15;VIA RB35;52268;Mönchengladbach Hbf;Duisburg Hbf;1;nein;Viersen;
+07.10.2026;20:16;Bus RB31;62032;Moers;Xanten;4;nein;Alpen;
+07.10.2026;20:16;Bus RE1;8016;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:16;VIA RB46;26799;Gelsenkirchen Hbf;Bochum Hbf;0;nein;Gelsenkirchen Hbf;
+07.10.2026;20:17;RE57;10772;Winterberg(Westf);Dortmund Hbf;8;nein;Dortmund Hbf;Außerplanmäßige Geschwindigkeitsbeschränkung
+07.10.2026;20:17;RE57;10988;Warburg(Westf);Dortmund Hbf;8;nein;Dortmund Hbf;Außerplanmäßige Geschwindigkeitsbeschränkung
+07.10.2026;20:17;S19;52807;Troisdorf;Düren;8;nein;Düren;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:18;ICE 19;19;Bruxelles Midi;Frankfurt(Main)Hbf;20;nein;Köln Hbf;
+07.10.2026;20:18;R S28;91663;Wuppertal Hbf;Mettmann Stadtwald;5;nein;Wuppertal Zoologischer Garten;
+07.10.2026;20:18;RB25;10570;Köln Hansaring;Lüdenscheid;29;teilweise;Lüdenscheid Brügge (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:18;RRB S7;90138;Solingen Hbf;Wuppertal Hbf;12;nein;Wuppertal-Oberbarmen;
+07.10.2026;20:18;S6;56132;Köln-Dellbrück;Köln-Worringen;5;nein;Köln-Chorweiler;
+07.10.2026;20:19;Bus EV;93892;Aue-Wingeshausen;Bad Berleburg;0;nein;Aue-Wingeshausen;
+07.10.2026;20:19;ERB RB65;52353;Rheine;Münster(Westf)Hbf;3;nein;Münster Zentrum Nord;
+07.10.2026;20:19;RE8;10835;Mönchengladbach Hbf;Köln Messe/Deutz;6;nein;Hochneukirch;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:19;RRB RE44;26671;Moers;Bottrop Hbf;11;nein;Oberhausen-Osterfeld Süd;Verspätung aus vorheriger Fahrt
+07.10.2026;20:20;Bus RE1;8029;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:20;ERB RE82;79366;Bielefeld Hbf;Altenbeken;8;nein;Detmold;Längere Haltezeit am Bahnhof, Verspätung aus vorheriger Fahrt
+07.10.2026;20:20;ICE 10;10;Frankfurt(Main)Hbf;Bruxelles Midi;13;nein;Aachen Hbf;
+07.10.2026;20:20;NWB RB75;75180;Osnabrück Hbf;Bielefeld Hbf;16;nein;Halle (Westf.) OWL-Arena;Warten auf einen entgegenkommenden Zug
+07.10.2026;20:20;NX RE7;17429;Rheine;Krefeld Hbf;20;nein;Krefeld-Oppum;Defekt an der Strecke, Verspätete Bereitstellung
+07.10.2026;20:20;RB20;30530;Langerwehe;Alsdorf-Annapark;6;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;20:20;RB20;30580;Stolberg-Altstadt;Alsdorf-Annapark;6;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;20:20;RB32;31273;Dortmund Hbf;Oberhausen Hbf;6;nein;Oberhausen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:20;RRB RB36;82361;Duisburg-Ruhrort;Oberhausen Hbf;1;nein;Duisburg-Meiderich Süd;
+07.10.2026;20:20;RTB RB21;90826;Düren;Heimbach (Eifel);1;nein;Düren;
+07.10.2026;20:20;RTB RB28;90877;Düren;Euskirchen;1;nein;Düren;
+07.10.2026;20:20;S2;30267;Dortmund Hbf;Recklinghausen Hbf;8;nein;Recklinghausen Süd;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:20;S9;30964;Haltern am See;Wuppertal Hbf;48;teilweise;Essen Hbf;Unbefugte Personen auf der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:20;VIA RB39;56672;Grevenbroich;Neuss Hbf;6;nein;Neuss Hbf;
+07.10.2026;20:21;Bus RE1;8018;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:21;Bus RE14;67600;Bottrop Hbf;Dorsten;0;nein;Bottrop Hbf;
+07.10.2026;20:21;Bus S28;2203;Düsseldorf Hbf;Mettmann Stadtwald;4;nein;Düsseldorf-Flingern;
+07.10.2026;20:21;RB38;10098;Horrem;Bedburg (Erft);1;nein;Quadrath-Ichendorf;
+07.10.2026;20:21;RTB RB21;90759;Düren;Linnich Bhf;0;nein;Düren;
+07.10.2026;20:22;NWB RB58;75268;Bremen Hbf;Osnabrück Hbf;23;nein;Halen;Warten auf einen entgegenkommenden Zug, Vorfahrt eines anderen Zuges
+07.10.2026;20:22;RB38;10099;Bedburg (Erft);Horrem;1;nein;Zieverich;
+07.10.2026;20:22;RE41;16242;Haltern am See;Bochum Hbf;9;nein;Marl-Sinsen;
+07.10.2026;20:22;RRB RB31;26075;Moers;Duisburg Hbf;2;nein;Rheinhausen;
+07.10.2026;20:22;S1;56375;Essen West;Dortmund Hbf;41;ja;Essen West;Unbefugte Personen auf der Strecke, Defekt an der Strecke
+07.10.2026;20:22;S23;32399;Euskirchen;Bonn Hbf;3;nein;Rheinbach Römerkanal;
+07.10.2026;20:22;S4;30497;Unna;Dortmund-Lütgendortmund;2;nein;Massen;
+07.10.2026;20:22;S4;30498;Dortmund-Lütgendortmund;Unna;2;nein;Dortmund-Körne West;
+07.10.2026;20:22;S41;5019;Hergenrath;Aachen Hbf;4;nein;Aachen Hbf;
+07.10.2026;20:23;Bus EV;93895;Bad Berleburg;Aue-Wingeshausen;0;nein;Bad Berleburg;
+07.10.2026;20:23;HLB RB95;28776;Dillenburg;Siegen Hbf;2;nein;Siegen Hbf;Außerplanmäßige Geschwindigkeitsbeschränkung
+07.10.2026;20:23;RB RE22;10040;Trier Hbf;Kall;8;nein;Schmidtheim;Warten auf einen entgegenkommenden Zug
+07.10.2026;20:23;RB52;14680;Hagen Hbf;Dortmund Hbf;9;nein;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:23;RB52;33830;Lüdenscheid;Rummenohl;1;nein;Dahlerbrück;
+07.10.2026;20:23;SBH S1;34136;Hannover Hbf;Minden (Westf);0;nein;Minden (Westf);
+07.10.2026;20:24;NWB RB84;74990;Paderborn Hbf;Holzminden;9;nein;Brakel (Kr Höxter);Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:24;NX RE1;26832;Hamm(Westf)Hbf;Aachen Hbf;12;nein;Duisburg Hbf;
+07.10.2026;20:24;NX RE11;26729;Essen Hbf;Kassel-Wilhelmshöhe;5;nein;Warburg (Westf);
+07.10.2026;20:24;RE41;16243;Bochum Hbf;Haltern am See;7;nein;Recklinghausen Süd;
+07.10.2026;20:24;RRB RE10;82307;Kleve;Krefeld Hbf;1;nein;Kleve;
+07.10.2026;20:24;S12;33271;Au (Sieg);Köln-Ehrenfeld;2;nein;Rosbach (Sieg);
+07.10.2026;20:24;VIA RB91;21442;Kirchhundem-Welschen Ennest;Siegen Hbf;2;nein;Siegen-Geisweid;
+07.10.2026;20:25;Bus RE1;8031;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:25;ERB RE13;20092;Hamm(Westf)Hbf;Mönchengladbach Hbf;11;nein;Wuppertal Hbf;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:25;RB20;32830;Düren;Eschweiler-Weisweiler;1;nein;Langerwehe;
+07.10.2026;20:25;VIA RB34;90526;Dalheim;Mönchengladbach Hbf;8;nein;Mönchengladbach Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;20:25;VIA RE19;77035;Bocholt;Düsseldorf Hbf;14;nein;Düsseldorf Flughafen;Warten auf einen entgegenkommenden Zug
+07.10.2026;20:26;Bus RE1;8020;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:26;ICE 243;243;Amsterdam Centraal;Hannover Hbf;2;ja;Rheine;Behördliche Maßnahme
+07.10.2026;20:26;RE57;10987;Dortmund Hbf;Bestwig;7;nein;Arnsberg (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:26;S3;30367;Hattingen(Ruhr) Mitte;Essen West;58;teilweise;Essen Hbf;Unbefugte Personen auf der Strecke, Defekt an der Strecke
+07.10.2026;20:27;RRB RB31;26034;Duisburg Hbf;Moers;5;nein;Moers;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:27;SBH S5;34588;Paderborn Hbf;Hannover Flughafen;10;nein;Altenbeken;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:28;ERB RB61;20383;Hengelo;Bielefeld Hbf;2;nein;Ibbenbüren;Defekt an einem Signal
+07.10.2026;20:28;IC 2041;2041;Stuttgart Hbf;Hannover Hbf;49;nein;Dortmund Hbf;Bereitstellung weiterer Wagen, Defekt an der Strecke, Verspätete Bereitstellung
+07.10.2026;20:28;NX RB48;17366;Bonn-Mehlem;Wuppertal-Oberbarmen;10;nein;Köln Messe/Deutz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:28;R S28;77265;Kaarster See;Düsseldorf-Gerresheim;12;nein;Düsseldorf Völklinger Straße;
+07.10.2026;20:28;RB53;14961;Dortmund Hbf;Iserlohn;3;nein;Dortmund Signal Iduna Park;
+07.10.2026;20:28;RRB S7;90145;Wuppertal Hbf;Solingen Hbf;33;teilweise;Solingen Mitte;Defekt an einem Signal
+07.10.2026;20:28;S6;56141;Köln-Worringen;Köln-Dellbrück;5;nein;Köln-Geldernstr./Parkgürtel;
+07.10.2026;20:29;ERB RE3;89896;Hamm(Westf)Hbf;Essen Hbf;62;nein;Essen Hbf;Streckensperrung, Defekt an der Strecke
+07.10.2026;20:29;RB38;10282;Köln Messe/Deutz;Bedburg(Erft);6;nein;Köln Hbf;Defekt an einem Signal
+07.10.2026;20:29;RE17;10736;Brilon Wald;Hagen Hbf;9;nein;Schwerte (Ruhr);Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:29;WFB RE15;90295;Emden Hbf;Münster(Westf)Hbf;3;nein;Rheine;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:30;Bus RE1;8033;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:30;Bus S28;2194;Mettmann Stadtwald;Düsseldorf Hbf;0;nein;Düsseldorf-Gerresheim;
+07.10.2026;20:30;NWB RB74;75080;Paderborn Hbf;Bielefeld Hbf;2;nein;Paderborn Nord;
+07.10.2026;20:30;NWB RB75;75181;Bielefeld Hbf;Osnabrück Hbf;10;nein;Halle (Westf);Vorfahrt eines anderen Zuges
+07.10.2026;20:30;RB25;10574;Köln Hansaring;Lüdenscheid;16;nein;Dieringhausen;
+07.10.2026;20:30;RB25;10576;Rösrath;Gummersbach;8;nein;Overath;
+07.10.2026;20:30;RE17;10737;Hagen Hbf;Bigge;7;nein;Bigge;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:30;RE18;18966;Aachen Hbf;Eygelshoven Markt;7;nein;Herzogenrath;
+07.10.2026;20:30;RRB RE14;89583;Bottrop Hbf;Essen Hbf;15;nein;Essen Hbf;
+07.10.2026;20:30;RRB S7;90147;Wuppertal Hbf;Solingen Hbf;35;nein;Wuppertal-Ronsdorf;Defekt an einem Signal, Warten auf einen entgegenkommenden Zug
+07.10.2026;20:30;S5;31572;Dortmund Hbf;Hagen Hbf;2;nein;Dortmund Hbf;
+07.10.2026;20:30;S6;56136;Köln-Dellbrück;Köln-Nippes;4;nein;Köln-Holweide;
+07.10.2026;20:30;S6;56139;Köln-Worringen;Köln-Dellbrück;3;nein;Köln-Holweide;
+07.10.2026;20:31;Bus RE1;8022;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:31;RE42;10161;Essen Hbf;Münster(Westf)Hbf;10;nein;Buldern;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:32;ERB RB67;79314;Münster (Westf) Hbf;Bielefeld Hbf;6;nein;Telgte;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:32;HLB RB90;61624;Limburg(Lahn);Siegen Hbf;4;nein;Siegen Hbf;
+07.10.2026;20:32;HLB RB90;61629;Siegen Hbf;Westerburg;11;nein;Eiserfeld (Sieg);Vorfahrt eines anderen Zuges
+07.10.2026;20:32;HLB RE34;28582;Kirchhundem-Welschen Ennest;Siegen Hbf;0;nein;Kirchhundem-Welschen Ennest;
+07.10.2026;20:32;RB25;10583;Lüdenscheid;Köln Hansaring;17;teilweise;Lüdenscheid;Technische Störung am Zug, Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:32;RRB RB31;26035;Moers;Duisburg Hbf;2;nein;Trompet;
+07.10.2026;20:33;ERB RB72;90680;Paderborn Hbf;Herford;8;nein;Altenbeken;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:33;ICE 26;26;Nürnberg Hbf;Dortmund Hbf;28;nein;Düsseldorf Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;20:33;NWB RB58;75275;Osnabrück Hbf;Delmenhorst;2;nein;Halen;Vorfahrt eines anderen Zuges
+07.10.2026;20:33;S11;33143;Bergisch Gladbach;Dormagen;;ja;Bergisch Gladbach;Defekt an der Strecke
+07.10.2026;20:33;S12;33263;Hennef (Sieg);Köln Hansaring;2;nein;Porz (Rhein);
+07.10.2026;20:33;S3;30366;Essen West;Hattingen(Ruhr) Mitte;27;teilweise;Essen West;Unbefugte Personen auf der Strecke, Defekt an der Strecke
+07.10.2026;20:33;SBH S5;34575;Hannover Flughafen;Paderborn Hbf;4;nein;Altenbeken;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:33;VIA RE16;31328;Essen Hbf;Iserlohn;11;nein;Letmathe-Dechenhöhle;Vorfahrt eines anderen Zuges
+07.10.2026;20:34;ERB RB71;89662;Bielefeld Hbf;Rahden;10;nein;Lübbecke (Westf);Bauarbeiten, Außerplanmäßige Geschwindigkeitsbeschränkung, Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:34;HLB RB96;61834;Dillenburg;Betzdorf(Sieg);4;nein;Niederdresselndorf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:34;RB24;10444;Kall;Köln Messe/Deutz;2;nein;Großbüllesheim;
+07.10.2026;20:34;RB52;33831;Rummenohl;Lüdenscheid;3;nein;Dahlerbrück;
+07.10.2026;20:34;RE57;14695;Messinghausen;Warburg(Westf);2;nein;Beringhausen;
+07.10.2026;20:34;RE8;10834;Köln Messe/Deutz;Mönchengladbach Hbf;5;nein;Jüchen;
+07.10.2026;20:34;RE9;10930;Siegen Hbf;Aachen Hbf;4;nein;Köln Messe/Deutz;
+07.10.2026;20:34;RRB RB36;82362;Oberhausen Hbf;Duisburg-Ruhrort;2;nein;Duisburg-Obermeiderich;
+07.10.2026;20:35;Bus RE1;8035;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:35;HLB RB90;61626;Limburg(Lahn);Siegen Hbf;4;nein;Geilhausen;
+07.10.2026;20:35;S6;31634;Essen Hbf;Düsseldorf Hbf;2;nein;Kettwig Stausee;
+07.10.2026;20:35;SBH S1;34141;Minden (Westf);Hannover Hbf;0;nein;Minden (Westf);
+07.10.2026;20:35;VIA RB46;26798;Bochum Hbf;Gelsenkirchen Hbf;5;nein;Herne-Wanne-Eickel Hbf;
+07.10.2026;20:36;Bus RE1;8024;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:36;NX RE4;26432;Dortmund Hbf;Aachen Hbf;7;teilweise;Neuss Hbf;
+07.10.2026;20:36;RB54;14868;Neuenrade;Fröndenberg;2;nein;Menden (Sauerland) Süd;
+07.10.2026;20:36;RB77;14583;Herford;Elze(Han);1;nein;Herford;
+07.10.2026;20:36;S1;56374;Dortmund Hbf;Essen West;52;teilweise;Essen Hbf;Unbefugte Personen auf der Strecke, Defekt an der Strecke
+07.10.2026;20:37;ERB RB66;90611;Osnabrück Hbf;Münster(Westf)Hbf;1;nein;Kattenvenne;
+07.10.2026;20:37;ERB RB67;79312;Münster (Westf) Hbf;Bielefeld Hbf;11;nein;Isselhorst-Avenwedde;Verspätete Bereitstellung
+07.10.2026;20:37;NX RE4;26430;Dortmund Hbf;Aachen Hbf;8;nein;Aachen Hbf;
+07.10.2026;20:37;RB RE22;10041;Kall;Gerolstein;2;nein;Schmidtheim;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:37;RB32;31274;Oberhausen Hbf;Dortmund Hbf;8;nein;Essen-Dellwig;
+07.10.2026;20:37;S41;5041;Aachen Hbf;Hergenrath;2;nein;Aachen Hbf;
+07.10.2026;20:38;ERB RB73;90254;Lemgo-Lüttfeld;Bielefeld Hbf;14;nein;Oldentrup;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;20:38;RB27;10637;Mönchengladbach Hbf;Köln Messe/Deutz;6;nein;Köln Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:38;RE62;11515;Rheine;Löhne(Westf);1;nein;Löhne (Westf);
+07.10.2026;20:38;S11;33131;Bergisch Gladbach;Düsseldorf Flughafen Terminal;20;teilweise;Neuss Am Kaiser;Ärztliche Versorgung eines Fahrgastes, Defekt an einem Signal, Defekt an der Strecke
+07.10.2026;20:38;S12;33261;Au (Sieg);Köln-Müngersdorf Technologiepark;3;nein;Köln-Ehrenfeld;
+07.10.2026;20:38;S2;30268;Recklinghausen Hbf;Dortmund Hbf;7;nein;Recklinghausen Süd;
+07.10.2026;20:39;ERB RE3;89895;Essen Hbf;Dortmund Hbf;56;nein;Essen Hbf;Vorfahrt eines anderen Zuges, Behördliche Maßnahme
+07.10.2026;20:39;NX RE1;26831;Aachen Hbf;Hamm(Westf)Hbf;14;nein;Hamm (Westf) Hbf;
+07.10.2026;20:39;RB20;30585;Alsdorf-Annapark;Stolberg-Altstadt;6;nein;Eilendorf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:39;S6;31631;Düsseldorf Hbf;Essen Hbf;2;nein;Düsseldorf-Rath Mitte;
+07.10.2026;20:39;VIA RB35;52239;Gelsenkirchen Hbf;Duisburg Hbf;15;nein;Gelsenkirchen Hbf;Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;20:40;Bus RE1;8037;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:40;ERB RB50;89949;Münster(Westf)Hbf;Dortmund Hbf;7;nein;Münster-Amelsbüren;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:40;RB33;10390;Aachen Hbf;Heinsberg(Rheinl);5;nein;Aachen Schanz;
+07.10.2026;20:40;RE2;10233;Essen Hbf;Osnabrück Hbf;;ja;Essen Hbf;Technische Störung am Zug
+07.10.2026;20:40;S19;32032;Sindorf;Troisdorf;2;nein;Porz-Wahn;
+07.10.2026;20:40;S19;32033;Blankenberg (Sieg);Sindorf;2;nein;Horrem;
+07.10.2026;20:40;S8;31827;Mönchengladbach Hbf;Wuppertal-Oberbarmen;15;nein;Wuppertal-Oberbarmen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:41;Bus RE1;8026;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:41;RB20;32831;Eschweiler-Weisweiler;Düren;10;nein;Düren;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:41;RB43;14782;Dorsten;Dortmund Hbf;8;nein;Herne-Wanne-Eickel Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:41;S9;30967;Wuppertal Hbf;Haltern am See;52;teilweise;Essen Hbf;Unbefugte Personen auf der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:42;RE18;18965;Eygelshoven Markt;Aachen Hbf;7;nein;Aachen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:42;RE22;10040;Kall;Köln Messe/Deutz;5;nein;Kall;Warten auf einen entgegenkommenden Zug
+07.10.2026;20:42;RE42;10167;Mönchengladbach Hbf;Haltern am See;1;nein;Krefeld Hbf;
+07.10.2026;20:42;S4;31400;Dortmund-Lütgendortmund;Unna;2;nein;Dortmund-Dorstfeld;
+07.10.2026;20:43;Bus RE14;67580;Dorsten;Coesfeld(Westf);0;nein;Dorsten;
+07.10.2026;20:43;ERB RB50;89948;Dortmund Hbf;Münster(Westf)Hbf;34;nein;Dortmund-Derne;Verspätung aus vorheriger Fahrt
+07.10.2026;20:43;ICE 742;742;Hannover Hbf;Münster(Westf)Hbf;30;nein;Bünde (Westf);Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;20:43;R S28;91670;Wuppertal Hbf;Mettmann Stadtwald;0;nein;Wuppertal Hbf;
+07.10.2026;20:43;RB40;30788;Hagen Hbf;Essen Hbf;24;teilweise;Bochum Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;20:43;RB63;14735;Coesfeld(Westf);Münster(Westf)Hbf;4;nein;Münster-Mecklenbeck;Warten auf einen entgegenkommenden Zug
+07.10.2026;20:43;RRB RE14;89582;Essen Hbf;Bottrop Hbf;9;nein;Bottrop Hbf;
+07.10.2026;20:43;RRB RE44;26670;Bottrop Hbf;Oberhausen Hbf;10;nein;Oberhausen Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;20:43;VIA RE16;31335;Iserlohn;Hagen Hbf;4;nein;Hagen Hbf;
+07.10.2026;20:44;HLB RB93;61893;Aue-Wingeshausen;Siegen Hbf;13;nein;Ferndorf (Kr Siegen);Warten auf einen entgegenkommenden Zug, Verspätung aus vorheriger Fahrt
+07.10.2026;20:44;RB64;20227;Enschede;Münster(Westf)Hbf;5;nein;Münster (Westf) Hbf;
+07.10.2026;20:45;Bus RE1;8039;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:45;R S28;77267;Kaarster See;Neuss Hbf;4;nein;Neuss Hbf;
+07.10.2026;20:45;R S28;91725;Mettmann Stadtwald;Wuppertal Hbf;5;nein;Wuppertal-Steinbeck;
+07.10.2026;20:45;RRB RE10;82298;Düsseldorf Hbf;Kleve;29;nein;Weeze;Defekt an einem Signal, Warten auf einen entgegenkommenden Zug
+07.10.2026;20:45;S9;30965;Hagen Hbf;Recklinghausen Hbf;15;nein;Herten-Westerholt;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:46;Bus RE1;8028;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:46;Bus S28;2207;Düsseldorf Hbf;Mettmann Stadtwald;0;nein;Düsseldorf Hbf;
+07.10.2026;20:46;HLB RB93;61895;Aue-Wingeshausen;Erndtebrück;0;nein;Aue-Wingeshausen;
+07.10.2026;20:46;R S28;77290;Düsseldorf-Gerresheim;Kaarster See;4;nein;Neuss Hbf;
+07.10.2026;20:46;S5;31571;Witten Hbf;Dortmund Hbf;1;nein;Dortmund-Barop;
+07.10.2026;20:46;VIA RB46;31481;Gelsenkirchen Hbf;Bochum Hbf;2;nein;Gelsenkirchen Hbf;
+07.10.2026;20:47;ERB RB61;20384;Bielefeld Hbf;Hengelo;4;nein;Bünde (Westf);Warten auf Anschlussreisende, Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:47;ICE 823;823;Düsseldorf Hbf;Frankfurt(Main)Hbf;10;nein;Siegburg/Bonn;
+07.10.2026;20:47;ICE 947;947;Düsseldorf Hbf;Berlin Gesundbrunnen;7;nein;Dortmund Hbf;
+07.10.2026;20:47;RRB S7;90140;Solingen Hbf;Wuppertal Hbf;11;nein;Wuppertal Hbf;Defekt an einem Signal, Vorfahrt eines anderen Zuges
+07.10.2026;20:48;S3;30369;Hattingen(Ruhr) Mitte;Essen Hbf;4;teilweise;Essen-Steele Ost;Unbefugte Personen auf der Strecke
+07.10.2026;20:48;WFB RE70;95837;Bielefeld Hbf;Braunschweig Hbf;7;nein;Löhne (Westf);Verspätung eines vorausfahrenden Zuges, Verzögerungen im Betriebsablauf
+07.10.2026;20:49;Bus RB54;54032;Bahnhof, Unna;Ardey Bahnhof, Fröndenberg;;nein;Fröndenberg-Frömern;
+07.10.2026;20:49;ERB RE82;79368;Bielefeld Hbf;Altenbeken;12;nein;Bielefeld Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;20:49;RE47;89345;Remscheid-Lennep;Düsseldorf Hbf;2;nein;Solingen Mitte;
+07.10.2026;20:49;VIA RE19;20034;Düsseldorf Hbf;Arnhem Centraal;32;nein;Emmerich;Warten auf Anschlussreisende, Vorfahrt eines anderen Zuges, Verzögerungen im Betriebsablauf
+07.10.2026;20:50;Bus RE1;8041;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:50;NX RE4;26431;Aachen Hbf;Dortmund Hbf;17;nein;Dortmund Hbf;Defekt an der Strecke
+07.10.2026;20:50;RB53;14962;Iserlohn;Dortmund Hbf;1;nein;Iserlohn;
+07.10.2026;20:50;RRB RE10;82305;Kleve;Düsseldorf Hbf;11;nein;Düsseldorf-Bilk;Verspätung eines vorausfahrenden Zuges, Warten auf einen entgegenkommenden Zug
+07.10.2026;20:50;S6;56140;Köln-Dellbrück;Köln-Nippes;1;nein;Köln-Holweide;
+07.10.2026;20:50;TRI RB37;89428;Neuss Hbf;Krefeld Hbf;3;nein;Krefeld-Oppum;
+07.10.2026;20:51;Bus RE1;8030;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:51;Bus S28;4206;Neuss Hbf;Kaarster See;0;nein;Neuss Hbf;
+07.10.2026;20:51;ERB RB89;90037;Münster(Westf)Hbf;Paderborn Hbf;5;nein;Hamm-Westtünnen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:51;FLX 30;1328;Berlin Hbf;Köln Hbf;17;nein;Gelsenkirchen Hbf;
+07.10.2026;20:51;RB52;14682;Hagen Hbf;Dortmund Hbf;2;nein;Hagen Hbf;
+07.10.2026;20:51;RB54;14867;Fröndenberg;Menden(Sauerland);2;nein;Bösperde;
+07.10.2026;20:51;RE17;10739;Hagen Hbf;Bestwig;3;nein;Arnsberg-Neheim-Hüsten;
+07.10.2026;20:51;RE9;10929;Aachen Hbf;Siegen Hbf;20;nein;Siegen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:51;S1;31180;Duisburg Hbf;Solingen Hbf;13;nein;Düsseldorf Wehrhahn;
+07.10.2026;20:51;VIA RB35;32929;Duisburg-Hochfeld Süd;Mönchengladbach Hbf;4;nein;Mönchengladbach Hbf;
+07.10.2026;20:52;ERB RB89;90034;Paderborn Hbf;Münster(Westf)Hbf;8;nein;Münster (Westf) Hbf;Defekt an der Strecke
+07.10.2026;20:52;HLB RE99;15145;Siegen Hbf;Gießen;12;nein;Siegen Hbf;
+07.10.2026;20:52;RE57;10742;Warburg(Westf);Messinghausen;0;nein;Warburg (Westf);
+07.10.2026;20:52;RRB S7;90144;Solingen Hbf;Wuppertal Hbf;19;teilweise;Solingen Hbf;Defekt an einem Signal
+07.10.2026;20:52;S1;56377;Essen West;Dortmund Hbf;40;teilweise;Essen West;Unbefugte Personen auf der Strecke, Defekt an der Strecke
+07.10.2026;20:52;S4;30499;Unna;Dortmund-Lütgendortmund;1;nein;Massen;
+07.10.2026;20:52;WFB RE70;95836;Braunschweig Hbf;Bielefeld Hbf;47;nein;Minden (Westf);
+07.10.2026;20:53;IC 2442;2442;Dresden Hbf;Frankfurt(Main)Hbf;21;nein;Köln Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:53;RRB RE10;82302;Düsseldorf Hbf;Kleve;9;nein;Meerbusch-Osterath;Warten auf einen entgegenkommenden Zug, Vorfahrt eines anderen Zuges
+07.10.2026;20:53;S11;33145;Bergisch Gladbach;Neuss Hbf;4;nein;Bergisch Gladbach;
+07.10.2026;20:54;HLB RB90;61732;Betzdorf(Sieg);Siegen Hbf;14;nein;Niederschelden Nord Hp;Vorfahrt eines anderen Zuges
+07.10.2026;20:54;NWB RB74;75081;Bielefeld Hbf;Paderborn Hbf;4;nein;Bielefeld-Windelsbleiche;Vorfahrt eines anderen Zuges
+07.10.2026;20:54;S1;31187;Solingen Hbf;Duisburg Hbf;2;nein;Duisburg-Rahm;
+07.10.2026;20:54;S2;30269;Dortmund Hbf;Essen Hbf;7;teilweise;Gelsenkirchen Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;20:54;S8;31830;Hagen Hbf;Mönchengladbach Hbf;8;nein;Wuppertal-Unterbarmen;
+07.10.2026;20:54;TR RB26;25438;Mainz Hbf;Köln Messe/Deutz;15;nein;Köln Süd;
+07.10.2026;20:55;Bus RE1;8043;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;20:55;ERB RB65;52352;Münster(Westf)Hbf;Rheine;3;nein;Emsdetten;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:55;RB64;20229;Enschede;Münster(Westf)Hbf;3;nein;Ochtrup;
+07.10.2026;20:55;VIA RB34;90527;Mönchengladbach Hbf;Dalheim;9;nein;Dalheim;Verspätung aus vorheriger Fahrt
+07.10.2026;20:55;VIA RE19;20036;Düsseldorf Hbf;Arnhem Centraal;4;nein;Oberhausen-Sterkrade;
+07.10.2026;20:56;Bus RE1;8032;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;20:56;Bus RE14;67578;Bottrop Hbf;Borken(Westf);2;teilweise;Deuten;
+07.10.2026;20:56;HLB RB95;28697;Siegen Hbf;Dillenburg;13;nein;Siegen Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;20:56;NX RE5;28531;Wesel;Koblenz Hbf;9;nein;Bonn Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;20:56;RB33;10391;Heinsberg(Rheinl);Aachen Hbf;7;nein;Lindern;
+07.10.2026;20:56;S1;31189;Solingen Hbf;Duisburg Hbf;2;nein;Düsseldorf-Eller;
+07.10.2026;20:57;ERB RB65;52355;Rheine;Münster(Westf)Hbf;2;nein;Rheine-Mesum;
+07.10.2026;20:57;NX RE6;89734;Minden(Westf);Köln/Bonn Flughafen;38;nein;Düsseldorf Flughafen;Polizeieinsatz, Defekt an der Strecke
+07.10.2026;20:57;RB43;14783;Dortmund Hbf;Dorsten;8;nein;Castrop-Rauxel Süd;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:58;ERB RB69;89995;Hamm(Westf)Hbf;Bielefeld Hbf;6;nein;Ahlen (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:58;RE42;10163;Mönchengladbach Hbf;Münster(Westf)Hbf;9;nein;Dülmen;Vorfahrt eines anderen Zuges
+07.10.2026;20:59;ERB RB69;89994;Bielefeld Hbf;Hamm(Westf)Hbf;12;nein;Ahlen (Westf);Defekt an der Strecke
+07.10.2026;20:59;RE8;10836;Köln Messe/Deutz;Rommerskirchen;10;nein;Köln Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;20:59;RE9;10932;Siegen Hbf;Aachen Hbf;7;nein;Eitorf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:00;Bus EV;92928;Finnentrop;Olpe;0;nein;Finnentrop;
+07.10.2026;21:00;Bus RE1;8045;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;21:00;Bus S28;2198;Mettmann Stadtwald;Düsseldorf Hbf;0;nein;Düsseldorf-Gerresheim;
+07.10.2026;21:00;RB51;20279;Enschede;Dortmund Hbf;4;nein;Dortmund-Kirchderne;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:00;RB54;14870;Menden(Sauerland);Fröndenberg;0;nein;Menden (Sauerland);
+07.10.2026;21:00;RE47;89336;Düsseldorf Hbf;Remscheid-Lennep;10;nein;Solingen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:00;S5;31574;Dortmund Hbf;Witten Hbf;0;nein;Dortmund Hbf;
+07.10.2026;21:00;VIA RB39;56630;Bedburg (Erft);Düsseldorf Hbf;11;nein;Düsseldorf-Bilk;
+07.10.2026;21:00;VIA RB91;31364;Hagen Hbf;Lennestadt-Altenhundem;4;teilweise;Iserlohn-Letmathe;
+07.10.2026;21:01;Bus EV;92943;Olpe;Finnentrop;0;nein;Olpe;
+07.10.2026;21:01;Bus RE1;8034;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;21:02;HLB RB93;61896;Siegen Hbf;Aue-Wingeshausen;16;nein;Lützel;Verspätung aus vorheriger Fahrt
+07.10.2026;21:03;ERB RB59;90349;Dortmund Hbf;Soest;0;nein;Dortmund Hbf;
+07.10.2026;21:03;RB52;33832;Lüdenscheid;Rummenohl;1;nein;Lüdenscheid;
+07.10.2026;21:03;S11;33146;Düsseldorf Flughafen Terminal;Bergisch Gladbach;4;nein;Norf;
+07.10.2026;21:03;VIA RB91;31377;Siegen Hbf;Welschen Ennest;1;nein;Kirchhundem-Welschen Ennest;
+07.10.2026;21:04;HLB RE99;15150;Gießen;Siegen Hbf;10;nein;Siegen Hbf;
+07.10.2026;21:04;NWB RB85;74948;Göttingen;Höxter-Ottbergen;6;nein;Beverungen-Wehrden;Vorfahrt eines anderen Zuges
+07.10.2026;21:04;RB51;20284;Dortmund Hbf;Enschede;3;nein;Lünen Preußen;
+07.10.2026;21:04;RTB RB21;90758;Linnich Bhf;Düren;0;nein;Düren;
+07.10.2026;21:05;ERB RB71;89664;Bielefeld Hbf;Rahden;5;nein;Hiddenhausen-Schweicheln;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:05;ICE 102;102;Zürich HB;Köln Hbf;4;nein;Köln Hbf;
+07.10.2026;21:05;NJ 40421;40421;Amsterdam Centraal;Wien Hbf;15;nein;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:05;NJ 421;421;Amsterdam Centraal;Innsbruck Hbf;15;nein;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:05;NWB RB85;74944;Göttingen;Paderborn Hbf;22;nein;Paderborn Hbf;
+07.10.2026;21:05;NX RB48;17369;Wuppertal-Oberbarmen;Köln Hbf;9;nein;Köln Hbf;
+07.10.2026;21:05;RB20;30034;Eschweiler-Weisweiler;Stolberg(Rheinl)Hbf Gl.44;6;nein;Aachen Schanz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:05;RB20;30084;Stolberg-Altstadt;Stolberg(Rheinl)Hbf Gl.44;6;nein;Aachen Schanz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:05;RB77;14580;Hildesheim Hbf;Herford;1;nein;Bad Oeynhausen Süd;
+07.10.2026;21:05;RTB RB21;90827;Heimbach (Eifel);Düren;1;nein;Düren;
+07.10.2026;21:05;S1;56376;Dortmund Hbf;Essen Hbf;32;nein;Essen Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;21:06;Bus RB31;62034;Moers;Xanten;1;nein;Millingen;
+07.10.2026;21:06;Bus RE1;8036;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;21:06;ERB RE13;20095;Venlo;Düsseldorf Hbf;10;nein;Düsseldorf-Bilk;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;21:06;HLB RB96;61837;Betzdorf(Sieg);Würgendorf;1;nein;Wahlbach (Kr Siegen);
+07.10.2026;21:06;S19;32037;Troisdorf;Köln-Müngersdorf Technologiepark;11;nein;Köln-Ehrenfeld;
+07.10.2026;21:07;Bus RE14;67589;Borken (Westf);Essen Hbf;7;teilweise;Deuten;
+07.10.2026;21:07;R S28;91738;Mettmann Stadtwald;Wuppertal Hbf;3;nein;Wuppertal-Vohwinkel;
+07.10.2026;21:07;RB40;30789;Essen Hbf;Hagen Hbf;20;teilweise;Essen Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;21:08;Bus RB54;54035;Ardey Bahnhof, Fröndenberg;Bahnhof, Unna;;nein;Fröndenberg-Frömern;
+07.10.2026;21:08;HLB RE34;28585;Siegen Hbf;Kirchhundem-Welschen Ennest;0;nein;Siegen Hbf;
+07.10.2026;21:08;RB52;14683;Dortmund Hbf;Hagen Hbf;4;nein;Hagen Hbf;
+07.10.2026;21:08;RRB S7;90142;Solingen Hbf;Wuppertal Hbf;10;nein;Wuppertal-Oberbarmen;Defekt an einem Signal, Defekt an der Strecke
+07.10.2026;21:08;VIA RE19;20039;Arnhem Centraal;Düsseldorf Hbf;11;nein;Emmerich;Warten auf Anschlussreisende, Witterungsbedingte Beeinträchtigungen
+07.10.2026;21:09;Bus RB31;62039;Xanten;Moers;0;nein;Xanten;
+07.10.2026;21:09;S12;33264;Köln-Müngersdorf Technologiepark;Blankenberg(Sieg);2;nein;Köln Airport-Businesspark;
+07.10.2026;21:09;S23;32403;Euskirchen;Bonn Hbf;2;nein;Euskirchen-Kuchenheim;
+07.10.2026;21:10;ERB RB66;90612;Münster(Westf)Hbf;Osnabrück Hbf;1;nein;Westbevern;
+07.10.2026;21:10;NWB RB84;74993;Holzminden;Paderborn Hbf;4;nein;Höxter Rathaus;Vorfahrt eines anderen Zuges
+07.10.2026;21:10;RB54;14869;Fröndenberg;Menden(Sauerland);3;nein;Bösperde;
+07.10.2026;21:10;RE57;10714;Bigge;Dortmund Hbf;4;nein;Dortmund-Hörde;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:10;RTB RB28;90876;Euskirchen;Düren;1;nein;Düren;
+07.10.2026;21:11;Bus RE1;8038;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;21:11;ERB RE82;79369;Altenbeken;Bielefeld Hbf;14;nein;Bielefeld Hbf;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;21:11;NWB RB75;75183;Bielefeld Hbf;Osnabrück Hbf;11;nein;Quelle-Kupferheide;Vorfahrt eines anderen Zuges
+07.10.2026;21:11;RE2;10232;Osnabrück Hbf;Essen Hbf;33;nein;Gelsenkirchen Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;21:11;VIA RB46;31480;Bochum Hbf;Gelsenkirchen Hbf;7;nein;Gelsenkirchen Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;21:12;Bus RE1;919;Dortmund Hbf;Duisburg Hbf;;nein;Dortmund Hbf;
+07.10.2026;21:12;ERB RB61;20386;Bielefeld Hbf;Hengelo;4;nein;Bielefeld Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:12;NX RB48;17373;Wuppertal-Oberbarmen;Köln Hbf;3;nein;Wuppertal-Oberbarmen;
+07.10.2026;21:12;RB27;10630;Köln Messe/Deutz;Mönchengladbach Hbf;8;nein;Rheydt Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:12;S19;52809;Troisdorf;Düren;21;nein;Merzenich;Verspätung aus vorheriger Fahrt
+07.10.2026;21:12;S8;31829;Mönchengladbach Hbf;Hagen Hbf;12;nein;Wuppertal-Oberbarmen;
+07.10.2026;21:13;ERB RB72;90675;Herford;Paderborn Hbf;5;nein;Leopoldstal;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;21:13;R S28;91680;Wuppertal Hbf;Mettmann Stadtwald;2;nein;Wuppertal Hbf;
+07.10.2026;21:14;ERB RB67;79319;Bielefeld Hbf;Münster(Westf)Hbf;5;nein;Bielefeld-Brackwede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:14;ICE 544;544;Berlin Hbf;Köln Hbf;70;nein;Düsseldorf Hbf;Verspätung eines vorausfahrenden Zuges, Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;21:14;ICE 554;554;Berlin Hbf;Köln Hbf;58;nein;Köln Hbf;Vorfahrt eines anderen Zuges, Umleitung
+07.10.2026;21:14;RB20;30035;Stolberg(Rheinl)Hbf Gl.44;Eschweiler-Weisweiler;2;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;21:14;RB32;31275;Dortmund Hbf;Oberhausen Hbf;19;nein;Essen-Dellwig;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:14;RE34;26091;Lennestadt-Altenhundem;Hagen Hbf;;ja;Lennestadt-Altenhundem;Bauarbeiten
+07.10.2026;21:14;RE42;10164;Münster(Westf)Hbf;Essen Hbf;45;nein;Essen Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;21:14;S2;30270;Essen Hbf;Dortmund Hbf;42;nein;Herne;Unbefugte Personen auf der Strecke
+07.10.2026;21:14;S4;31402;Dortmund-Lütgendortmund;Unna;2;nein;Dortmund West;
+07.10.2026;21:15;Bus RE1;920;Duisburg Hbf;Dortmund Hbf;;nein;Duisburg Hbf;
+07.10.2026;21:15;R S28;77269;Kaarster See;Neuss Hbf;6;nein;Neuss Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;21:15;RE10;22514;Düsseldorf Hbf;Kleve;7;nein;Weeze;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:15;RE22;10045;Köln Messe/Deutz;Kall;1;nein;Köln Messe/Deutz;
+07.10.2026;21:16;Bus RE1;8040;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;21:16;Bus S28;2213;Düsseldorf Hbf;Mettmann Stadtwald;0;nein;Düsseldorf Hbf;Verzögerungen im Betriebsablauf
+07.10.2026;21:16;ERB RB59;90348;Soest;Dortmund Hbf;2;nein;Werl;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:16;NX RE7;17430;Krefeld Hbf;Münster(Westf)Hbf;35;nein;Münster-Hiltrup;Defekt an einem Signal, Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:16;RB24;10447;Köln Messe/Deutz;Kall;10;nein;Weilerswist;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:16;S19;32034;Düren;Hennef(Sieg);11;nein;Hennef (Sieg);
+07.10.2026;21:16;S5;31573;Hagen Hbf;Dortmund Hbf;3;nein;Dortmund-Barop;
+07.10.2026;21:16;VIA RB39;56633;Düsseldorf Hbf;Bedburg(Erft);11;nein;Kapellen-Wevelinghoven;Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;21:16;VIA RB91;21444;Kirchhundem-Welschen Ennest;Siegen Hbf;1;nein;Kreuztal-Eichen;
+07.10.2026;21:17;ERB RE13;20097;Venlo;Düsseldorf Hbf;2;nein;Boisheim;
+07.10.2026;21:17;EUR 9471;9471;Paris Nord;Dortmund Hbf;21;nein;Köln Hbf;Verspätung im Ausland
+07.10.2026;21:17;RB20;32832;Düren;Eschweiler-Weisweiler;0;nein;Düren;
+07.10.2026;21:17;VIA RE19;77036;Düsseldorf Hbf;Bocholt;5;nein;Wesel;Vorfahrt eines anderen Zuges
+07.10.2026;21:18;RE9;10931;Aachen Hbf;Siegen Hbf;8;nein;Au (Sieg);
+07.10.2026;21:18;S12;33273;Blankenberg (Sieg);Köln-Ehrenfeld;6;nein;Blankenberg (Sieg);
+07.10.2026;21:18;S3;30371;Hattingen(Ruhr) Mitte;Essen Hbf;28;nein;Essen-Steele Ost;Verspätung aus vorheriger Fahrt
+07.10.2026;21:18;S8;31832;Wuppertal-Oberbarmen;Düsseldorf Hbf;10;nein;Wuppertal-Oberbarmen;
+07.10.2026;21:19;ERB RB73;90255;Bielefeld Hbf;Lemgo-Lüttfeld;14;nein;Bielefeld Ost;Verspätung aus vorheriger Fahrt
+07.10.2026;21:19;RB RE22;10042;Trier Hbf;Kall;;ja;Dahlem (Eifel);Verspätung aus vorheriger Fahrt
+07.10.2026;21:19;RB33;10338;Aachen Hbf;Duisburg Hbf;19;nein;Duisburg-Hochfeld Süd;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:19;RB63;14737;Coesfeld(Westf);Münster(Westf)Hbf;2;nein;Billerbeck;
+07.10.2026;21:19;RRB RE44;26673;Oberhausen Hbf;Bottrop Hbf;2;nein;Oberhausen-Osterfeld Süd;
+07.10.2026;21:19;S1;31191;Solingen Hbf;Düsseldorf Hbf;1;nein;Hilden Süd;
+07.10.2026;21:20;NX RE7;17431;Rheine;Krefeld Hbf;21;nein;Krefeld-Oppum;Defekt an einem Signal, Technische Störung am Zug, Defekt an der Strecke, Technische Untersuchung am Zug
+07.10.2026;21:20;RRB RB36;82363;Duisburg-Ruhrort;Oberhausen Hbf;1;nein;Duisburg-Meiderich Süd;
+07.10.2026;21:20;RTB RB21;90828;Düren;Heimbach (Eifel);0;nein;Düren;
+07.10.2026;21:20;RTB RB28;90879;Düren;Euskirchen;0;nein;Düren;
+07.10.2026;21:20;S19;32043;Blankenberg (Sieg);Köln Hansaring;1;nein;Köln Hbf;
+07.10.2026;21:20;TR RB26;25441;Köln Messe/Deutz;Bingen(Rhein) Hbf;23;nein;Roisdorf;Defekt an einem Signal, Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:20;VIA RE16;31337;Iserlohn;Hagen Hbf;1;nein;Iserlohn;
+07.10.2026;21:21;Bus RE13;1504;Mönchengladbach Hbf;Venlo;;nein;Mönchengladbach Hbf;
+07.10.2026;21:21;Bus S28;4212;Neuss Hbf;Kaarster See;0;nein;Neuss Hbf;
+07.10.2026;21:21;NX RE11;26732;Kassel-Wilhelmshöhe;Essen Hbf;52;teilweise;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:21;RTB RB21;90761;Düren;Linnich Bhf;0;nein;Düren;
+07.10.2026;21:21;VIA RB34;90528;Dalheim;Mönchengladbach Hbf;11;nein;Rheydt Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;21:22;NWB RB58;75270;Bremen Hbf;Osnabrück Hbf;3;nein;Halen;Warten auf einen entgegenkommenden Zug
+07.10.2026;21:22;RB RE22;10043;Kall;Gerolstein;1;nein;Urft;
+07.10.2026;21:22;RE41;16244;Haltern am See;Bochum Hbf;1;nein;Marl-Sinsen;
+07.10.2026;21:22;RRB S7;90146;Solingen Hbf;Remscheid-Lennep;21;nein;Solingen Hbf;Defekt an einem Signal
+07.10.2026;21:22;S4;31401;Unna;Dortmund-Lütgendortmund;3;nein;Massen;
+07.10.2026;21:22;S41;5020;Hergenrath;Aachen Hbf;13;nein;Aachen Hbf;
+07.10.2026;21:22;S6;56143;Köln-Nippes;Köln-Dellbrück;2;nein;Köln-Dellbrück;
+07.10.2026;21:23;HLB RB95;28778;Dillenburg;Siegen Hbf;15;nein;Siegen Hbf;Außerplanmäßige Geschwindigkeitsbeschränkung, Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:23;RE62;11516;Löhne(Westf);Rheine;1;nein;Kirchlengern;
+07.10.2026;21:23;S1;56380;Dortmund Hbf;Essen Hbf;27;ja;Dortmund Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;21:23;S19;52811;Troisdorf;Düren;1;nein;Köln/Bonn Flughafen;
+07.10.2026;21:23;SBH S1;34138;Hannover Hbf;Minden (Westf);0;nein;Minden (Westf);
+07.10.2026;21:24;ICE 313;313;Antwerpen Centraal;Köln Hbf;5;nein;Köln Hbf;
+07.10.2026;21:24;NX RE1;26834;Hamm(Westf)Hbf;Aachen Hbf;20;nein;Duisburg Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:24;RE41;16245;Bochum Hbf;Haltern am See;1;nein;Recklinghausen Süd;
+07.10.2026;21:25;Bus RE1;8042;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;21:25;RB25;10579;Lüdenscheid;Köln Hansaring;39;teilweise;Köln Frankfurter Straße;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:25;RB27;10632;Köln Messe/Deutz;Grevenbroich;4;nein;Köln Hbf;
+07.10.2026;21:25;S19;32040;Düren;Köln Frankfurter Straße;1;nein;Köln-Weiden West;
+07.10.2026;21:25;VIA RE19;77037;Bocholt;Düsseldorf Hbf;27;nein;Düsseldorf Flughafen;Vorfahrt eines anderen Zuges
+07.10.2026;21:26;ICE 912;912;München Hbf;Dortmund Hbf;17;nein;Gelsenkirchen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:26;NX RB48;17368;Köln Hbf;Wuppertal-Oberbarmen;6;nein;Haan-Gruiten;
+07.10.2026;21:26;RB33;10343;Duisburg Hbf;Aachen Hbf;15;nein;Rheydt Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:26;RE57;14963;Dortmund Hbf;Schwerte(Ruhr);5;nein;Dortmund Signal Iduna Park;
+07.10.2026;21:26;S1;56378;Dortmund Hbf;Essen Hbf;6;nein;Essen-Eiberg;Unbefugte Personen auf der Strecke
+07.10.2026;21:26;S6;31636;Essen Hbf;Düsseldorf Hbf;2;nein;Düsseldorf Zoo;
+07.10.2026;21:27;RRB RB31;26036;Duisburg Hbf;Moers;9;nein;Moers;Defekt an der Strecke
+07.10.2026;21:27;SBH S5;34592;Paderborn Hbf;Hannover-Linden/Fischerhof;1;nein;Altenbeken;
+07.10.2026;21:28;S6;56142;Köln-Dellbrück;Köln-Nippes;4;nein;Köln-Nippes;
+07.10.2026;21:29;ERB RE3;89898;Hamm(Westf)Hbf;Essen Hbf;9;nein;Essen Hbf;
+07.10.2026;21:29;RB64;20232;Münster(Westf)Hbf;Enschede;2;nein;Nordwalde;
+07.10.2026;21:29;RE17;10738;Bestwig;Hagen Hbf;6;nein;Schwerte (Ruhr);
+07.10.2026;21:29;S6;31638;Essen Hbf;Kettwig;2;nein;Essen-Werden;
+07.10.2026;21:29;WFB RE15;90297;Emden Hbf;Münster(Westf)Hbf;10;nein;Rheine;
+07.10.2026;21:30;Bus RE1;8049;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;21:30;Bus RE13;1506;Mönchengladbach Hbf;Venlo;;nein;Mönchengladbach Hbf;
+07.10.2026;21:30;Bus RE7;7301;Krefeld Hbf;Neuss Hbf;;nein;Krefeld Hbf;
+07.10.2026;21:30;Bus S28;2204;Mettmann Stadtwald;Düsseldorf Hbf;0;nein;Düsseldorf-Gerresheim;
+07.10.2026;21:30;RE18;18970;Aachen Hbf;Eygelshoven Markt;2;nein;Herzogenrath;
+07.10.2026;21:30;RRB S7;90149;Wuppertal Hbf;Solingen Hbf;40;nein;Solingen Grünewald;Defekt an einem Signal
+07.10.2026;21:30;S1;56379;Essen Hbf;Dortmund Hbf;17;nein;Essen-Steele;Unbefugte Personen auf der Strecke
+07.10.2026;21:30;S12;33262;Horrem;Au(Sieg);15;nein;Schladern (Sieg);
+07.10.2026;21:30;S5;31576;Dortmund Hbf;Hagen Hbf;1;nein;Dortmund Hbf;
+07.10.2026;21:30;S8;31828;Wuppertal-Oberbarmen;Mönchengladbach Hbf;5;nein;Korschenbroich;
+07.10.2026;21:31;Bus EV;93896;Aue-Wingeshausen;Bad Berleburg;0;nein;Aue-Wingeshausen;
+07.10.2026;21:31;ERB RE82;79371;Altenbeken;Detmold;9;nein;Horn-Bad Meinberg;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;21:31;RB20;30587;Alsdorf-Annapark;Stolberg-Altstadt;4;nein;Aachen Hbf;
+07.10.2026;21:32;HLB RB90;61631;Siegen Hbf;Westerburg;9;nein;Eiserfeld (Sieg);Vorfahrt eines anderen Zuges
+07.10.2026;21:32;HLB RE34;28584;Kirchhundem-Welschen Ennest;Siegen Hbf;0;nein;Kirchhundem-Welschen Ennest;
+07.10.2026;21:32;ICE 221;221;Amsterdam Centraal;Frankfurt(Main)Hbf;47;nein;Siegburg/Bonn;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:32;RB20;30532;Langerwehe;Alsdorf-Annapark;8;nein;Aachen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:32;RB25;10587;Lüdenscheid;Köln Hansaring;3;nein;Lüdenscheid;
+07.10.2026;21:32;RB38;10281;Bedburg (Erft);Köln Messe/Deutz;16;nein;Köln Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:32;RE42;10165;Essen Hbf;Münster(Westf)Hbf;46;nein;Buldern;Unbefugte Personen auf der Strecke, Streckensperrung
+07.10.2026;21:32;RTB RB28;90878;Euskirchen;Düren;0;nein;Euskirchen;
+07.10.2026;21:32;S6;31639;Düsseldorf Hbf;Essen Hbf;1;nein;Düsseldorf Wehrhahn;
+07.10.2026;21:32;VIA RE19;77039;Bocholt;Wesel;4;nein;Wesel-Blumenkamp;
+07.10.2026;21:33;Bus RE4;4401;Aachen Hbf;Mönchengladbach Hbf;;nein;Aachen Hbf;
+07.10.2026;21:33;ERB RB66;90613;Osnabrück Hbf;Münster(Westf)Hbf;4;nein;Lengerich (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:33;ICE 120;120;Frankfurt(Main)Hbf;Amsterdam Centraal;30;nein;Oberhausen Hbf;Warten auf Anschlussreisende
+07.10.2026;21:33;NWB RB58;75277;Osnabrück Hbf;Delmenhorst;4;nein;Halen;Warten auf einen entgegenkommenden Zug
+07.10.2026;21:33;NWB RB75;75184;Osnabrück Hbf;Bielefeld Hbf;9;nein;Künsebeck;Vorfahrt eines anderen Zuges
+07.10.2026;21:33;RB32;31277;Dortmund Hbf;Oberhausen Hbf;3;nein;Dortmund Hbf;
+07.10.2026;21:33;RE42;10162;Münster(Westf)Hbf;Mönchengladbach Hbf;19;nein;Viersen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:33;S11;33148;Düsseldorf Flughafen Terminal;Bergisch Gladbach;5;nein;Norf;
+07.10.2026;21:33;S12;33269;Hennef (Sieg);Sindorf;5;nein;Sindorf;
+07.10.2026;21:33;S23;32400;Bonn Hbf;Bad Münstereifel;6;nein;Euskirchen;Warten auf Anschlussreisende
+07.10.2026;21:33;S9;30972;Haltern am See;Wuppertal Hbf;11;teilweise;Haltern am See;Unbefugte Personen auf der Strecke, Technischer Defekt an einem anderen Zug
+07.10.2026;21:33;WFB RE15;90298;Münster(Westf)Hbf;Emden Hbf;6;nein;Rheine;Verspätung eines vorausfahrenden Zuges, Verzögerungen im Betriebsablauf
+07.10.2026;21:34;Bus RB50;5041;Münster (Westf) Hbf;Dortmund Hbf;;nein;Münster (Westf) Hbf;
+07.10.2026;21:34;Bus RE10;60307;Krefeld Hbf;Düsseldorf Hbf;0;nein;Krefeld Hbf;
+07.10.2026;21:34;ERB RE78;52289;Bielefeld Hbf;Minden(Westf);1;nein;Herford;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:34;RB20;32833;Eschweiler-Weisweiler;Düren;2;nein;Langerwehe;
+07.10.2026;21:34;RB52;33833;Rummenohl;Lüdenscheid;2;nein;Dahlerbrück;
+07.10.2026;21:34;RE57;14697;Messinghausen;Warburg(Westf);2;nein;Beringhausen;
+07.10.2026;21:34;RRB RB36;82364;Oberhausen Hbf;Duisburg-Ruhrort;2;nein;Duisburg-Obermeiderich;
+07.10.2026;21:34;S11;33144;Düsseldorf Flughafen Terminal;Bergisch Gladbach;2;nein;Duckterath;
+07.10.2026;21:34;S19;32038;Sindorf;Troisdorf;6;nein;Spich;
+07.10.2026;21:34;VIA RB39;56632;Bedburg (Erft);Düsseldorf Hbf;8;nein;Grevenbroich;Vorfahrt eines anderen Zuges
+07.10.2026;21:34;VIA RE16;29990;Hagen Hbf;Iserlohn;10;nein;Letmathe-Dechenhöhle;
+07.10.2026;21:35;HLB RB90;61628;Limburg(Lahn);Siegen Hbf;11;nein;Geilhausen;
+07.10.2026;21:35;SBH S1;34143;Minden (Westf);Hannover Hbf;1;nein;Minden (Westf);
+07.10.2026;21:36;ERB RB89;90036;Paderborn Hbf;Münster(Westf)Hbf;18;nein;Rinkerode;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:36;HLB RB96;61836;Würgendorf;Betzdorf(Sieg);0;nein;Würgendorf;
+07.10.2026;21:36;NWB RB85;74953;Paderborn Hbf;Bodenfelde;4;nein;Höxter-Ottbergen;Vorfahrt eines anderen Zuges
+07.10.2026;21:36;RB54;14872;Neuenrade;Fröndenberg;2;nein;Menden (Sauerland) Süd;
+07.10.2026;21:37;Bus RB31;62036;Moers;Xanten;2;nein;Moers;
+07.10.2026;21:37;Bus S28;4213;Kaarster See;Neuss Hbf;0;nein;Neuss Hbf;
+07.10.2026;21:37;RB32;31276;Oberhausen Hbf;Dortmund Hbf;9;nein;Essen-Dellwig;Verspätung aus vorheriger Fahrt
+07.10.2026;21:37;S41;5042;Aachen Hbf;Hergenrath;11;nein;Aachen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:38;Bus RE10;60306;Düsseldorf Hbf;Krefeld Hbf;0;nein;Düsseldorf Hbf;
+07.10.2026;21:38;NWB RB84;74992;Paderborn Hbf;Holzminden;4;nein;Höxter-Godelheim;
+07.10.2026;21:38;NX RE5;28533;Wesel;Koblenz Hbf;19;nein;Köln Süd;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:38;RB63;14738;Münster(Westf)Hbf;Coesfeld(Westf);2;nein;Billerbeck;
+07.10.2026;21:39;NX RE1;26833;Aachen Hbf;Hamm(Westf)Hbf;11;nein;Hamm (Westf) Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;21:39;S6;31633;Düsseldorf Hbf;Essen Hbf;7;nein;Essen Süd;
+07.10.2026;21:40;Bus RE1;8044;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;21:40;S6;56144;Köln-Dellbrück;Köln-Nippes;1;nein;Köln-Holweide;
+07.10.2026;21:40;S8;31831;Mönchengladbach Hbf;Wuppertal-Oberbarmen;21;nein;Wuppertal-Oberbarmen;
+07.10.2026;21:40;VIA RB91;21445;Siegen Hbf;Welschen Ennest;0;nein;Siegen Hbf;
+07.10.2026;21:41;ERB RB73;90256;Lemgo-Lüttfeld;Bielefeld Hbf;15;nein;Bielefeld Ost;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;21:41;RB27;10639;Mönchengladbach Hbf;Köln Messe/Deutz;10;nein;Köln Messe/Deutz;
+07.10.2026;21:42;Bus RE1;921;Dortmund Hbf;Duisburg Hbf;;nein;Dortmund Hbf;
+07.10.2026;21:42;RE18;18969;Eygelshoven Markt;Aachen Hbf;7;nein;Aachen Hbf;
+07.10.2026;21:42;RE22;10042;Kall;Köln Messe/Deutz;;nein;Kall;
+07.10.2026;21:42;TRI RE100;28084;Essen Hbf;Düsseldorf Hbf;0;nein;Essen Hbf;
+07.10.2026;21:43;ICE 207;207;Hamburg-Altona;Köln Hbf;42;nein;Gelsenkirchen Hbf;Vorfahrt eines anderen Zuges, Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;21:43;RRB RE44;26672;Bottrop Hbf;Oberhausen Hbf;2;nein;Oberhausen Hbf;
+07.10.2026;21:44;Bus EV;93899;Bad Berleburg;Aue-Wingeshausen;0;nein;Bad Berleburg;
+07.10.2026;21:44;RB20;30037;Stolberg(Rheinl)Hbf Gl.44;Eschweiler-Weisweiler;1;nein;Herzogenrath;
+07.10.2026;21:44;RE57;10775;Dortmund Hbf;Bestwig;11;nein;Meschede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:44;S1;31184;Duisburg Hbf;Solingen Hbf;4;nein;Düsseldorf-Unterrath;
+07.10.2026;21:44;S23;32402;Bonn Hbf;Euskirchen;2;nein;Swisttal-Odendorf;
+07.10.2026;21:45;Bus RE1;922;Duisburg Hbf;Dortmund Hbf;;nein;Duisburg Hbf;
+07.10.2026;21:45;ERB RB72;90682;Paderborn Hbf;Herford;7;nein;Steinheim-Sandebeck;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:45;R S28;91743;Mettmann Stadtwald;Wuppertal Hbf;6;nein;Wuppertal-Steinbeck;
+07.10.2026;21:45;RB52;14685;Dortmund Hbf;Hagen Hbf;6;nein;Dortmund Tierpark;
+07.10.2026;21:46;RB77;14585;Herford;Elze(Han);3;nein;Löhne (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:46;RRB RB31;26037;Moers;Duisburg Hbf;2;nein;Duisburg Hbf;
+07.10.2026;21:46;S23;32404;Bonn Hbf;Euskirchen;2;nein;Bonn Helmholtzstraße;
+07.10.2026;21:46;S5;31575;Witten Hbf;Dortmund Hbf;1;nein;Dortmund-Barop;
+07.10.2026;21:46;SBH S5;34579;Hannover Flughafen;Paderborn Hbf;4;nein;Paderborn Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;21:47;S1;31182;Duisburg Hbf;Solingen Hbf;12;nein;Solingen Hbf;
+07.10.2026;21:48;NWB RB74;75083;Bielefeld Hbf;Paderborn Hbf;1;nein;Bielefeld-Brackwede;
+07.10.2026;21:48;NX RE5;28532;Koblenz Hbf;Wesel;30;nein;Wesel;Vorfahrt eines anderen Zuges
+07.10.2026;21:48;R S28;91691;Wuppertal Hbf;Mettmann Stadtwald;1;nein;Wuppertal Zoologischer Garten;
+07.10.2026;21:48;RB51;20281;Enschede;Lünen Hbf;7;nein;Lünen Hbf;
+07.10.2026;21:49;Bus RB54;54034;Bahnhof, Unna;Ardey Bahnhof, Fröndenberg;;nein;Fröndenberg-Frömern;
+07.10.2026;21:49;ERB RB65;52354;Münster(Westf)Hbf;Rheine;5;nein;Emsdetten;Längere Haltezeit am Bahnhof, Defekt an einem Signal
+07.10.2026;21:49;RB20;30582;Stolberg-Altstadt;Alsdorf-Annapark;13;nein;Herzogenrath;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:49;RE42;10166;Münster(Westf)Hbf;Duisburg Hbf;14;nein;Oberhausen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:49;VIA RB35;52238;Mönchengladbach Hbf;Duisburg Hbf;34;nein;Duisburg-Hochfeld Süd;Vorfahrt eines anderen Zuges
+07.10.2026;21:50;NX RE5;28535;Wesel;Koblenz Hbf;8;nein;Düsseldorf Flughafen;Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;21:50;RB20;27532;Eschweiler-Weisweiler;Aachen Hbf;3;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;21:50;RB51;20283;Enschede;Lünen Hbf;1;nein;Rosendahl-Holtwick;
+07.10.2026;21:51;Bus S28;2217;Düsseldorf Hbf;Mettmann Stadtwald;3;nein;Düsseldorf-Flingern;
+07.10.2026;21:51;Bus S28;4216;Neuss Hbf;Kaarster See;0;nein;Neuss Hbf;
+07.10.2026;21:51;ERB RE13;20094;Düsseldorf Hbf;Mönchengladbach Hbf;1;nein;Düsseldorf-Bilk;
+07.10.2026;21:51;NJ 469;469;Bruxelles Midi;Wien Hbf;22;nein;Köln Hbf;
+07.10.2026;21:51;RB38;10284;Köln Messe/Deutz;Bedburg(Erft);3;nein;Quadrath-Ichendorf;
+07.10.2026;21:51;RB40;30790;Hagen Hbf;Essen Hbf;2;nein;Essen-Kray Süd;
+07.10.2026;21:51;RB94;23180;Marburg(Lahn);Erndtebrück;0;nein;Erndtebrück;
+07.10.2026;21:52;HLB RB96;61839;Betzdorf(Sieg);Neunkirchen(Kr Siegen);0;nein;Struthütten;
+07.10.2026;21:52;NX RB48;17370;Bonn-Mehlem;Solingen Hbf;31;nein;Solingen Hbf;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;21:52;NX RE11;26734;Kassel-Wilhelmshöhe;Hamm(Westf)Hbf;25;nein;Hamm (Westf) Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;21:52;S4;31403;Unna;Dortmund-Lütgendortmund;3;nein;Massen;
+07.10.2026;21:52;S6;56145;Köln-Nippes;Köln-Dellbrück;2;nein;Köln-Dellbrück;
+07.10.2026;21:52;WFB RE60;95786;Braunschweig Hbf;Rheine;16;nein;Minden (Westf);
+07.10.2026;21:53;Bus RB65;6839;Rheine;Münster(Westf)Hbf;13;nein;Rheine;Warten auf Anschlussreisende
+07.10.2026;21:53;RB33;10340;Aachen Hbf;Rheinhausen;14;nein;Forsthaus;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:53;S1;56382;Dortmund Hbf;Essen Hbf;25;teilweise;Dortmund Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;21:53;S2;30274;Essen Hbf;Dortmund Hbf;7;teilweise;Essen Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;21:53;S9;30975;Wuppertal Hbf;Haltern am See;4;teilweise;Wuppertal Hbf;Unbefugte Personen auf der Strecke
+07.10.2026;21:53;VIA RB91;21454;Hagen Hbf;Lennestadt-Altenhundem;1;teilweise;Hohenlimburg;
+07.10.2026;21:54;HLB RE99;15119;Siegen Hbf;Frankfurt(Main)Hbf;1;nein;Siegen Hbf;
+07.10.2026;21:54;ICE 617;617;Hamburg-Altona;Stuttgart Hbf;105;teilweise;Köln Hbf;Verspätetes Personal aus vorheriger Fahrt, Umleitung
+07.10.2026;21:54;RB24;10449;Köln Messe/Deutz;Kall;7;nein;Köln Süd;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:55;Bus RB50;5046;Dortmund Hbf;Münster(Westf)Hbf;0;nein;Dortmund-Kirchderne;
+07.10.2026;21:55;Bus RE1;8046;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;21:55;RB53;14963;Schwerte(Ruhr);Iserlohn;5;nein;Hennen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;21:55;RE2;10235;Essen Hbf;Münster(Westf)Hbf;25;nein;Herne-Wanne-Eickel Hbf;Unbefugte Personen auf der Strecke, Verspätung aus vorheriger Fahrt
+07.10.2026;21:56;ICE 514;514;München Hbf;Hamburg-Altona;10;nein;Münster (Westf) Hbf;Verspätung eines vorausfahrenden Zuges, Verspätetes Personal aus vorheriger Fahrt, Verfügbarkeit der Gleise derzeit eingeschränkt
+07.10.2026;21:56;S9;30969;Hagen Hbf;Recklinghausen Hbf;54;nein;Recklinghausen Hbf;Unbefugte Personen auf der Strecke, Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;21:57;S2;30273;Dortmund Hbf;Essen Hbf;5;nein;Gelsenkirchen-Rotthausen;
+07.10.2026;21:57;S8;29095;Mönchengladbach Hbf;Neuss Hbf;1;nein;Mönchengladbach-Lürrip;
+07.10.2026;21:58;NX RE11;26736;Kassel-Wilhelmshöhe;Dortmund Hbf;18;nein;Altenbeken;Verspätung aus vorheriger Fahrt
+07.10.2026;21:58;S4;31406;Dortmund-Lütgendortmund;Unna;1;nein;Dortmund-Somborn;
+07.10.2026;21:58;S9;30968;Haltern am See;Wuppertal Hbf;39;nein;Wuppertal-Vohwinkel;Verspätung aus vorheriger Fahrt
+07.10.2026;21:59;IC 2349;2349;Stuttgart Hbf;Hannover Hbf;18;nein;Hagen Hbf;Defekt an der Strecke
+07.10.2026;21:59;RE8;10838;Köln Messe/Deutz;Rommerskirchen;6;nein;Köln Hbf;
+07.10.2026;21:59;S23;32405;Bad Münstereifel;Bonn Hbf;4;nein;Meckenheim Industriepark;
+07.10.2026;22:00;Bus EV;92930;Finnentrop;Olpe;0;nein;Finnentrop;
+07.10.2026;22:00;Bus RE1;8053;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;22:00;Bus S28;2208;Mettmann Stadtwald;Düsseldorf Hbf;0;nein;Düsseldorf-Gerresheim;
+07.10.2026;22:00;ERB RE3;89897;Essen Hbf;Dortmund Hbf;10;nein;Dortmund Hbf;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;22:00;RB77;14582;Hildesheim Hbf;Herford;3;nein;Vlotho;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:00;RE47;89338;Düsseldorf Hbf;Remscheid-Lennep;11;nein;Solingen Hbf;
+07.10.2026;22:00;RE57;10748;Warburg(Westf);Messinghausen;2;nein;Scherfede;
+07.10.2026;22:00;RRB S7;90151;Wuppertal Hbf;Solingen Hbf;20;nein;Solingen Grünewald;Defekt an einem Signal
+07.10.2026;22:01;Bus EV;92945;Olpe;Finnentrop;0;nein;Olpe;
+07.10.2026;22:01;ICE 526;526;München Hbf;Dortmund Hbf;10;nein;Siegburg/Bonn;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:01;RB43;14785;Dortmund Hbf;Dorsten;10;nein;Herne-Börnig;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:01;S1;31193;Solingen Hbf;Düsseldorf Hbf;21;nein;Düsseldorf-Oberbilk;Technische Störung am Zug
+07.10.2026;22:02;ERB RB67;79316;Münster (Westf) Hbf;Rheda-Wiedenbrück;1;nein;Beelen;
+07.10.2026;22:02;ERB RB72;90677;Herford;Paderborn Hbf;6;nein;Detmold;Warten auf Anschlussreisende, Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;22:02;ERB RE78;52290;Nienburg(Weser);Bielefeld Hbf;8;nein;Minden (Westf);Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;22:02;ICE 619;619;Hamburg-Altona;München Hbf;43;nein;Münster (Westf) Hbf;Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;22:03;ERB RB66;90614;Münster(Westf)Hbf;Osnabrück Hbf;6;nein;Münster (Westf) Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:03;HLB RB93;61899;Aue-Wingeshausen;Erndtebrück;0;nein;Aue-Wingeshausen;
+07.10.2026;22:03;RB52;33834;Lüdenscheid;Rummenohl;0;nein;Lüdenscheid;
+07.10.2026;22:03;RE8;10837;Rommerskirchen;Köln Messe/Deutz;5;nein;Köln Hbf;
+07.10.2026;22:03;S6;31640;Essen Hbf;Kettwig;5;nein;Kettwig;
+07.10.2026;22:03;VIA RB46;31483;Gelsenkirchen Hbf;Bochum Hbf;1;nein;Bochum-Hamme;
+07.10.2026;22:04;RRB S7;90153;Wuppertal Hbf;Solingen Hbf;15;nein;Remscheid-Lüttringhausen;Defekt an einem Signal
+07.10.2026;22:04;RTB RB21;90760;Linnich Bhf;Düren;0;nein;Düren;
+07.10.2026;22:05;HLB RE99;15120;Frankfurt(Main)Hbf;Siegen Hbf;60;nein;Siegen Hbf;Außerplanmäßige Geschwindigkeitsbeschränkung, Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:05;RB54;14871;Fröndenberg;Menden(Sauerland);2;nein;Bösperde;
+07.10.2026;22:05;RTB RB21;90829;Heimbach (Eifel);Düren;0;nein;Düren;
+07.10.2026;22:05;VIA RB46;31482;Bochum Hbf;Gelsenkirchen Hbf;4;nein;Herne-Wanne-Eickel Hbf;
+07.10.2026;22:07;Bus RE14;67591;Borken (Westf);Essen Hbf;3;teilweise;Deuten;
+07.10.2026;22:07;Bus S28;4217;Kaarster See;Neuss Hbf;0;nein;Neuss Hbf;
+07.10.2026;22:07;NX RE11;26735;Essen Hbf;Kassel-Wilhelmshöhe;12;nein;Hamm (Westf) Hbf;
+07.10.2026;22:07;RB53;14964;Iserlohn;Dortmund Hbf;5;nein;Schwerte-Ergste;
+07.10.2026;22:07;S6;56147;Köln-Nippes;Köln-Dellbrück;1;nein;Köln Hbf;
+07.10.2026;22:08;Bus RB54;54037;Ardey Bahnhof, Fröndenberg;Bahnhof, Unna;;nein;Fröndenberg-Frömern;
+07.10.2026;22:08;ERB RB59;90351;Dortmund Hbf;Soest;1;nein;Dortmund Signal Iduna Park;
+07.10.2026;22:08;HLB RE34;28587;Siegen Hbf;Kirchhundem-Welschen Ennest;0;nein;Siegen Hbf;
+07.10.2026;22:08;ICE 528;528;München Hbf;Dortmund Hbf;15;nein;Gelsenkirchen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:08;RB25;10578;Köln Hansaring;Lüdenscheid;4;nein;Halver-Oberbrügge;
+07.10.2026;22:08;RB33;10345;Duisburg Hbf;Viersen;15;nein;Anrath;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;22:08;VIA RB91;21446;Kirchhundem-Welschen Ennest;Siegen Hbf;0;nein;Kirchhundem-Welschen Ennest;
+07.10.2026;22:08;WFB RE60;95789;Rheine;Braunschweig Hbf;6;nein;Minden (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:09;ERB RB69;90090;Bielefeld Hbf;Hamm(Westf)Hbf;12;nein;Ahlen (Westf);Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:09;NX RB48;17375;Solingen Hbf;Köln Hbf;28;nein;Leichlingen;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;22:09;RE2;10248;Osnabrück Hbf;Münster(Westf)Hbf;1;nein;Ostbevern;
+07.10.2026;22:10;Bus RE1;8048;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;22:10;RB51;14632;Lünen Hbf;Coesfeld(Westf);1;nein;Lünen Hbf;
+07.10.2026;22:10;S12;33270;Köln-Müngersdorf Technologiepark;Au(Sieg);5;nein;Blankenberg (Sieg);
+07.10.2026;22:10;S5;31577;Hagen Hbf;Dortmund Hbf;2;nein;Witten-Annen Nord;
+07.10.2026;22:10;S6;56146;Köln-Dellbrück;Köln-Nippes;1;nein;Köln-Holweide;
+07.10.2026;22:10;TR RB26;25440;Mainz Hbf;Köln/Bonn Flughafen;37;teilweise;Köln Messe/Deutz;Defekt an einem Signal, Verspätung aus vorheriger Fahrt
+07.10.2026;22:11;ICE 24;24;Nürnberg Hbf;Dortmund Hbf;19;nein;Köln Hbf;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;22:11;RB27;10641;Mönchengladbach Hbf;Köln Messe/Deutz;4;nein;Rommerskirchen;
+07.10.2026;22:11;RB33;10392;Lindern;Heinsberg(Rheinl);3;nein;Lindern;
+07.10.2026;22:11;RB52;14684;Hagen Hbf;Dortmund Hbf;5;nein;Dortmund-Kirchhörde;
+07.10.2026;22:11;RB64;20231;Enschede;Münster(Westf)Hbf;3;nein;Steinfurt-Grottenkamp;
+07.10.2026;22:11;S5;31578;Dortmund Hbf;Witten Hbf;2;nein;Witten-Annen Nord;
+07.10.2026;22:12;Bus RE1;923;Dortmund Hbf;Duisburg Hbf;;nein;Dortmund Hbf;
+07.10.2026;22:12;Bus RE15;15302;Münster(Westf)Hbf;Rheine;0;nein;Münster (Westf) Hbf;
+07.10.2026;22:12;ICE 854;854;Berlin Hbf;Köln Hbf;67;nein;Köln Hbf;Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;22:12;R S28;91751;Mettmann Stadtwald;Wuppertal Hbf;3;nein;Wuppertal Zoologischer Garten;
+07.10.2026;22:12;RB43;14784;Dorsten;Dortmund Hbf;7;nein;Dortmund-Rahm;
+07.10.2026;22:12;RE42;10171;Duisburg Hbf;Haltern am See;16;nein;Oberhausen Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;22:13;NX RB48;17371;Solingen Hbf;Bonn-Mehlem;11;nein;Bonn-Bad Godesberg;
+07.10.2026;22:13;NX RE11;26737;Essen Hbf;Dortmund Hbf;23;ja;Essen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:13;R S28;91698;Wuppertal Hbf;Mettmann Stadtwald;1;nein;Wuppertal Hbf;
+07.10.2026;22:13;RB20;30589;Alsdorf-Annapark;Herzogenrath;0;nein;Herzogenrath;
+07.10.2026;22:13;S9;30966;Recklinghausen Hbf;Hagen Hbf;48;nein;Hagen-Wehringhausen;Unbefugte Personen auf der Strecke, Verspätung aus vorheriger Fahrt
+07.10.2026;22:14;NWB RB75;75186;Osnabrück Hbf;Bielefeld Hbf;4;nein;Westbarthausen;Warten auf einen entgegenkommenden Zug
+07.10.2026;22:14;RB51;20285;Enschede;Gronau (Westf);0;nein;Gronau (Westf);
+07.10.2026;22:14;RE42;10168;Münster(Westf)Hbf;Essen Hbf;13;nein;Essen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:14;VIA RB91;31379;Lennestadt-Altenhundem;Hagen Hbf;4;teilweise;Lennestadt-Altenhundem;
+07.10.2026;22:15;Bus RE1;924;Duisburg Hbf;Dortmund Hbf;;nein;Duisburg Hbf;
+07.10.2026;22:15;Bus RE13;1499;Venlo;Mönchengladbach Hbf;;nein;Kaldenkirchen;
+07.10.2026;22:15;ERB RB89;90039;Münster(Westf)Hbf;Paderborn Hbf;8;nein;Lippstadt;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;22:15;ICE 542;542;Berlin Hbf;Köln Hbf;46;nein;Dortmund Hbf;Bauarbeiten, Verfügbarkeit der Gleise derzeit eingeschränkt, Defekt an einer Weiche
+07.10.2026;22:15;NWB RB84;74994;Paderborn Hbf;Holzminden;1;nein;Bad Driburg (Westf);
+07.10.2026;22:15;RB63;14740;Münster(Westf)Hbf;Coesfeld(Westf);2;nein;Münster-Mecklenbeck;
+07.10.2026;22:15;RRB RE10;82304;Düsseldorf Hbf;Kleve;24;nein;Weeze;Warten auf einen entgegenkommenden Zug
+07.10.2026;22:16;Bus S28;2223;Düsseldorf Hbf;Mettmann Stadtwald;0;nein;Düsseldorf Hbf;
+07.10.2026;22:16;HLB RB93;61898;Siegen Hbf;Aue-Wingeshausen;19;nein;Erndtebrück;Vorfahrt eines anderen Zuges
+07.10.2026;22:16;ICE 844;844;Berlin Hbf;Köln Hbf;75;nein;Düsseldorf Hbf;Vorfahrt eines anderen Zuges, Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;22:16;NX RE6;89736;Minden(Westf);Köln/Bonn Flughafen;73;teilweise;Düsseldorf-Bilk;Defekt an einem Signal, Defekt an der Strecke
+07.10.2026;22:16;RB40;30792;Hagen Hbf;Witten Hbf;5;nein;Hagen Hbf;
+07.10.2026;22:16;S11;33150;Düsseldorf Flughafen Terminal;Bergisch Gladbach;10;nein;Dormagen Chempark;Defekt an einem Signal, Defekt an der Strecke
+07.10.2026;22:16;S19;32044;Düren;Köln Frankfurter Straße;6;nein;Sindorf;
+07.10.2026;22:17;ERB RB69;90085;Hamm(Westf)Hbf;Bielefeld Hbf;3;nein;Rheda-Wiedenbrück;
+07.10.2026;22:17;NWB RB74;75082;Paderborn Hbf;Bielefeld Hbf;3;nein;Bielefeld Hbf;
+07.10.2026;22:17;RB20;32834;Düren;Eschweiler-Weisweiler;0;nein;Düren;
+07.10.2026;22:17;RB24;10446;Kall;Köln Messe/Deutz;4;nein;Köln Messe/Deutz;
+07.10.2026;22:17;RRB RB31;26038;Duisburg Hbf;Moers;3;nein;Rheinhausen;
+07.10.2026;22:17;S8;31833;Mönchengladbach Hbf;Hagen Hbf;3;nein;Schwelm West;
+07.10.2026;22:17;VIA RE19;77038;Düsseldorf Hbf;Bocholt;14;nein;Wesel;Vorfahrt eines anderen Zuges
+07.10.2026;22:18;ICE 319;319;Bruxelles Midi;Frankfurt(Main)Hbf;5;nein;Köln Hbf;
+07.10.2026;22:18;RRB S7;90155;Wuppertal Hbf;Solingen Hbf;14;teilweise;Wuppertal-Barmen;Defekt an einem Signal
+07.10.2026;22:18;S1;56381;Essen Hbf;Dortmund Hbf;2;nein;Bochum-Langendreer West;
+07.10.2026;22:18;S9;30971;Wuppertal Hbf;Haltern am See;39;nein;Marl Mitte;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:19;RB RE22;10044;Trier Hbf;Kall;;ja;Dahlem (Eifel);
+07.10.2026;22:19;RB20;30036;Herzogenrath;Stolberg(Rheinl)Hbf Gl.44;0;nein;Herzogenrath;
+07.10.2026;22:19;RB63;14739;Coesfeld(Westf);Münster(Westf)Hbf;2;nein;Billerbeck;
+07.10.2026;22:19;S19;32042;Sindorf;Köln Frankfurter Straße;4;nein;Köln Frankfurter Straße;
+07.10.2026;22:19;VIA RE19;20038;Düsseldorf Hbf;Arnhem Centraal;14;nein;Wesel;Vorfahrt eines anderen Zuges
+07.10.2026;22:20;ICE 318;318;Frankfurt(Main)Hbf;Bruxelles Midi;1;nein;Aachen Hbf;
+07.10.2026;22:20;NX RB48;17372;Köln Hbf;Wuppertal-Oberbarmen;18;nein;Solingen Hbf;
+07.10.2026;22:20;RB94;23185;Erndtebrück;Bad Laasphe;0;nein;Erndtebrück;
+07.10.2026;22:20;RE47;89347;Remscheid-Lennep;Düsseldorf Hbf;8;nein;Düsseldorf Hbf;
+07.10.2026;22:20;RRB RB36;82365;Duisburg-Ruhrort;Oberhausen Hbf;1;nein;Duisburg-Meiderich Süd;
+07.10.2026;22:20;RTB RB21;90830;Düren;Heimbach (Eifel);1;nein;Düren;
+07.10.2026;22:20;S4;31404;Dortmund-Lütgendortmund;Unna;2;nein;Unna West;
+07.10.2026;22:20;VIA RB34;90529;Mönchengladbach Hbf;Dalheim;14;nein;Arsbeck;Vorfahrt eines anderen Zuges
+07.10.2026;22:20;VIA RB39;56635;Düsseldorf Hbf;Grevenbroich;8;nein;Grevenbroich;Vorfahrt eines anderen Zuges
+07.10.2026;22:21;Bus RB59;5812;Soest;Unna;1;nein;Soest;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:21;Bus RE13;1508;Mönchengladbach Hbf;Venlo;;nein;Mönchengladbach Hbf;
+07.10.2026;22:21;Bus S28;4222;Neuss Hbf;Kaarster See;0;nein;Neuss Hbf;
+07.10.2026;22:21;ERB RB59;90350;Soest;Dortmund Hbf;2;nein;Hemmerde;
+07.10.2026;22:21;ERB RB61;20385;Hengelo;Bielefeld Hbf;25;nein;Hiddenhausen-Schweicheln;Polizeieinsatz, Defekt am Bahnhof, Vorfahrt eines anderen Zuges, Behördliche Maßnahme
+07.10.2026;22:21;NWB RB85;74952;Bodenfelde;Höxter-Ottbergen;5;nein;Beverungen-Wehrden;Vorfahrt eines anderen Zuges
+07.10.2026;22:21;NX RE4;26436;Dortmund Hbf;Mönchengladbach Hbf;47;teilweise;Düsseldorf Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;22:21;RB25;10586;Köln Hansaring;Meinerzhagen;3;teilweise;Köln Hansaring;
+07.10.2026;22:21;RE2;10234;Osnabrück Hbf;Essen Hbf;23;nein;Essen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:21;RE9;91523;Aachen Hbf;Köln Messe/Deutz;3;nein;Aachen-Rothe Erde;
+07.10.2026;22:21;RTB RB21;90763;Düren;Linnich Bhf;0;nein;Düren;
+07.10.2026;22:21;S2;30277;Dortmund Hbf;Essen Hbf;8;nein;Dortmund-Dorstfeld;Unbefugte Personen auf der Strecke
+07.10.2026;22:21;S9;30973;Hagen Hbf;Recklinghausen Hbf;25;nein;Essen-Gerschede;Unbefugte Personen auf der Strecke
+07.10.2026;22:22;NWB RB58;75272;Bremen Hbf;Osnabrück Hbf;4;nein;Halen;Vorfahrt eines anderen Zuges
+07.10.2026;22:22;S23;32407;Euskirchen;Bonn Hbf;3;nein;Rheinbach Römerkanal;
+07.10.2026;22:22;S41;5021;Hergenrath;Aachen Hbf;7;nein;Aachen Hbf;
+07.10.2026;22:23;RB33;10393;Heinsberg(Rheinl);Aachen Hbf;14;nein;Aachen Schanz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:23;RE9;91507;Aachen Hbf;Köln Messe/Deutz;11;nein;Köln Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:23;SBH S1;34140;Hannover Hbf;Minden (Westf);0;nein;Minden (Westf);Vorfahrt eines anderen Zuges
+07.10.2026;22:24;RB20;30584;Stolberg-Altstadt;Aachen Hbf;2;nein;Eilendorf;
+07.10.2026;22:24;RE41;16247;Bochum Hbf;Haltern am See;3;nein;Recklinghausen Süd;
+07.10.2026;22:24;RRB RE10;82309;Kleve;Krefeld Hbf;22;nein;Krefeld Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;22:24;S8;29097;Mönchengladbach Hbf;Neuss Hbf;1;nein;Mönchengladbach Hbf;
+07.10.2026;22:25;Bus RE4;4402;Erkelenz;Rheydt Hbf;;nein;Erkelenz;
+07.10.2026;22:25;NX RE5;28534;Koblenz Hbf;Emmerich;6;nein;Oberhausen Hbf;
+07.10.2026;22:25;NX RE7;17437;Rheine;Hagen Hbf;5;nein;Schwerte (Ruhr);
+07.10.2026;22:25;S8;31835;Mönchengladbach Hbf;Wuppertal-Oberbarmen;45;teilweise;Wuppertal-Sonnborn;Technische Störung am Zug
+07.10.2026;22:26;S6;31642;Essen Hbf;Kettwig;2;nein;Essen-Hügel;
+07.10.2026;22:26;S8;29090;Neuss Hbf;Mönchengladbach Hbf;3;nein;Kleinenbroich;
+07.10.2026;22:27;ICE 657;657;Köln Hbf;Hannover Hbf;13;nein;Bielefeld Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:27;RE2;10236;Münster(Westf)Hbf;Essen Hbf;4;nein;Buldern;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:27;SBH S5;34596;Paderborn Hbf;Hannover-Linden/Fischerhof;3;nein;Altenbeken;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;22:27;WFB RE15;90299;Emden Hbf;Rheine;0;nein;Rheine;
+07.10.2026;22:28;NX RB48;17374;Bonn-Mehlem;Solingen Hbf;25;nein;Köln Messe/Deutz;
+07.10.2026;22:28;RE57;14965;Dortmund Hbf;Schwerte(Ruhr);2;nein;Dortmund Signal Iduna Park;
+07.10.2026;22:28;RRB S7;90148;Solingen Hbf;Wuppertal Hbf;37;nein;Wuppertal-Ronsdorf;Defekt an einem Signal
+07.10.2026;22:28;S1;56384;Dortmund Hbf;Essen Hbf;6;nein;Dortmund-Dorstfeld Süd;
+07.10.2026;22:28;S11;33149;Bergisch Gladbach;Neuss Hbf;3;nein;Köln-Chorweiler;
+07.10.2026;22:28;S9;30970;Recklinghausen Hbf;Hagen Hbf;32;nein;Wuppertal-Vohwinkel;Verspätung aus vorheriger Fahrt, Technischer Defekt an einem anderen Zug
+07.10.2026;22:28;VIA RE19;77041;Bocholt;Wesel;12;nein;Hamminkeln;Warten auf einen entgegenkommenden Zug
+07.10.2026;22:29;NX RB48;17377;Wuppertal-Oberbarmen;Köln Hbf;13;nein;Haan-Gruiten;
+07.10.2026;22:29;RB43;14786;Dorsten;Dortmund Hbf;2;nein;Gelsenkirchen Zoo;
+07.10.2026;22:29;RRB S7;90150;Solingen Hbf;Remscheid-Lennep;9;nein;Solingen Grünewald;Defekt an einem Signal
+07.10.2026;22:29;S1;31186;Düsseldorf Hbf;Solingen Hbf;9;nein;Düsseldorf-Oberbilk;
+07.10.2026;22:29;TR RB26;25443;Köln Messe/Deutz;Koblenz Hbf;19;nein;Bonn UN Campus;Defekt an einem Signal
+07.10.2026;22:30;Bus RE1;8057;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;22:30;Bus RE13;1510;Mönchengladbach Hbf;Venlo;;nein;Mönchengladbach Hbf;
+07.10.2026;22:30;Bus RE14;67588;Essen Hbf;Borken(Westf);0;nein;Essen Hbf;
+07.10.2026;22:30;Bus RE7;7303;Krefeld Hbf;Neuss Hbf;;nein;Krefeld Hbf;
+07.10.2026;22:30;Bus S28;2214;Mettmann Stadtwald;Düsseldorf Hbf;0;nein;Düsseldorf-Gerresheim;
+07.10.2026;22:30;ICE 910;910;München Hbf;Köln Hbf;126;nein;Köln Hbf;Defekt an der Oberleitung
+07.10.2026;22:30;RB25;10582;Köln Hansaring;Meinerzhagen;19;nein;Dieringhausen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:30;S1;56383;Essen Hbf;Dortmund Hbf;2;nein;Essen-Steele;
+07.10.2026;22:30;S8;31834;Hagen Hbf;Düsseldorf Hbf;6;nein;Düsseldorf Hbf;
+07.10.2026;22:31;Bus EV;93898;Aue-Wingeshausen;Bad Berleburg;0;nein;Aue-Wingeshausen;
+07.10.2026;22:31;ERB RE82;79373;Altenbeken;Bielefeld Hbf;2;nein;Horn-Bad Meinberg;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:31;RB20;27531;Aachen Hbf;Stolberg-Altstadt;12;nein;Aachen Hbf;Verspätete Bereitstellung
+07.10.2026;22:31;VIA RE16;31368;Hagen Hbf;Iserlohn;10;nein;Iserlohn-Letmathe;Warten auf einen entgegenkommenden Zug, Vorfahrt eines anderen Zuges
+07.10.2026;22:31;WFB RE70;95839;Bielefeld Hbf;Hannover Hbf;24;nein;Bielefeld Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;22:32;HLB RB90;61633;Siegen Hbf;Altenkirchen(Westerwald);3;nein;Eiserfeld (Sieg);Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:32;HLB RE34;28586;Kirchhundem-Welschen Ennest;Siegen Hbf;0;nein;Kirchhundem-Welschen Ennest;
+07.10.2026;22:32;NWB RB75;75185;Bielefeld Hbf;Osnabrück Hbf;3;nein;Halle (Westf.) OWL-Arena;
+07.10.2026;22:32;RE47;89349;Remscheid-Lennep;Düsseldorf Hbf;7;nein;Remscheid-Lennep;
+07.10.2026;22:32;RTB RB28;90880;Euskirchen;Zülpich;0;nein;Euskirchen;
+07.10.2026;22:32;S11;33147;Bergisch Gladbach;Neuss Hbf;5;nein;Neuss Hbf;
+07.10.2026;22:32;S19;32047;Köln Frankfurter Straße;Sindorf;2;nein;Sindorf;
+07.10.2026;22:32;TR RB26;25445;Köln/Bonn Flughafen;Koblenz Hbf;26;teilweise;Köln/Bonn Flughafen;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;22:32;TRI RE100;28085;Düsseldorf Hbf;Essen Hbf;3;nein;Düsseldorf Hbf;
+07.10.2026;22:33;ERB RB66;90615;Osnabrück Hbf;Münster(Westf)Hbf;4;nein;Lengerich (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:33;ERB RB72;90679;Herford;Detmold;4;nein;Herford;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;22:33;NX RE5;28536;Koblenz Hbf;Köln Messe/Deutz;23;nein;Köln Messe/Deutz;Verspätung aus vorheriger Fahrt
+07.10.2026;22:33;NX RE6;89740;Minden(Westf);Düsseldorf Hbf;20;nein;Ahlen (Westf);Defekt an der Strecke
+07.10.2026;22:33;RE41;16246;Haltern am See;Bochum Hbf;2;nein;Recklinghausen Süd;
+07.10.2026;22:33;S1;31195;Solingen Hbf;Düsseldorf Hbf;2;nein;Düsseldorf Volksgarten;
+07.10.2026;22:33;S12;33279;Au (Sieg);Hennef(Sieg);2;nein;Herchen;
+07.10.2026;22:33;SBH S5;34583;Hannover Flughafen;Paderborn Hbf;4;nein;Altenbeken;Defekt an der Strecke, Vorfahrt eines anderen Zuges
+07.10.2026;22:34;Bus RB50;5043;Münster (Westf) Hbf;Dortmund Hbf;;nein;Münster (Westf) Hbf;
+07.10.2026;22:34;ERB RB71;89666;Bielefeld Hbf;Rahden;3;nein;Lübbecke (Westf);Defekt an der Strecke, Außerplanmäßige Geschwindigkeitsbeschränkung, Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:34;NX RE6;89738;Minden(Westf);Köln/Bonn Flughafen;25;nein;Essen-Altenessen;
+07.10.2026;22:34;RB20;32835;Eschweiler-Weisweiler;Düren;4;nein;Langerwehe;
+07.10.2026;22:34;RB24;10448;Kall;Köln Messe/Deutz;7;nein;Großbüllesheim;Bereitstellung weiterer Wagen, Abhängen von Wagen
+07.10.2026;22:34;RB38;10283;Bedburg (Erft);Köln Messe/Deutz;5;nein;Köln Messe/Deutz;
+07.10.2026;22:34;RB52;33835;Rummenohl;Lüdenscheid;2;nein;Dahlerbrück;
+07.10.2026;22:34;RE9;10934;Siegen Hbf;Aachen Hbf;17;nein;Köln Messe/Deutz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:34;RRB RB36;82366;Oberhausen Hbf;Duisburg-Ruhrort;2;nein;Duisburg-Obermeiderich;
+07.10.2026;22:34;S19;32049;Köln Frankfurter Straße;Düren;1;nein;Köln Trimbornstr;
+07.10.2026;22:34;VIA RB39;56634;Bedburg (Erft);Düsseldorf Hbf;16;nein;Grevenbroich;Vorfahrt eines anderen Zuges
+07.10.2026;22:35;Bus RB34;529;Mönchengladbach Hbf;Dalheim;0;nein;Mönchengladbach Hbf;
+07.10.2026;22:35;Bus RB50;5048;Dortmund Hbf;Münster(Westf)Hbf;;nein;Dortmund Hbf;
+07.10.2026;22:35;Bus RB65;6578;Münster (Westf) Hbf;Rheine;1;nein;Münster (Westf) Hbf;
+07.10.2026;22:35;HLB RB90;61630;Limburg(Lahn);Au (Sieg);1;nein;Geilhausen;
+07.10.2026;22:35;RB38;10286;Köln Messe/Deutz;Bedburg(Erft);4;nein;Köln-Ehrenfeld;
+07.10.2026;22:35;SBH S1;34145;Minden (Westf);Hannover Hbf;0;nein;Minden (Westf);
+07.10.2026;22:36;Bus RE14;68591;Borken (Westf);Essen West;;nein;Borken (Westf);
+07.10.2026;22:36;S11;33152;Neuss Hbf;Bergisch Gladbach;3;nein;Neuss Allerheiligen;
+07.10.2026;22:37;Bus RB31;62038;Moers;Xanten;1;nein;Moers;
+07.10.2026;22:37;Bus S28;4223;Kaarster See;Neuss Hbf;0;nein;Neuss Hbf;
+07.10.2026;22:37;RB32;31278;Oberhausen Hbf;Dortmund Hbf;4;nein;Essen-Dellwig;
+07.10.2026;22:37;RB64;20234;Münster(Westf)Hbf;Enschede;2;nein;Steinfurt-Grottenkamp;
+07.10.2026;22:37;RE8;10839;Rommerskirchen;Köln Messe/Deutz;4;ja;Rommerskirchen;Beeinträchtigung durch Vandalismus
+07.10.2026;22:37;S11;33151;Bergisch Gladbach;Neuss Hbf;2;nein;Köln-Buchforst;
+07.10.2026;22:37;S12;33275;Au (Sieg);Köln-Ehrenfeld;6;nein;Köln-Ehrenfeld;
+07.10.2026;22:37;S41;5043;Aachen Hbf;Hergenrath;2;nein;Aachen Hbf;
+07.10.2026;22:37;S6;56149;Köln-Nippes;Köln-Dellbrück;2;nein;Köln Hbf;
+07.10.2026;22:38;Bus RE10;60308;Düsseldorf Hbf;Krefeld Hbf;0;nein;Düsseldorf Hbf;
+07.10.2026;22:38;RE62;11517;Rheine;Löhne(Westf);13;nein;Löhne (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:38;RRB RE10;82311;Kleve;Krefeld Hbf;9;teilweise;Goch;Warten auf einen entgegenkommenden Zug
+07.10.2026;22:39;RE42;10170;Haltern am See;Duisburg Hbf;16;nein;Essen-Altenessen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:39;S23;32409;Bad Münstereifel;Bonn Hbf;3;nein;Euskirchen-Kuchenheim;
+07.10.2026;22:39;S6;31641;Kettwig;Essen Hbf;1;nein;Essen Süd;
+07.10.2026;22:40;Bus RE1;8052;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;22:40;Bus RE15;15299;Rheine;Münster(Westf)Hbf;0;nein;Rheine;
+07.10.2026;22:40;NX RE1;26836;Hamm(Westf)Hbf;Aachen Hbf;46;nein;Düsseldorf Hbf;
+07.10.2026;22:40;NX RE5;28537;Wesel;Duisburg Hbf;29;nein;Duisburg Hbf;Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;22:41;NX RE1;26835;Aachen Hbf;Hamm(Westf)Hbf;31;nein;Hamm (Westf) Hbf;Defekt an einem Signal
+07.10.2026;22:41;RB RE22;10045;Kall;Gerolstein;3;nein;Dahlem (Eifel);
+07.10.2026;22:41;RB54;14874;Menden(Sauerland);Fröndenberg;0;nein;Menden (Sauerland);
+07.10.2026;22:41;RE9;10936;Siegen Hbf;Au (Sieg);7;nein;Au (Sieg);Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:42;Bus RE1;925;Dortmund Hbf;Duisburg Hbf;;nein;Dortmund Hbf;
+07.10.2026;22:42;RE22;10044;Kall;Köln Messe/Deutz;;nein;Kall;
+07.10.2026;22:42;RE34;26092;Hagen Hbf;Lennestadt-Altenhundem;;ja;Hagen Hbf;Bauarbeiten
+07.10.2026;22:42;S9;30976;Haltern am See;Wuppertal Hbf;52;nein;Marl Mitte;Unbefugte Personen auf der Strecke
+07.10.2026;22:43;ICE 1541;1541;Köln Hbf;Berlin Südkreuz;66;ja;Köln Hbf;Bauarbeiten, Verspätung aus vorheriger Fahrt, Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;22:43;RB20;30039;Stolberg(Rheinl)Hbf Gl.44;Herzogenrath;2;nein;Herzogenrath;
+07.10.2026;22:43;RB40;30791;Witten Hbf;Hagen Hbf;6;nein;Hagen-Vorhalle;
+07.10.2026;22:43;S5;31579;Witten Hbf;Dortmund Hbf;2;nein;Dortmund-Kruckel;
+07.10.2026;22:43;VIA RE16;31339;Iserlohn;Hagen Hbf;3;nein;Hagen Hbf;
+07.10.2026;22:44;Bus EV;93901;Bad Berleburg;Aue-Wingeshausen;0;nein;Bad Berleburg;
+07.10.2026;22:44;IC 2347;2347;Stuttgart Hbf;Dortmund Hbf;44;nein;Bonn Hbf;Technische Störung am Zug, Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:44;RB32;31279;Dortmund Hbf;Oberhausen Hbf;5;nein;Castrop-Rauxel Hbf;
+07.10.2026;22:44;RE57;10989;Dortmund Hbf;Bestwig;6;nein;Bestwig;Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:44;S23;32406;Bonn Hbf;Euskirchen;2;nein;Swisttal-Odendorf;
+07.10.2026;22:45;Bus RB31;62041;Xanten;Moers;2;nein;Millingen;
+07.10.2026;22:45;Bus RE1;926;Duisburg Hbf;Dortmund Hbf;;nein;Duisburg Hbf;
+07.10.2026;22:45;Bus RE7;7302;Neuss Hbf;Krefeld Hbf;;nein;Neuss Hbf;
+07.10.2026;22:45;IC 2444;2444;Dresden Hbf;Köln Hbf;93;nein;Köln Hbf;Umleitung
+07.10.2026;22:45;ICE 552;552;Berlin Hbf;Köln Hbf;152;nein;Wuppertal Hbf;Verspätete Bereitstellung
+07.10.2026;22:45;R S28;91774;Mettmann Stadtwald;Wuppertal Hbf;7;nein;Wuppertal-Steinbeck;
+07.10.2026;22:45;RB53;14965;Schwerte(Ruhr);Iserlohn;2;nein;Schwerte (Ruhr);Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:45;RE57;14699;Messinghausen;Warburg(Westf);2;nein;Beringhausen;
+07.10.2026;22:46;Bus S28;2227;Düsseldorf Hbf;Mettmann Stadtwald;0;nein;Düsseldorf Hbf;
+07.10.2026;22:46;RB38;10285;Bedburg (Erft);Köln Messe/Deutz;2;nein;Glesch;
+07.10.2026;22:46;RRB RB31;26039;Moers;Duisburg Hbf;4;nein;Duisburg Hbf;
+07.10.2026;22:46;S23;32408;Bonn Hbf;Euskirchen;2;nein;Bonn Helmholtzstraße;
+07.10.2026;22:46;VIA RB46;31485;Gelsenkirchen Hbf;Bochum Hbf;0;nein;Gelsenkirchen Hbf;
+07.10.2026;22:47;RB33;10395;Heinsberg(Rheinl);Lindern;5;nein;Lindern;
+07.10.2026;22:48;R S28;91710;Wuppertal Hbf;Mettmann Stadtwald;6;nein;Wuppertal Zoologischer Garten;
+07.10.2026;22:49;Bus RB54;54036;Bahnhof, Unna;Ardey Bahnhof, Fröndenberg;;nein;Fröndenberg-Frömern;
+07.10.2026;22:49;S1;31197;Solingen Hbf;Düsseldorf Hbf;2;nein;Hilden Süd;
+07.10.2026;22:49;S9;30974;Recklinghausen Hbf;Essen Hbf;66;nein;Essen Hbf;Unbefugte Personen auf der Strecke, Verspätung aus vorheriger Fahrt
+07.10.2026;22:49;VIA RB46;31484;Bochum Hbf;Gelsenkirchen Hbf;1;nein;Bochum Hbf;
+07.10.2026;22:50;ERB RB73;90257;Bielefeld Hbf;Lemgo-Lüttfeld;1;nein;Hörstmar (Lippe);
+07.10.2026;22:50;NX RE4;26435;Aachen Hbf;Dortmund Hbf;15;nein;Dortmund Hbf;
+07.10.2026;22:50;RB20;27534;Eschweiler-Weisweiler;Aachen Hbf;1;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;22:50;RE42;10169;Essen Hbf;Münster(Westf)Hbf;35;nein;Münster (Westf) Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;22:50;RE8;10840;Köln Messe/Deutz;Rommerskirchen;5;nein;Köln Messe/Deutz;
+07.10.2026;22:51;Bus S28;4226;Neuss Hbf;Kaarster See;0;nein;Neuss Hbf;
+07.10.2026;22:51;RB52;14686;Hagen Hbf;Dortmund Hbf;19;nein;Hagen Hbf;Technische Störung am Zug
+07.10.2026;22:51;S6;56148;Köln-Dellbrück;Köln-Nippes;5;nein;Köln Messe/Deutz;
+07.10.2026;22:52;ERB RB89;90038;Paderborn Hbf;Münster(Westf)Hbf;15;nein;Münster (Westf) Hbf;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:52;RRB S7;90152;Solingen Hbf;Wuppertal Hbf;1;nein;Solingen Hbf;Defekt an einem Signal
+07.10.2026;22:52;WFB RE15;90300;Rheine;Emden Hbf;0;nein;Rheine;
+07.10.2026;22:52;WFB RE70;95838;Braunschweig Hbf;Bielefeld Hbf;4;nein;Minden (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;22:53;Bus RB65;6841;Rheine;Münster(Westf)Hbf;;nein;Rheine;
+07.10.2026;22:53;S4;31405;Unna;Dortmund-Lütgendortmund;2;nein;Dortmund-Dorstfeld;
+07.10.2026;22:53;S8;29092;Neuss Hbf;Mönchengladbach Hbf;7;nein;Büttgen;
+07.10.2026;22:54;ICE 842;842;Berlin Hbf;Köln Hbf;7;nein;Hamm (Westf) Hbf;
+07.10.2026;22:54;NWB RB74;75085;Bielefeld Hbf;Paderborn Hbf;5;nein;Bielefeld-Windelsbleiche;
+07.10.2026;22:54;RB27;10634;Köln Messe/Deutz;Grevenbroich;7;nein;Grevenbroich;
+07.10.2026;22:54;VIA RB91;31381;Siegen Hbf;Welschen Ennest;1;nein;Kreuztal-Eichen;
+07.10.2026;22:55;Bus RE13;1503;Venlo;Mönchengladbach Hbf;;nein;Mönchengladbach Hbf;
+07.10.2026;22:55;NX RB48;17376;Köln Hbf;Wuppertal-Oberbarmen;5;nein;Köln Messe/Deutz;
+07.10.2026;22:56;NX RE6;89741;Köln/Bonn Flughafen;Dortmund Hbf;25;nein;Düsseldorf Hbf;Verspätete Bereitstellung, Verspätung aus vorheriger Fahrt
+07.10.2026;22:56;NX RE7;17436;Köln Hbf;Hamm(Westf)Hbf;9;nein;Wuppertal Hbf;
+07.10.2026;22:56;S6;31644;Essen Hbf;Kettwig;1;nein;Essen-Hügel;
+07.10.2026;22:57;RB43;14787;Dortmund Hbf;Dorsten;5;nein;Castrop-Rauxel Süd;
+07.10.2026;22:57;S1;31188;Düsseldorf Hbf;Solingen Hbf;1;nein;Düsseldorf Volksgarten;
+07.10.2026;22:57;S4;31407;Unna;Dortmund-Lütgendortmund;2;nein;Dortmund-Wickede West;
+07.10.2026;22:58;S8;31836;Wuppertal-Oberbarmen;Düsseldorf Hbf;3;nein;Düsseldorf-Flingern;
+07.10.2026;22:59;Bus RE4;4404;Mönchengladbach Hbf;Aachen Hbf;;nein;Mönchengladbach Hbf;
+07.10.2026;22:59;NX RE6;89743;Köln/Bonn Flughafen;Dortmund Hbf;9;nein;Köln Messe/Deutz;
+07.10.2026;23:00;Bus EV;92932;Finnentrop;Olpe;0;nein;Finnentrop;
+07.10.2026;23:00;Bus RE1;8061;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;23:00;Bus S28;2218;Mettmann Stadtwald;Düsseldorf Hbf;0;nein;Düsseldorf-Gerresheim;
+07.10.2026;23:00;ICE 512;512;München Hbf;Münster(Westf)Hbf;7;nein;Hagen Hbf;
+07.10.2026;23:00;RB77;14584;Elze(Han);Löhne(Westf);1;nein;Vlotho;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:00;RE9;10933;Aachen Hbf;Siegen Hbf;9;nein;Siegen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:00;S1;56385;Essen Hbf;Dortmund Hbf;3;nein;Essen-Steele;
+07.10.2026;23:00;S8;31837;Düsseldorf Hbf;Hagen Hbf;13;nein;Wuppertal-Steinbeck;Technischer Defekt an einem anderen Zug
+07.10.2026;23:00;S8;31838;Hagen Hbf;Düsseldorf Hbf;10;teilweise;Wuppertal-Steinbeck;Technische Störung am Zug, Technischer Defekt an einem anderen Zug
+07.10.2026;23:01;Bus EV;92947;Olpe;Finnentrop;0;nein;Olpe;
+07.10.2026;23:01;NX RE1;26841;Aachen Hbf;Dortmund Hbf;3;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;23:01;RRB RE10;82306;Krefeld Hbf;Kleve;4;nein;Geldern;Defekt an einem Signal
+07.10.2026;23:02;S8;29099;Mönchengladbach Hbf;Neuss Hbf;2;nein;Kleinenbroich;
+07.10.2026;23:02;SBH S5;34587;Hannover Hbf;Paderborn Hbf;1;nein;Lügde;
+07.10.2026;23:03;HLB RB93;61901;Aue-Wingeshausen;Erndtebrück;0;nein;Aue-Wingeshausen;
+07.10.2026;23:03;ICE 209;209;Hamburg-Altona;Köln Hbf;3;nein;Münster (Westf) Hbf;
+07.10.2026;23:03;RB52;33836;Lüdenscheid;Rummenohl;0;nein;Lüdenscheid;
+07.10.2026;23:03;RB53;14966;Iserlohn;Dortmund Hbf;4;nein;Hennen;
+07.10.2026;23:03;S4;31408;Dortmund-Lütgendortmund;Unna;2;nein;Dortmund-Wickede West;
+07.10.2026;23:04;HLB RE99;15152;Gießen;Siegen Hbf;5;nein;Siegen Hbf;Außerplanmäßige Geschwindigkeitsbeschränkung, Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:04;NX RE5;28538;Koblenz Hbf;Köln Messe/Deutz;34;nein;Bonn Hbf;Defekt an einem Signal
+07.10.2026;23:04;RTB RB21;90762;Linnich Bhf;Düren;4;nein;Düren;
+07.10.2026;23:04;S5;31580;Dortmund Hbf;Hagen Hbf;4;nein;Hagen Hbf;
+07.10.2026;23:05;RB54;14873;Fröndenberg;Menden(Sauerland);3;nein;Bösperde;
+07.10.2026;23:05;TR RB26;25442;Mainz Hbf;Köln/Bonn Flughafen;59;teilweise;Köln Hbf;Defekt an einem Signal, Defektes Stellwerk
+07.10.2026;23:06;Bus RB67;6718;Rheda-Wiedenbrück;Bielefeld Hbf;3;nein;Isselhorst-Avenwedde;
+07.10.2026;23:06;S23;32411;Euskirchen;Bonn Hbf;1;nein;Euskirchen;
+07.10.2026;23:07;Bus S28;4227;Kaarster See;Neuss Hbf;0;nein;Neuss Hbf;
+07.10.2026;23:07;NWB RB74;75084;Paderborn Hbf;Bielefeld Hbf;3;nein;Bielefeld-Senne;
+07.10.2026;23:07;NWB RB84;74995;Kreiensen;Paderborn Hbf;8;nein;Paderborn Hbf;Warten auf Anschlussreisende
+07.10.2026;23:07;R S28;91776;Mettmann Stadtwald;Wuppertal Hbf;19;nein;Wuppertal-Vohwinkel;
+07.10.2026;23:07;S6;56151;Köln-Nippes;Köln-Dellbrück;2;nein;Köln Hbf;
+07.10.2026;23:08;RB52;14687;Dortmund Hbf;Hagen Hbf;21;nein;Hagen Hbf;Technischer Defekt an einem anderen Zug
+07.10.2026;23:08;VIA RE19;20041;Arnhem Centraal;Duisburg Hbf;60;nein;Oberhausen Hbf;Defekt an der Strecke, Vorfahrt eines anderen Zuges
+07.10.2026;23:09;Bus RB31;63041;Xanten;Duisburg Hbf;0;nein;Xanten;
+07.10.2026;23:09;ERB RB89;90041;Münster(Westf)Hbf;Paderborn Hbf;9;nein;Hamm (Westf) Hbf;Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;23:09;RB20;27533;Aachen Hbf;Eschweiler-Weisweiler;3;nein;Eilendorf;
+07.10.2026;23:09;RE22;10047;Köln Messe/Deutz;Kall;1;nein;Mechernich;
+07.10.2026;23:09;RE9;10938;Siegen Hbf;Au (Sieg);10;nein;Siegen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:09;S6;31643;Kettwig;Essen Hbf;4;nein;Essen Süd;
+07.10.2026;23:10;Bus RE1;8056;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;23:10;ERB RB66;90616;Münster(Westf)Hbf;Osnabrück Hbf;4;nein;Westbevern;Außerplanmäßige Geschwindigkeitsbeschränkung, Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:10;S2;30278;Essen Hbf;Dortmund Hbf;5;nein;Herne-Wanne-Eickel Hbf;
+07.10.2026;23:10;S6;56150;Köln-Dellbrück;Köln-Nippes;1;nein;Köln-Holweide;
+07.10.2026;23:11;NWB RB75;75187;Bielefeld Hbf;Osnabrück Hbf;2;nein;Quelle-Kupferheide;
+07.10.2026;23:11;RB33;10394;Lindern;Heinsberg(Rheinl);2;nein;Lindern;
+07.10.2026;23:11;S9;30977;Hagen Hbf;Bottrop Hbf;32;teilweise;Essen Hbf;Verspätung eines vorausfahrenden Zuges, Technischer Defekt an einem anderen Zug
+07.10.2026;23:12;Bus RE1;927;Dortmund Hbf;Duisburg Hbf;;nein;Dortmund Hbf;
+07.10.2026;23:12;ERB RB61;20387;Hengelo;Bielefeld Hbf;5;nein;Bünde (Westf);Verspätung eines vorausfahrenden Zuges, Behördliche Maßnahme
+07.10.2026;23:12;ERB RB61;20390;Bielefeld Hbf;Osnabrück Hbf;1;nein;Bielefeld Hbf;
+07.10.2026;23:12;NX RB48;17381;Wuppertal-Oberbarmen;Köln Hbf;3;nein;Wuppertal-Oberbarmen;
+07.10.2026;23:12;RE42;10175;Duisburg Hbf;Haltern am See;18;nein;Oberhausen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:13;S23;32410;Bonn Hbf;Euskirchen;2;nein;Bonn-Endenich Nord;
+07.10.2026;23:14;NX RE6;89737;Köln/Bonn Flughafen;Minden(Westf);34;nein;Löhne (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:14;RB51;20287;Enschede;Gronau (Westf);1;nein;Gronau (Westf);
+07.10.2026;23:15;Bus RE1;928;Duisburg Hbf;Dortmund Hbf;;nein;Duisburg Hbf;
+07.10.2026;23:15;HLB RB91;61971;Siegen Hbf;Kirchhundem-Welschen Ennest;1;nein;Siegen-Weidenau;
+07.10.2026;23:15;NWB RB84;74996;Paderborn Hbf;Holzminden;1;nein;Bad Driburg (Westf);
+07.10.2026;23:15;RE22;10049;Köln Messe/Deutz;Euskirchen;5;nein;Köln Messe/Deutz;
+07.10.2026;23:15;VIA RE16;31341;Iserlohn;Iserlohn-Letmathe;1;nein;Iserlohn;
+07.10.2026;23:16;ICE 100;100;Interlaken Ost;Dortmund Hbf;14;nein;Köln Hbf;Verspätung im Ausland, Vorfahrt eines anderen Zuges, Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;23:16;RB40;30794;Hagen Hbf;Witten Hbf;0;nein;Hagen Hbf;
+07.10.2026;23:16;RB51;14634;Lünen Hbf;Coesfeld(Westf);1;nein;Bork (Westf);
+07.10.2026;23:16;S19;32046;Sindorf;Köln Frankfurter Straße;2;nein;Köln Trimbornstr;
+07.10.2026;23:16;VIA RB39;56637;Düsseldorf Hbf;Grevenbroich;7;nein;Kapellen-Wevelinghoven;Vorfahrt eines anderen Zuges
+07.10.2026;23:17;ERB RB67;79320;Münster (Westf) Hbf;Beelen;0;nein;Münster (Westf) Hbf;
+07.10.2026;23:17;NX RB48;17378;Bonn-Mehlem;Solingen Hbf;46;nein;Köln West;Defekt an einem Signal
+07.10.2026;23:17;RRB RB31;26040;Duisburg Hbf;Moers;2;nein;Rheinhausen;
+07.10.2026;23:17;VIA RE19;77040;Düsseldorf Hbf;Bocholt;23;nein;Wesel;Vorfahrt eines anderen Zuges, Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;23:18;R S28;77289;Wuppertal Hbf;Mettmann Stadtwald;2;nein;Wuppertal Zoologischer Garten;
+07.10.2026;23:18;RE57;10774;Bestwig;Dortmund Hbf;5;nein;Fröndenberg;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:18;RE9;10935;Au (Sieg);Siegen Hbf;1;nein;Au (Sieg);
+07.10.2026;23:19;ERB RB89;90042;Paderborn Hbf;Münster(Westf)Hbf;2;nein;Scharmede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:19;RB20;30038;Herzogenrath;Alsdorf-Annapark;0;nein;Herzogenrath;
+07.10.2026;23:19;RE2;10238;Münster(Westf)Hbf;Essen Hbf;4;nein;Senden-Bösensell;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:19;S1;31199;Solingen Hbf;Düsseldorf Hbf;2;nein;Hilden Süd;
+07.10.2026;23:20;HLB RE99;15147;Siegen Hbf;Gießen;2;nein;Wilnsdorf-Rudersdorf;
+07.10.2026;23:20;RE2;10237;Essen Hbf;Münster(Westf)Hbf;20;nein;Dülmen;Unbefugte Personen auf der Strecke, Verspätung aus vorheriger Fahrt
+07.10.2026;23:20;RRB RB36;82367;Duisburg-Ruhrort;Oberhausen Hbf;2;nein;Duisburg-Meiderich Süd;
+07.10.2026;23:21;Bus S28;2233;Düsseldorf Hbf;Mettmann Stadtwald;3;nein;Düsseldorf-Flingern;
+07.10.2026;23:21;Bus S28;4232;Neuss Hbf;Kaarster See;0;nein;Neuss Hbf;
+07.10.2026;23:21;RTB RB21;90765;Düren;Linnich Bhf;0;nein;Düren;
+07.10.2026;23:22;ERB RB67;79318;Münster (Westf) Hbf;Rheda-Wiedenbrück;1;nein;Rheda-Wiedenbrück;
+07.10.2026;23:22;NWB RB58;75274;Bremen Hbf;Osnabrück Hbf;6;nein;Halen;Vorfahrt eines anderen Zuges
+07.10.2026;23:22;NX RE7;17434;Krefeld Hbf;Münster(Westf)Hbf;31;nein;Münster (Westf) Hbf;Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;23:22;RB25;10591;Lüdenscheid;Gummersbach-Dieringhausen;7;nein;Gummersbach;
+07.10.2026;23:22;RE41;16248;Haltern am See;Bochum Hbf;6;nein;Marl-Sinsen;
+07.10.2026;23:22;S4;31409;Unna;Dortmund-Lütgendortmund;1;nein;Massen;
+07.10.2026;23:22;S5;31581;Hagen Hbf;Dortmund Hbf;12;nein;Dortmund Hbf;
+07.10.2026;23:23;S8;31840;Hagen Hbf;Düsseldorf Hbf;2;nein;Hagen-Westerbauer;
+07.10.2026;23:24;Bus RE10;60309;Krefeld Hbf;Düsseldorf Hbf;7;nein;Düsseldorf Hbf;
+07.10.2026;23:24;ERB RB61;20389;Hengelo;Osnabrück Hbf;2;nein;Ibbenbüren-Esch;Längere Haltezeit am Bahnhof, Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:24;NX RE4;26438;Dortmund Hbf;Rheydt Hbf;3;nein;Düsseldorf-Bilk;
+07.10.2026;23:24;TR RB26;25444;Mainz Hbf;Köln/Bonn Flughafen;20;nein;Bonn-Bad Godesberg;Defekt an einem Signal, Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:25;NX RE7;17439;Münster(Westf)Hbf;Hagen Hbf;2;nein;Schwerte (Ruhr);
+07.10.2026;23:25;RB20;32836;Düren;Eschweiler-Weisweiler;1;nein;Langerwehe;
+07.10.2026;23:26;ERB RB61;20388;Bielefeld Hbf;Rheine;1;nein;Ibbenbüren-Laggenbeck;
+07.10.2026;23:26;S1;56387;Essen Hbf;Dortmund Hbf;1;nein;Essen Hbf;
+07.10.2026;23:26;S12;33283;Au (Sieg);Hennef(Sieg);2;nein;Schladern (Sieg);
+07.10.2026;23:26;S6;31645;Kettwig;Essen Hbf;0;nein;Kettwig;
+07.10.2026;23:26;S6;31646;Essen Hbf;Kettwig;1;nein;Essen-Hügel;
+07.10.2026;23:27;RB64;20233;Enschede;Münster(Westf)Hbf;4;nein;Altenberge;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:27;S1;31190;Düsseldorf Hbf;Solingen Hbf;1;nein;Düsseldorf Volksgarten;
+07.10.2026;23:28;Bus RB59;5814;Soest;Unna;0;nein;Soest;
+07.10.2026;23:28;RE57;14967;Dortmund Hbf;Schwerte(Ruhr);1;nein;Dortmund Signal Iduna Park;
+07.10.2026;23:28;S1;56388;Dortmund Hbf;Essen Hbf;2;nein;Dortmund-Dorstfeld Süd;
+07.10.2026;23:28;S2;30281;Dortmund Hbf;Essen Hbf;3;nein;Dortmund-Westerfilde;
+07.10.2026;23:28;S4;31412;Dortmund-Lütgendortmund;Unna;1;nein;Dortmund-Somborn;
+07.10.2026;23:29;ERB RB59;90353;Dortmund Hbf;Unna;3;nein;Unna;
+07.10.2026;23:29;RB64;20236;Münster(Westf)Hbf;Enschede;5;nein;Nordwalde;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:29;S8;29094;Neuss Hbf;Mönchengladbach Hbf;5;nein;Korschenbroich;
+07.10.2026;23:30;Bus RE1;8065;Duisburg Hbf;Essen Hbf Kruppstraße/Am Thyssenhaus;;nein;Duisburg Hbf;
+07.10.2026;23:30;Bus RE14;67590;Essen Hbf;Dorsten;0;nein;Essen Hbf;
+07.10.2026;23:30;Bus RE7;7305;Krefeld Hbf;Neuss Hbf;;nein;Krefeld Hbf;
+07.10.2026;23:30;Bus S28;2224;Mettmann Stadtwald;Düsseldorf Hbf;0;nein;Düsseldorf-Gerresheim;
+07.10.2026;23:30;NWB RB74;75086;Paderborn Hbf;Bielefeld Hbf;5;nein;Paderborn Nord;Warten auf einen entgegenkommenden Zug
+07.10.2026;23:30;S11;33153;Bergisch Gladbach;Neuss Hbf;3;nein;Köln-Chorweiler Nord;
+07.10.2026;23:30;S19;32051;Köln Frankfurter Straße;Sindorf;3;nein;Horrem;
+07.10.2026;23:31;RB20;30586;Stolberg-Altstadt;Aachen Hbf;5;nein;Aachen Hbf;
+07.10.2026;23:32;ERB RB89;90043;Münster(Westf)Hbf;Paderborn Hbf;9;nein;Hamm-Bockum-Hövel;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:32;HLB RB90;61635;Siegen Hbf;Au(Sieg);2;nein;Eiserfeld (Sieg);
+07.10.2026;23:32;IC 2446;2446;Dresden Hbf;Dortmund Hbf;8;nein;Dortmund Hbf;Defekt an einem Bahnübergang, Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;23:32;RE9;10957;Aachen Hbf;Köln Messe/Deutz;7;nein;Eschweiler Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:32;S8;31841;Düsseldorf Hbf;Hagen Hbf;1;nein;Düsseldorf-Flingern;
+07.10.2026;23:32;VIA RB91;21448;Kirchhundem-Welschen Ennest;Siegen Hbf;3;nein;Kreuztal-Eichen;
+07.10.2026;23:32;VIA RE16;29992;Hagen Hbf;Iserlohn;3;nein;Iserlohn-Letmathe;
+07.10.2026;23:33;NWB RB58;75281;Osnabrück Hbf;Vechta;5;nein;Halen;Vorfahrt eines anderen Zuges
+07.10.2026;23:33;NX RE4;26440;Dortmund Hbf;Düsseldorf Hbf;4;nein;Hagen Hbf;
+07.10.2026;23:33;NX RE6;89742;Minden(Westf);Düsseldorf Hbf;9;nein;Ahlen (Westf);
+07.10.2026;23:33;S11;33156;Neuss Hbf;Bergisch Gladbach;1;nein;Norf;
+07.10.2026;23:33;S9;30978;Bottrop Hbf;Essen Hbf;30;ja;Bottrop Hbf;Verspätung aus vorheriger Fahrt, Technischer Defekt an einem anderen Zug
+07.10.2026;23:33;VIA RE19;20040;Düsseldorf Hbf;Arnhem Centraal;15;nein;Haldern (Rheinl);Vorfahrt eines anderen Zuges, Verspätetes Personal aus vorheriger Fahrt
+07.10.2026;23:33;VIA RE19;20043;Arnhem Centraal;Duisburg Hbf;5;nein;Wesel-Feldmark;Vorfahrt eines anderen Zuges
+07.10.2026;23:34;Bus RB50;5045;Münster (Westf) Hbf;Dortmund Hbf;;nein;Münster (Westf) Hbf;
+07.10.2026;23:34;Bus RE10;60311;Krefeld Hbf;Düsseldorf Hbf;0;nein;Krefeld Hbf;
+07.10.2026;23:34;ERB RE78;52291;Bielefeld Hbf;Minden(Westf);1;nein;Herford;
+07.10.2026;23:34;NX RE4;26437;Rheydt Hbf;Dortmund Hbf;9;nein;Wetter (Ruhr);
+07.10.2026;23:34;RB20;32837;Eschweiler-Weisweiler;Düren;1;nein;Langerwehe;
+07.10.2026;23:34;RB52;33837;Rummenohl;Lüdenscheid;1;nein;Dahlerbrück;
+07.10.2026;23:34;RRB RB36;82368;Oberhausen Hbf;Duisburg-Ruhrort;2;nein;Duisburg-Obermeiderich;
+07.10.2026;23:34;RRB S7;90157;Wuppertal Hbf;Solingen Hbf;32;nein;Remscheid-Lüttringhausen;Defekt an einem Signal
+07.10.2026;23:35;Bus RB50;5050;Dortmund Hbf;Münster(Westf)Hbf;;nein;Dortmund Hbf;
+07.10.2026;23:35;S1;56386;Dortmund Hbf;Essen Hbf;11;nein;Essen Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:36;RRB RE10;82308;Krefeld Hbf;Kleve;0;nein;Krefeld Hbf;
+07.10.2026;23:37;Bus RB31;62040;Moers;Xanten;0;nein;Moers;
+07.10.2026;23:37;Bus S28;4233;Kaarster See;Neuss Hbf;0;nein;Neuss Hbf;
+07.10.2026;23:37;RB32;31280;Oberhausen Hbf;Dortmund Hbf;3;nein;Essen-Dellwig;
+07.10.2026;23:37;RB43;14788;Dorsten;Herne-Wanne-Eickel Hbf;5;nein;Herne-Wanne-Eickel Hbf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:37;RE8;10841;Rommerskirchen;Köln Messe/Deutz;1;nein;Rommerskirchen;
+07.10.2026;23:37;VIA RE19;77043;Bocholt;Wesel;3;nein;Wesel;
+07.10.2026;23:38;Bus RE10;60310;Düsseldorf Hbf;Krefeld Hbf;0;nein;Düsseldorf Hbf;
+07.10.2026;23:38;RE57;10783;Dortmund Hbf;Bestwig;12;nein;Meschede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:38;TR RB26;25447;Köln/Bonn Flughafen;Koblenz Hbf;41;ja;Köln/Bonn Flughafen;Defektes Stellwerk
+07.10.2026;23:39;VIA RB39;56636;Grevenbroich;Düsseldorf Hbf;2;nein;Kapellen-Wevelinghoven;
+07.10.2026;23:40;Bus RE1;8060;Essen Hbf Kruppstraße/Am Thyssenhaus;Duisburg Hbf;;nein;Mülheim (Ruhr) Hbf;
+07.10.2026;23:40;NX RE1;26838;Hamm(Westf)Hbf;Aachen Hbf;11;nein;Düsseldorf Hbf;
+07.10.2026;23:40;RB24;10453;Köln Messe/Deutz;Euskirchen;6;nein;Köln Messe/Deutz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:40;RB25;10590;Köln Hansaring;Gummersbach;2;nein;Rösrath-Stümpen;
+07.10.2026;23:40;S12;33274;Hennef(Sieg);Au (Sieg);1;nein;Herchen;
+07.10.2026;23:40;S4;31411;Unna;Dortmund-Lütgendortmund;2;nein;Unna West;
+07.10.2026;23:40;S6;56152;Köln-Dellbrück;Köln-Nippes;1;nein;Köln-Holweide;
+07.10.2026;23:40;S8;31839;Düsseldorf Hbf;Wuppertal-Oberbarmen;11;nein;Wuppertal-Oberbarmen;
+07.10.2026;23:41;ERB RB66;90617;Osnabrück Hbf;Münster(Westf)Hbf;1;nein;Ostbevern;
+07.10.2026;23:41;NX RE1;26837;Aachen Hbf;Hamm(Westf)Hbf;53;nein;Hamm (Westf) Hbf;Defekt an einem Signal, Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:41;RB20;30043;Stolberg(Rheinl)Hbf Gl.44;Herzogenrath;2;nein;Herzogenrath;
+07.10.2026;23:41;RB27;10643;Grevenbroich;Köln Messe/Deutz;15;nein;Köln Messe/Deutz;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:41;RB54;14876;Menden(Sauerland);Fröndenberg;0;nein;Menden (Sauerland);
+07.10.2026;23:41;S19;32048;Düren;Köln Frankfurter Straße;1;nein;Köln Hbf;
+07.10.2026;23:42;Bus RE1;929;Dortmund Hbf;Duisburg Hbf;;nein;Dortmund Hbf;
+07.10.2026;23:42;ERB RB59;90352;Unna;Dortmund Hbf;3;nein;Holzwickede;Verspätung aus vorheriger Fahrt
+07.10.2026;23:42;RB24;10451;Köln Messe/Deutz;Kall;13;nein;Mechernich;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:42;RE22;10046;Kall;Euskirchen;0;nein;Kall;
+07.10.2026;23:42;S19;32053;Köln Frankfurter Straße;Düren;3;nein;Köln Hansaring;
+07.10.2026;23:43;RB40;30793;Witten Hbf;Hagen Hbf;1;nein;Hagen-Vorhalle;
+07.10.2026;23:43;RE41;16249;Bochum Hbf;Haltern am See;16;nein;Haltern am See;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:43;S23;32412;Bonn Hbf;Euskirchen;1;nein;Bonn-Endenich Nord;
+07.10.2026;23:44;ICE 22;22;Nürnberg Hbf;Dortmund Hbf;4;nein;Bonn Hbf;
+07.10.2026;23:44;RB64;20235;Enschede;Gronau (Westf);0;nein;Gronau (Westf);
+07.10.2026;23:44;VIA RB91;31370;Hagen Hbf;Lennestadt-Altenhundem;3;teilweise;Altena (Westf);Bauarbeiten, Vorfahrt eines anderen Zuges
+07.10.2026;23:45;Bus RE1;930;Duisburg Hbf;Dortmund Hbf;;nein;Duisburg Hbf;
+07.10.2026;23:45;Bus RE7;7304;Neuss Hbf;Krefeld Hbf;;nein;Neuss Hbf;
+07.10.2026;23:45;NX RE1;26840;Hamm(Westf)Hbf;Düsseldorf Hbf;11;nein;Dortmund Hbf;
+07.10.2026;23:45;R S28;91712;Wuppertal Hbf;Mettmann Stadtwald;1;nein;Wuppertal-Steinbeck;
+07.10.2026;23:45;RB52;14689;Dortmund Hbf;Hagen Hbf;12;nein;Dortmund Tierpark;Technische Störung am Zug
+07.10.2026;23:45;RB53;14967;Schwerte(Ruhr);Iserlohn;1;nein;Schwerte (Ruhr);
+07.10.2026;23:46;Bus S28;2237;Düsseldorf Hbf;Mettmann Stadtwald;0;nein;Düsseldorf Hbf;
+07.10.2026;23:46;RRB RB31;26041;Moers;Duisburg Hbf;7;nein;Duisburg Hbf;
+07.10.2026;23:46;S19;32050;Sindorf;Köln Frankfurter Straße;0;nein;Sindorf;
+07.10.2026;23:46;VIA RB46;31487;Gelsenkirchen Hbf;Bochum Hbf;0;nein;Gelsenkirchen Hbf;
+07.10.2026;23:47;ERB RB89;90040;Paderborn Hbf;Münster(Westf)Hbf;15;nein;Münster (Westf) Hbf;Defekt an der Strecke, Verspätung eines vorausfahrenden Zuges, Vorfahrt eines anderen Zuges
+07.10.2026;23:47;RB27;10636;Köln Messe/Deutz;Grevenbroich;13;nein;Rommerskirchen;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:47;RB33;10397;Heinsberg(Rheinl);Lindern;11;nein;Lindern;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:47;RE9;91522;Köln Messe/Deutz;Aachen Hbf;2;nein;Köln Hbf;
+07.10.2026;23:47;S11;33154;Neuss Hbf;Bergisch Gladbach;2;nein;Köln Hbf;
+07.10.2026;23:48;RB20;30046;Alsdorf-Annapark;Stolberg (Rheinl) Hbf;0;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;23:48;VIA RE16;31395;Iserlohn;Hagen Hbf;2;nein;Iserlohn;
+07.10.2026;23:49;Bus RB59;5995;Unna;Soest;3;nein;Lünern;
+07.10.2026;23:49;RB63;14742;Münster(Westf)Hbf;Coesfeld(Westf);3;nein;Coesfeld Schulzentrum;
+07.10.2026;23:49;S8;29096;Neuss Hbf;Mönchengladbach Hbf;1;nein;Neuss Hbf;
+07.10.2026;23:49;VIA RB46;31486;Bochum Hbf;Gelsenkirchen Hbf;1;nein;Bochum Hbf;
+07.10.2026;23:50;RB20;30040;Eschweiler-Weisweiler;Aachen Hbf;2;nein;Stolberg (Rheinl) Hbf;
+07.10.2026;23:50;RB32;31281;Dortmund Hbf;Oberhausen Hbf;1;nein;Herne;
+07.10.2026;23:50;RE42;10173;Essen Hbf;Münster(Westf)Hbf;18;nein;Münster (Westf) Hbf;
+07.10.2026;23:50;S4;31410;Dortmund-Lütgendortmund;Unna;2;nein;Unna West;
+07.10.2026;23:50;S5;31582;Dortmund Hbf;Hagen Hbf;3;nein;Witten Hbf;
+07.10.2026;23:50;VIA RE19;20042;Düsseldorf Hbf;Emmerich;11;nein;Oberhausen Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;23:51;Bus S28;4236;Neuss Hbf;Kaarster See;0;nein;Neuss Hbf;
+07.10.2026;23:51;NX RE1;26839;Aachen Hbf;Hamm(Westf)Hbf;20;nein;Essen-Altenessen;
+07.10.2026;23:51;RB38;10288;Köln Messe/Deutz;Bedburg(Erft);10;nein;Quadrath-Ichendorf;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:51;RB43;14789;Dortmund Hbf;Herne-Wanne-Eickel Hbf;2;nein;Dortmund-Bövinghausen;
+07.10.2026;23:51;RB52;14688;Hagen Hbf;Dortmund Hbf;0;nein;Hagen Hbf;
+07.10.2026;23:51;S5;31583;Hagen Hbf;Dortmund Hbf;0;nein;Hagen Hbf;
+07.10.2026;23:51;S9;30979;Wuppertal Hbf;Bottrop Hbf;23;nein;Essen-Gerschede;Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:51;WFB RE60;95791;Rheine;Minden(Westf);3;nein;Löhne (Westf);Verspätung eines vorausfahrenden Zuges
+07.10.2026;23:52;NWB RB74;75087;Bielefeld Hbf;Paderborn Hbf;2;nein;Bielefeld-Senne;
+07.10.2026;23:52;NX RB48;17379;Solingen Hbf;Bonn-Mehlem;31;nein;Brühl;Verspätung aus vorheriger Fahrt
+07.10.2026;23:52;NX RE11;26738;Kassel-Wilhelmshöhe;Hamm(Westf)Hbf;22;nein;Hamm (Westf) Hbf;Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;23:52;S23;32413;Euskirchen;Bonn Hbf;3;nein;Rheinbach Römerkanal;
+07.10.2026;23:52;S6;56153;Köln-Nippes;Köln-Dellbrück;3;nein;Köln-Dellbrück;
+07.10.2026;23:52;WFB RE60;95788;Braunschweig Hbf;Osnabrück Hbf;37;nein;Minden (Westf);Defekt an einem Signal, Verspätung eines vorausfahrenden Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;23:53;IC 60403;60403;Amsterdam Centraal;Zürich HB;40;nein;Köln Hbf;Vorfahrt eines anderen Zuges
+07.10.2026;23:53;NJ 403;403;Amsterdam Centraal;Zürich HB;40;nein;Köln Hbf;
+07.10.2026;23:53;NWB RB75;75188;Osnabrück Hbf;Bielefeld Hbf;2;nein;Bielefeld Hbf;
+07.10.2026;23:53;S1;56390;Dortmund Hbf;Essen Hbf;3;nein;Dortmund Hbf;
+07.10.2026;23:53;S11;33157;Bergisch Gladbach;Neuss Hbf;0;nein;Bergisch Gladbach;
+07.10.2026;23:53;WFB RE15;90301;Emden Hbf;Münster(Westf)Hbf;1;nein;Rheine;
+07.10.2026;23:54;ICE 524;524;München Hbf;Köln Hbf;3;nein;Köln Hbf;
+07.10.2026;23:54;NX RE1;26843;Aachen Hbf;Hamm(Westf)Hbf;2;nein;Aachen-Rothe Erde;
+07.10.2026;23:54;RB53;14968;Iserlohn;Schwerte(Ruhr);3;nein;Iserlohnerheide;
+07.10.2026;23:54;RE2;10239;Essen Hbf;Münster(Westf)Hbf;1;nein;Gelsenkirchen Hbf;
+07.10.2026;23:54;RE34;26093;Lennestadt-Altenhundem;Hagen Hbf;;ja;Lennestadt-Altenhundem;Bauarbeiten
+07.10.2026;23:54;RRB RE10;82313;Kleve;Krefeld Hbf;0;nein;Kleve;
+07.10.2026;23:54;S8;63355;Mönchengladbach Hbf;Neuss Hbf;1;nein;Mönchengladbach Hbf;
+07.10.2026;23:54;VIA RB39;56639;Düsseldorf Hbf;Grevenbroich;5;nein;Düsseldorf Hbf;Verspätung aus vorheriger Fahrt
+07.10.2026;23:55;ICE 510;510;München Hbf;Köln Hbf;34;nein;Siegburg/Bonn;Defekt an der Oberleitung
+07.10.2026;23:55;NX RB48;17380;Köln Hbf;Wuppertal-Oberbarmen;1;nein;Köln Messe/Deutz;
+07.10.2026;23:56;S1;56389;Essen Hbf;Dortmund Hbf;1;nein;Essen Hbf;
+07.10.2026;23:56;S11;33158;Neuss Hbf;Bergisch Gladbach;1;nein;Neuss Hbf;
+07.10.2026;23:56;S6;31647;Kettwig;Essen Hbf;1;nein;Kettwig;
+07.10.2026;23:56;S6;31648;Essen Hbf;Kettwig;1;nein;Essen-Hügel;
+07.10.2026;23:56;WFB RE15;90302;Rheine;Meppen;0;nein;Rheine;
+07.10.2026;23:57;NX RE6;89739;Köln/Bonn Flughafen;Bielefeld Hbf;62;nein;Gütersloh Hbf;Defekt an einem Signal, Vorfahrt eines anderen Zuges, Verspätung aus vorheriger Fahrt
+07.10.2026;23:57;S1;31192;Düsseldorf Hbf;Solingen Hbf;1;nein;Düsseldorf Volksgarten;
+07.10.2026;23:58;RB24;10450;Kall;Köln Messe/Deutz;5;nein;Hürth-Kalscheuren;
+07.10.2026;23:58;RB38;10287;Bedburg (Erft);Köln Messe/Deutz;8;nein;Bergheim (Erft);
+07.10.2026;23:58;RE57;10785;Dortmund Hbf;Bestwig;2;nein;Fröndenberg;
+07.10.2026;23:58;S11;33155;Bergisch Gladbach;Neuss Hbf;5;nein;Köln-Chorweiler;Defekt an der Strecke
+07.10.2026;23:58;S2;30282;Essen Hbf;Dortmund Hbf;1;nein;Essen-Kray Nord;
+07.10.2026;23:58;S9;30981;Wuppertal Hbf;Bottrop Hbf;1;nein;Wuppertal Zoologischer Garten;
+07.10.2026;23:59;NX RE6;89745;Köln/Bonn Flughafen;Dortmund Hbf;28;nein;Köln Messe/Deutz;Defekt an der Strecke, Verspätung aus vorheriger Fahrt
+07.10.2026;23:59;RRB S7;90154;Solingen Hbf;Remscheid-Lennep;1;nein;Solingen Grünewald;
+07.10.2026;23:59;S19;32055;Köln Frankfurter Straße;Sindorf;0;nein;Köln Frankfurter Straße;
